@@ -1,0 +1,43 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "linkedin-conteudo-diario",
+  "version": "0.1.0",
+  "description": "Cria, valida e agenda lotes diários de posts educativos com imagens para LinkedIn.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "keywords": [
+    "LinkedIn",
+    "conteúdo",
+    "redes sociais",
+    "Python",
+    "dados",
+    "inteligência artificial"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "LinkedIn Conteúdo Diário",
+        "shortDescription": "Posts diários para LinkedIn",
+        "longDescription": "Prepare cinco posts educativos com imagens originais, valide o lote, apresente tudo para uma única aprovação e distribua as publicações ao longo do dia nos horários definidos pelo usuário.",
+        "developerName": "Marlon Ferreira",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive",
+          "Read",
+          "Write"
+        ],
+        "logo": "./assets/icon.svg",
+        "composerIcon": "./assets/icon.svg",
+        "brandColor": "#0B5F75",
+        "brandColorDark": "#27D3E2",
+        "defaultPrompt": [
+          "Prepare meu lote diário de cinco posts para LinkedIn.",
+          "Crie posts com imagens sobre Python, SQL, Excel, IA e dados.",
+          "Valide meu lote e mostre tudo para aprovação antes de agendar."
+        ]
+      }
+    }
+  }
+}
+

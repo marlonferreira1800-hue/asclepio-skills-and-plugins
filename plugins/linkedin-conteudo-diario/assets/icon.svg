@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Calendário de conteúdo diário">
+  <defs>
+    <linearGradient id="bg" x1="24" y1="18" x2="230" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#083A59"/>
+      <stop offset="0.58" stop-color="#0B7690"/>
+      <stop offset="1" stop-color="#20C9D8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="72" y1="70" x2="194" y2="187" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB64C"/>
+      <stop offset="1" stop-color="#FF7A38"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="url(#bg)"/>
+  <rect x="47" y="53" width="162" height="153" rx="24" fill="#F7FCFF"/>
+  <path d="M47 83c0-16.6 13.4-30 30-30h102c16.6 0 30 13.4 30 30v13H47V83Z" fill="#DDF7FA"/>
+  <rect x="78" y="39" width="13" height="31" rx="6.5" fill="#FF9A43"/>
+  <rect x="165" y="39" width="13" height="31" rx="6.5" fill="#FF9A43"/>
+  <path d="M78 125h100" stroke="#0A5770" stroke-width="13" stroke-linecap="round"/>
+  <path d="M78 154h74" stroke="#33BECB" stroke-width="13" stroke-linecap="round"/>
+  <path d="M78 183h54" stroke="#8ADDE3" stroke-width="13" stroke-linecap="round"/>
+  <circle cx="183" cy="155" r="26" fill="url(#accent)"/>
+  <path d="m172 155 8 8 15-18" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+

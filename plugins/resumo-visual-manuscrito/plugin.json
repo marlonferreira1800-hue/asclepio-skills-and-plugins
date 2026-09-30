@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "resumo-visual-manuscrito",
+  "version": "0.1.0",
+  "description": "Transforma qualquer tema ou material de estudo em um resumo visual manuscrito, didático, organizado e focado em revisão de prova.",
+  "author": {"name": "Marlon Ferreira"},
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Resumo Visual Manuscrito",
+        "shortDescription": "Crie folhas de estudo visuais e memoráveis",
+        "longDescription": "Transforma temas, textos e materiais fornecidos pelo usuário em resumos visuais manuscritos premium, com organização adaptada ao assunto, esquemas, fluxos, comparações, ilustrações didáticas, pontos de prova e caixas de memorização.",
+        "developerName": "Marlon Ferreira",
+        "category": "Education",
+        "capabilities": ["Interactive"],
+        "defaultPrompt": [
+          "Crie um resumo visual manuscrito sobre Infarto Agudo do Miocárdio.",
+          "Transforme este material em uma folha de estudos visual para prova.",
+          "Crie um resumo visual manuscrito sobre este tema e destaque o que mais preciso memorizar."
+        ]
+      }
+    }
+  }
+}

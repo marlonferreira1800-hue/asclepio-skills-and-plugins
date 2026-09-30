@@ -1,0 +1,65 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "asclepio-skills-and-plugins",
+  "version": "1.0.0",
+  "description": "Ecossistema de plugins e habilidades para raciocínio clínico, aprendizagem médica ativa, tutoria e síntese visual.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "plugins": [
+    {
+      "name": "cognitus",
+      "displayName": "Cognitus — Aprendizagem Ativa",
+      "version": "0.1.0",
+      "category": "Education",
+      "skill": "aprendizagem-ativa",
+      "description": "Tutoria ativa por diagnóstico cognitivo, método socrático, Feynman e flashcards Anki.",
+      "path": "plugins/cognitus"
+    },
+    {
+      "name": "medquest",
+      "displayName": "MedQuest — Medicina por Questões",
+      "version": "0.1.0",
+      "category": "Medical Education",
+      "skill": "questoes-medicina",
+      "description": "Treino ativo de Medicina por questões objetivas, casos clínicos progressivos e estilo ENAMED.",
+      "path": "plugins/medquest"
+    },
+    {
+      "name": "medtermo-ai",
+      "displayName": "MedTermo AI — Adivinhação Diagnóstica",
+      "version": "0.1.0",
+      "category": "Medical Education & Gaming",
+      "skill": "jogar-medtermo",
+      "description": "Jogo de adivinhação clínica em 5 tentativas com pistas progressivas e revisão de alto rendimento.",
+      "path": "plugins/medtermo-ai"
+    },
+    {
+      "name": "mentor-de-estudos",
+      "displayName": "Mentor de Estudos",
+      "version": "0.1.0",
+      "category": "Education",
+      "skill": "tutoria-de-estudos",
+      "description": "Tutoria personalizada para planejamento, explicação, prática e acompanhamento do progresso.",
+      "path": "plugins/mentor-de-estudos"
+    },
+    {
+      "name": "resumo-visual-manuscrito",
+      "displayName": "Resumo Visual Manuscrito",
+      "version": "0.1.0",
+      "category": "Education & Design",
+      "skill": "criar-resumo-visual",
+      "description": "Transformação de temas complexos em folhas de estudo manuscritas, ilustradas e esquematizadas.",
+      "path": "plugins/resumo-visual-manuscrito"
+    },
+    {
+      "name": "linkedin-conteudo-diario",
+      "displayName": "LinkedIn Conteúdo Diário",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "skill": "linkedin-conteudo-diario",
+      "description": "Preparação e organização em lotes de posts educativos com validação e agendamento.",
+      "path": "plugins/linkedin-conteudo-diario"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "interface": {
+    "displayName": "LinkedIn Conte\u00fado Di\u00e1rio",
+    "shortDescription": "Posts di\u00e1rios para LinkedIn",
+    "longDescription": "Prepare cinco posts educativos com imagens originais, valide o lote, apresente tudo para uma \u00fanica aprova\u00e7\u00e3o e distribua as publica\u00e7\u00f5es ao longo do dia nos hor\u00e1rios definidos pelo usu\u00e1rio.",
+    "developerName": "Marlon Ferreira",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "brandColor": "#0B5F75",
+    "brandColorDark": "#27D3E2",
+    "defaultPrompt": [
+      "Prepare meu lote di\u00e1rio de cinco posts para LinkedIn.",
+      "Crie posts com imagens sobre Python, SQL, Excel, IA e dados.",
+      "Valide meu lote e mostre tudo para aprova\u00e7\u00e3o antes de agendar."
+    ]
+  },
+  "name": "linkedin-conteudo-diario",
+  "version": "0.1.0",
+  "description": "Cria, valida e agenda lotes di\u00e1rios de posts educativos com imagens para LinkedIn.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "keywords": [
+    "LinkedIn",
+    "conte\u00fado",
+    "redes sociais",
+    "Python",
+    "dados",
+    "intelig\u00eancia artificial"
+  ],
+  "skills": "./skills"
+}

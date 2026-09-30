@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "mentor-de-estudos",
+  "version": "0.1.0",
+  "description": "Tutor pessoal para planejar estudos, explicar conteúdos, praticar, revisar e acompanhar o progresso do estudante.",
+  "author": {
+    "name": "Marlo"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Mentor de Estudos",
+        "shortDescription": "Tutor pessoal para aprender, praticar e revisar",
+        "longDescription": "Cria planos de estudo personalizados, ensina com explicações adaptadas, conduz prática ativa, produz exercícios e flashcards e acompanha a evolução do estudante.",
+        "developerName": "Marlo",
+        "category": "Education",
+        "capabilities": ["Interactive"],
+        "defaultPrompt": [
+          "Monte um plano de estudos personalizado para mim.",
+          "Ensine um assunto usando perguntas, exemplos e exercícios.",
+          "Faça uma revisão do que estudei e indique o próximo passo."
+        ]
+      }
+    }
+  }
+}

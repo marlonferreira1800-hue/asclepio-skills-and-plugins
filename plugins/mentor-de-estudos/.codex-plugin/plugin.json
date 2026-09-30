@@ -1,0 +1,25 @@
+{
+  "interface": {
+    "displayName": "Mentor de Estudos",
+    "shortDescription": "Tutor pessoal para aprender, praticar e revisar",
+    "longDescription": "Cria planos de estudo personalizados, ensina com explica\u00e7\u00f5es adaptadas, conduz pr\u00e1tica ativa, produz exerc\u00edcios e flashcards e acompanha a evolu\u00e7\u00e3o do estudante.",
+    "developerName": "Marlo",
+    "category": "Education",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Monte um plano de estudos personalizado para mim.",
+      "Ensine um assunto usando perguntas, exemplos e exerc\u00edcios.",
+      "Fa\u00e7a uma revis\u00e3o do que estudei e indique o pr\u00f3ximo passo."
+    ]
+  },
+  "name": "mentor-de-estudos",
+  "version": "0.1.0",
+  "description": "Tutor pessoal para planejar estudos, explicar conte\u00fados, praticar, revisar e acompanhar o progresso do estudante.",
+  "author": {
+    "name": "Marlo"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

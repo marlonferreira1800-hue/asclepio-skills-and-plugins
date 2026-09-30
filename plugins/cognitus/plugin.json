@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "cognitus",
+  "version": "0.1.0",
+  "description": "Mentor de aprendizagem ativa que desenvolve raciocínio, retenção e autonomia com método socrático, Feynman, prática deliberada e repetição espaçada.",
+  "author": {
+    "name": "Cognitus"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Cognitus",
+        "shortDescription": "Mentor socrático de aprendizagem ativa",
+        "longDescription": "Treine compreensão profunda e retenção com diagnóstico de nível, perguntas socráticas, explicações pela técnica de Feynman, prática deliberada, diagramas Mermaid e flashcards no padrão Anki.",
+        "developerName": "Cognitus",
+        "category": "Education",
+        "capabilities": ["Interactive"],
+        "defaultPrompt": [
+          "Quero estudar um tema com o método socrático.",
+          "Teste minha compreensão e transforme meus erros em exercícios.",
+          "Monte uma sessão de revisão ativa com flashcards Anki."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "interface": {
+    "displayName": "MedQuest \u2014 Medicina por Quest\u00f5es",
+    "shortDescription": "Treine Medicina com quest\u00f5es e casos cl\u00ednicos",
+    "longDescription": "Tutor de aprendizagem ativa para Medicina com quest\u00f5es objetivas, casos cl\u00ednicos, corre\u00e7\u00e3o comentada, revis\u00e3o de erros e dificuldade progressiva.",
+    "developerName": "Marlon Ferreira",
+    "category": "Education",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Comece um treino de Medicina com quest\u00f5es objetivas.",
+      "Crie um caso cl\u00ednico e espere minha resposta antes de corrigir.",
+      "Revise meus erros e fa\u00e7a novas quest\u00f5es focadas nas minhas dificuldades."
+    ]
+  },
+  "name": "medquest",
+  "version": "0.1.0",
+  "description": "Treino ativo de Medicina por quest\u00f5es, casos cl\u00ednicos e corre\u00e7\u00e3o comentada.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}
