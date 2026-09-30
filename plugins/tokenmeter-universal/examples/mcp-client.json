@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "tokenmeter": {
+      "command": "python",
+      "args": [
+        "/CAMINHO/ABSOLUTO/tokenmeter-universal/skills/medir-tokens/scripts/tokenmeter.py",
+        "mcp"
+      ],
+      "env": {
+        "TOKENMETER_DB": "/CAMINHO/PRIVADO/usage.sqlite3"
+      }
+    }
+  }
+}

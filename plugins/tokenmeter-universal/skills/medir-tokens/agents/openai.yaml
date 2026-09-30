@@ -1,0 +1,4 @@
+interface:
+  display_name: "TokenMeter Universal"
+  short_description: "Medir tokens e comparar consumo por período"
+  default_prompt: "Use $medir-tokens para analisar meu consumo diário, semanal, mensal e anual."

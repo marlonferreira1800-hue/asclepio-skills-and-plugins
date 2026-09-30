@@ -1,0 +1,67 @@
+[
+  {
+    "provider": "openai",
+    "platform": "app-demo",
+    "account": "demo",
+    "timestamp": "2026-09-30T16:00:00-03:00",
+    "response": {
+      "id": "demo-openai",
+      "model": "modelo-demo",
+      "usage": {
+        "input_tokens": 1000,
+        "output_tokens": 100,
+        "total_tokens": 1100,
+        "input_tokens_details": {
+          "cached_tokens": 500
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 80
+        }
+      }
+    }
+  },
+  {
+    "provider": "anthropic",
+    "platform": "app-demo",
+    "account": "demo",
+    "timestamp": "2026-09-30T16:01:00-03:00",
+    "response": {
+      "id": "demo-claude",
+      "model": "modelo-demo",
+      "usage": {
+        "input_tokens": 10,
+        "output_tokens": 3,
+        "cache_creation_input_tokens": 40,
+        "cache_read_input_tokens": 100
+      }
+    }
+  },
+  {
+    "provider": "gemini",
+    "platform": "app-demo",
+    "account": "demo",
+    "timestamp": "2026-09-30T16:02:00-03:00",
+    "response": {
+      "responseId": "demo-gemini",
+      "modelVersion": "modelo-demo",
+      "usageMetadata": {
+        "promptTokenCount": 200,
+        "candidatesTokenCount": 20,
+        "thoughtsTokenCount": 5,
+        "totalTokenCount": 225
+      }
+    }
+  },
+  {
+    "provider": "ollama",
+    "platform": "app-demo",
+    "account": "demo",
+    "id": "demo-ollama",
+    "timestamp": "2026-09-30T16:03:00-03:00",
+    "response": {
+      "model": "modelo-local",
+      "prompt_eval_count": 40,
+      "eval_count": 10
+    }
+  }
+]

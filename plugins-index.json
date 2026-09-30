@@ -69,6 +69,15 @@
       "skill": "criar-posts-criativos",
       "description": "Designer de posts criativos com artes, fotos, legendas e carrosséis para redes sociais.",
       "path": "plugins/postlab"
+    },
+    {
+      "name": "tokenmeter-universal",
+      "displayName": "TokenMeter Universal",
+      "version": "1.0.0",
+      "category": "Productivity",
+      "skill": "medir-tokens",
+      "description": "Registro portátil de tokens por dia, semana, mês, ano e total, com importação de metadados, custos configuráveis e MCP local.",
+      "path": "plugins/tokenmeter-universal"
     }
   ]
 }

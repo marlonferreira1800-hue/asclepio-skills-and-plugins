@@ -1,0 +1,2 @@
+id,timestamp,provider,platform,account,model,input_tokens,output_tokens,quality,source
+minha-chamada-1,2026-09-30T16:00:00-03:00,meu-provedor,meu-app,meu-projeto,meu-modelo,100,20,manual,registro-manual

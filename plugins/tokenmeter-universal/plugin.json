@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "tokenmeter-universal",
+  "version": "1.0.0",
+  "description": "Registro portátil de consumo de tokens com relatórios diários, semanais, mensais, anuais e total acumulado. Importação de metadados, custos configuráveis e MCP local.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "TokenMeter Universal",
+        "shortDescription": "Consumo de tokens por período",
+        "longDescription": "Importe JSON, JSONL ou CSV e registre metadados de APIs. Compare entrada, saída, cache, raciocínio e total por período, provedor, conta e modelo. Preserve dados localmente e separe consumo informado, manual e estimado. O MCP requer cliente com execução local; não há leitura automática de perfis ou telemetria privada.",
+        "developerName": "Marlon Ferreira",
+        "category": "Productivity",
+        "defaultPrompt": "Analise meu consumo de tokens por dia, semana, mês e ano, distinguindo dados informados de estimativas."
+      }
+    }
+  }
+}
