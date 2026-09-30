@@ -1,0 +1,4 @@
+interface:
+  display_name: "PostLab — Designer Criativo"
+  short_description: "Crie artes, legendas e carrosséis criativos"
+  default_prompt: "Use $criar-posts-criativos para criar um post bonito e criativo sobre o tema que eu escolher."
