@@ -60,6 +60,15 @@
       "skill": "linkedin-conteudo-diario",
       "description": "Preparação e organização em lotes de posts educativos com validação e agendamento.",
       "path": "plugins/linkedin-conteudo-diario"
+    },
+    {
+      "name": "postlab",
+      "displayName": "PostLab — Designer Criativo",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "skill": "criar-posts-criativos",
+      "description": "Designer de posts criativos com artes, fotos, legendas e carrosséis para redes sociais.",
+      "path": "plugins/postlab"
     }
   ]
 }

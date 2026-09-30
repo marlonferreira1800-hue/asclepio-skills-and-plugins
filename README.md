@@ -6,7 +6,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Vers%C3%A3o-1.0.0-blue.svg" alt="Versão 1.0.0">
-  <img src="https://img.shields.io/badge/Plugins-6_Integrados-success.svg" alt="6 Plugins">
+  <img src="https://img.shields.io/badge/Plugins-7_Integrados-success.svg" alt="7 Plugins">
   <img src="https://img.shields.io/badge/Compatibilidade-Codex%20%7C%20ChatGPT%20%7C%20Claude%20%7C%20Antigravity-orange.svg" alt="Compatibilidade">
   <img src="https://img.shields.io/badge/Licen%C3%A7a-MIT-green.svg" alt="Licença MIT">
 </p>
@@ -31,6 +31,8 @@ O repositório reúne ferramentas especializadas que transformam LLMs em tutores
 | [**Mentor de Estudos**](plugins/mentor-de-estudos) | `tutoria-de-estudos` | Planejamento de Estudos | Mentoria personalizada para estruturação de cronogramas, revisão sistemática e acompanhamento de metas. |
 | [**Resumo Visual Manuscrito**](plugins/resumo-visual-manuscrito) | `criar-resumo-visual` | Design & Síntese Visual | Transformação de apostilas e temas densos em folhas de estudo ilustradas, caligrafadas e com caixas de prova. |
 | [**LinkedIn Conteúdo Diário**](plugins/linkedin-conteudo-diario) | `linkedin-conteudo-diario` | Produtividade | Preparação e organização em lotes de posts educativos com imagens, validação e fila local de agendamento. |
+
+| [**PostLab — Designer Criativo**](plugins/postlab) | `criar-posts-criativos` | Design & Redes Sociais | Artes, fotos, legendas e carrosséis criativos com identidade visual consistente. |
 
 ---
 
@@ -80,6 +82,11 @@ O repositório reúne ferramentas especializadas que transformam LLMs em tutores
   - Script local em Python (`linkedin_queue.py`) para gestão de fila e validação sem chamadas externas inseguras.
   - Preparação de lotes de 5 posts com imagens associadas e horários ajustados para o fuso de Brasília.
   - Garantia de governança: nenhuma publicação ocorre sem aprovação prévia explícita.
+
+### 🎨 7. PostLab — Designer Criativo
+- **Objetivo**: Criar e refinar posts com composição, tipografia, cores e mensagem coerentes.
+- **Capacidades**: Peças únicas, carrosséis com páginas separadas, legendas e adaptação de referências.
+- **Dependência**: A geração de artes exige uma ferramenta de imagens disponível no assistente.
 
 ---
 
@@ -138,6 +145,14 @@ asclepio-skills-and-plugins/
     │   └── skills/
     │       └── tutoria-de-estudos/
     │           └── SKILL.md
+    ├── postlab/
+    │   ├── plugin.json
+    │   ├── assets/icon.svg
+    │   ├── README.md
+    │   └── skills/criar-posts-criativos/
+    │       ├── SKILL.md
+    │       ├── agents/openai.yaml
+    │       └── references/direcao-visual.md
     └── resumo-visual-manuscrito/
         ├── .codex-plugin/
         │   └── plugin.json
