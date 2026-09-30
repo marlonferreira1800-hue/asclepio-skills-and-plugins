@@ -1,0 +1,26 @@
+{
+  "name": "postlab",
+  "version": "0.1.0",
+  "description": "Designer de posts criativos com artes, fotos, legendas e carrosséis para redes sociais.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "interface": {
+    "displayName": "PostLab — Designer Criativo",
+    "shortDescription": "Posts bonitos e criativos",
+    "longDescription": "Transforme temas em posts com direção de arte, imagens e legendas. Crie carrosséis com identidade consistente e refine referências visuais. A produção de imagens utiliza a ferramenta disponível no assistente; este plugin não fornece um editor gráfico ou publicação automática.",
+    "developerName": "Marlon Ferreira",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Crie um post de tecnologia com foto e texto, bonito e criativo.",
+      "Faça um carrossel de cinco páginas sobre o tema que eu escolher.",
+      "Refine esta arte para deixá-la mais colorida e elegante."
+    ]
+  },
+  "skills": "./skills"
+}
