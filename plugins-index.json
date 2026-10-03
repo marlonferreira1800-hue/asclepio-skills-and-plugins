@@ -17,6 +17,15 @@
       "path": "plugins/cognitus"
     },
     {
+      "name": "dados-saude-brasil",
+      "displayName": "Dados de Saúde Brasil",
+      "version": "0.1.0",
+      "category": "Health Data",
+      "skill": "consulta-dados-doencas",
+      "description": "Consulta simples de notificações, internações e óbitos por doença em fontes oficiais do SUS.",
+      "path": "plugins/dados-saude-brasil"
+    },
+    {
       "name": "medquest",
       "displayName": "MedQuest — Medicina por Questões",
       "version": "0.1.0",
