@@ -1,0 +1,31 @@
+{
+  "interface": {
+    "displayName": "Edital Fácil",
+    "shortDescription": "Leia editais e organize prazos",
+    "longDescription": "Analise editais de concursos e seleções, extraia cargos, requisitos, salários, etapas, cotas, documentos e datas, e gere um checklist com referências às páginas e seções do documento.",
+    "developerName": "Marlon Ferreira",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Resuma este edital e destaque requisitos, salário e datas importantes.",
+      "Verifique se este cargo aceita meu nível de escolaridade e quais documentos pede.",
+      "Monte um checklist de inscrição e prova a partir deste edital."
+    ]
+  },
+  "name": "edital-facil",
+  "version": "0.1.0",
+  "description": "Lê editais de concursos e seleções e transforma requisitos, etapas, salários e prazos em um resumo e checklist prático.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "keywords": [
+    "edital",
+    "concurso",
+    "seleção",
+    "prazos",
+    "requisitos"
+  ],
+  "skills": "./skills"
+}
