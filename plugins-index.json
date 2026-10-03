@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "asclepio-skills-and-plugins",
   "version": "1.0.0",
-  "description": "Ecossistema de plugins e habilidades para raciocínio clínico, aprendizagem médica ativa, tutoria e síntese visual.",
+  "description": "Ecossistema de plugins e habilidades para aprendizagem, produtividade e pesquisa prática em diferentes áreas.",
   "author": {
     "name": "Marlon Ferreira"
   },
@@ -96,6 +96,33 @@
       "skill": "comparar-precos-carros",
       "description": "Pesquisa e compara preços de carros no Brasil por categoria, marca, modelo, versão e região, com fontes e critérios claros.",
       "path": "plugins/comparador-precos-carros"
+    },
+    {
+      "name": "residencia-radar-brasil",
+      "displayName": "Residência Radar Brasil",
+      "version": "0.1.0",
+      "category": "Education",
+      "skill": "residencia-radar",
+      "description": "Pesquisa e compara vagas, editais, concorrência, notas e chamadas de residência médica, incluindo informações PcD publicadas oficialmente.",
+      "path": "plugins/residencia-radar-brasil"
+    },
+    {
+      "name": "edital-facil",
+      "displayName": "Edital Fácil",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "skill": "ler-editais",
+      "description": "Lê editais de concursos e seleções e organiza requisitos, etapas, salários, documentos e prazos em um checklist.",
+      "path": "plugins/edital-facil"
+    },
+    {
+      "name": "provalab",
+      "displayName": "ProvaLab",
+      "version": "0.1.0",
+      "category": "Education",
+      "skill": "criar-avaliacoes",
+      "description": "Cria provas, simulados e estudos dirigidos a partir de materiais enviados pelo usuário, com gabarito separado quando solicitado.",
+      "path": "plugins/provalab"
     }
   ]
 }
