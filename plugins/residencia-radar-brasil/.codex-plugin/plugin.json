@@ -1,0 +1,31 @@
+{
+  "interface": {
+    "displayName": "Residência Radar Brasil",
+    "shortDescription": "Compare programas e vagas",
+    "longDescription": "Pesquise programas de residência por especialidade, instituição, estado e edição. Compare vagas, concorrência, notas e chamadas com links para fontes oficiais, incluindo informações PcD quando publicadas.",
+    "developerName": "Marlon Ferreira",
+    "category": "Education",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Compare programas de Radiologia por estado e instituição, com vagas e fontes oficiais.",
+      "Pesquise vagas PcD e ampla concorrência em um processo seletivo de residência.",
+      "Encontre o edital e os resultados mais recentes de uma residência médica."
+    ]
+  },
+  "name": "residencia-radar-brasil",
+  "version": "0.1.0",
+  "description": "Pesquisa e compara vagas, editais, concorrência, notas e chamadas de programas de residência médica no Brasil.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "keywords": [
+    "residência médica",
+    "ENARE",
+    "PcD",
+    "vagas",
+    "notas"
+  ],
+  "skills": "./skills"
+}
