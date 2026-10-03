@@ -6,7 +6,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Vers%C3%A3o-1.0.0-blue.svg" alt="Versão 1.0.0">
-  <img src="https://img.shields.io/badge/Plugins-7_Integrados-success.svg" alt="7 Plugins">
+  <img src="https://img.shields.io/badge/Plugins-9_Integrados-success.svg" alt="9 Plugins">
   <img src="https://img.shields.io/badge/Compatibilidade-Codex%20%7C%20ChatGPT%20%7C%20Claude%20%7C%20Antigravity-orange.svg" alt="Compatibilidade">
   <img src="https://img.shields.io/badge/Licen%C3%A7a-MIT-green.svg" alt="Licença MIT">
 </p>
@@ -33,6 +33,7 @@ O repositório reúne ferramentas especializadas que transformam LLMs em tutores
 | [**LinkedIn Conteúdo Diário**](plugins/linkedin-conteudo-diario) | `linkedin-conteudo-diario` | Produtividade | Preparação e organização em lotes de posts educativos com imagens, validação e fila local de agendamento. |
 
 | [**PostLab — Designer Criativo**](plugins/postlab) | `criar-posts-criativos` | Design & Redes Sociais | Artes, fotos, legendas e carrosséis criativos com identidade visual consistente. |
+| [**Dados de Saúde Brasil**](plugins/dados-saude-brasil) | `consulta-dados-doencas` | Saúde Pública | Consulta notificações, internações e óbitos por doença usando fontes oficiais do SUS. |
 
 ---
 
@@ -88,6 +89,11 @@ O repositório reúne ferramentas especializadas que transformam LLMs em tutores
 - **Capacidades**: Peças únicas, carrosséis com páginas separadas, legendas e adaptação de referências.
 - **Dependência**: A geração de artes exige uma ferramenta de imagens disponível no assistente.
 
+### 🩺 8. Dados de Saúde Brasil — Pesquisa Epidemiológica
+- **Objetivo**: Consultar dados públicos sobre doenças por localidade e período.
+- **Fontes**: SINAN para notificações, SIH/SUS para internações e SIM para óbitos.
+- **Resposta**: Tabela curta com totais, links oficiais, atualização e limitações; não estima valores ausentes.
+
 ---
 
 ## 🗂️ Estrutura do Repositório
@@ -99,6 +105,13 @@ asclepio-skills-and-plugins/
 ├── README.md
 ├── plugins-index.json
 └── plugins/
+    ├── dados-saude-brasil/
+    │   ├── .codex-plugin/plugin.json
+    │   ├── plugin.json
+    │   ├── README.md
+    │   └── skills/
+    │       └── consulta-dados-doencas/
+    │           └── SKILL.md
     ├── cognitus/
     │   ├── .codex-plugin/
     │   │   └── plugin.json
