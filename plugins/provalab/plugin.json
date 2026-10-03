@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "provalab",
+  "version": "0.1.0",
+  "description": "Cria avaliações e cadernos de questões a partir de apostilas, slides, guias e materiais enviados pelo usuário.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "ProvaLab",
+        "shortDescription": "Crie provas com seus materiais",
+        "longDescription": "Transforme materiais de aula em provas, simulados e estudos dirigidos com questões objetivas e discursivas, nível ajustável, gabarito separado e, quando solicitado, documento pronto para impressão.",
+        "developerName": "Marlon Ferreira",
+        "category": "Education",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": [
+          "Crie uma prova de 9 questões objetivas e 3 discursivas com base neste material.",
+          "Monte um estudo dirigido por temas usando apenas os arquivos que enviei.",
+          "Faça o gabarito comentado separado e organize a prova em PDF."
+        ]
+      }
+    }
+  }
+}
