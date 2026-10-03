@@ -35,6 +35,7 @@ O repositório reúne ferramentas especializadas que transformam LLMs em tutores
 | [**PostLab — Designer Criativo**](plugins/postlab) | `criar-posts-criativos` | Design & Redes Sociais | Artes, fotos, legendas e carrosséis criativos com identidade visual consistente. |
 | [**Dados de Saúde Brasil**](plugins/dados-saude-brasil) | `consulta-dados-doencas` | Saúde Pública | Consulta notificações, internações e óbitos por doença usando fontes oficiais do SUS. |
 
+| [**Comparador de preços de carros**](plugins/comparador-precos-carros) | `comparar-precos-carros` | Produtividade / Pesquisa | Pesquisa e comparação de preços de carros por categoria, marca, versão, ano e região, com fontes. |
 ---
 
 ## 🔍 Detalhamento dos Plugins
@@ -96,6 +97,10 @@ O repositório reúne ferramentas especializadas que transformam LLMs em tutores
 
 ---
 
+### 🔎 8. Comparador de preços de carros
+- **Objetivo**: Comparar carros novos e usados no Brasil por categoria, marca, modelo, versão, ano e região.
+- **Destaques**: Diferencia preço sugerido, preço anunciado e FIPE; inclui links de fontes e compara consumo e custo de uso quando há dados confiáveis.
+
 ## 🗂️ Estrutura do Repositório
 
 ```text
@@ -112,6 +117,15 @@ asclepio-skills-and-plugins/
     │   └── skills/
     │       └── consulta-dados-doencas/
     │           └── SKILL.md
+    ├── comparador-precos-carros/
+    │   ├── .codex-plugin/
+    │   │   └── plugin.json
+    │   ├── plugin.json
+    │   ├── README.md
+    │   └── skills/
+    │       └── comparar-precos-carros/
+    │           ├── SKILL.md
+    │           └── agents/openai.yaml
     ├── cognitus/
     │   ├── .codex-plugin/
     │   │   └── plugin.json
