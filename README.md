@@ -1,7 +1,7 @@
 # Asclépio — Skills & Plugins para Agentes de IA
 
 <p align="center">
-  <strong>Ecossistema modular de plugins e habilidades (skills) para tutoria médica ativa, raciocínio clínico deliberado, síntese visual de estudos e produtividade educacional.</strong>
+  <strong>Ecossistema modular de plugins e habilidades (skills) para aprendizagem, produtividade e pesquisa prática em diferentes áreas.</strong>
 </p>
 
 <p align="center">
