@@ -87,6 +87,15 @@
       "skill": "medir-tokens",
       "description": "Registro portátil de tokens por dia, semana, mês, ano e total, com importação de metadados, custos configuráveis e MCP local.",
       "path": "plugins/tokenmeter-universal"
+    },
+    {
+      "name": "comparador-precos-carros",
+      "displayName": "Comparador de preços de carros",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "skill": "comparar-precos-carros",
+      "description": "Pesquisa e compara preços de carros no Brasil por categoria, marca, modelo, versão e região, com fontes e critérios claros.",
+      "path": "plugins/comparador-precos-carros"
     }
   ]
 }
