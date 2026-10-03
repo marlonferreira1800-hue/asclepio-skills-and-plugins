@@ -1,0 +1,6 @@
+interface:
+  display_name: "Comparar preços de carros"
+  short_description: "Compare carros por preço e categoria"
+  default_prompt: "Use $comparar-precos-carros para comparar carros por preço, marca e categoria no Brasil."
+policy:
+  allow_implicit_invocation: true
