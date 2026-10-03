@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "comparador-precos-carros",
+  "version": "0.1.0",
+  "description": "Pesquisa e compara preços de carros no Brasil por categoria, marca, modelo, versão e região, com fontes e critérios claros.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Comparador de carros",
+        "shortDescription": "Compare preços de carros",
+        "longDescription": "Encontre e compare carros novos ou usados no Brasil. Organiza resultados por categoria, marca, modelo, versão e região, diferencia preço sugerido, anúncios e FIPE e inclui fontes, consumo e custos de uso quando os dados estão disponíveis.",
+        "developerName": "Marlon Ferreira",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": "Compare carros por categoria, marca, preço e localização no Brasil."
+      }
+    }
+  }
+}
