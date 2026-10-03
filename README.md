@@ -6,7 +6,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Vers%C3%A3o-1.0.0-blue.svg" alt="Versão 1.0.0">
-  <img src="https://img.shields.io/badge/Plugins-9_Integrados-success.svg" alt="9 Plugins">
+  <img src="https://img.shields.io/badge/Plugins-10_Integrados-success.svg" alt="9 Plugins">
   <img src="https://img.shields.io/badge/Compatibilidade-Codex%20%7C%20ChatGPT%20%7C%20Claude%20%7C%20Antigravity-orange.svg" alt="Compatibilidade">
   <img src="https://img.shields.io/badge/Licen%C3%A7a-MIT-green.svg" alt="Licença MIT">
 </p>
@@ -97,7 +97,7 @@ O repositório reúne ferramentas especializadas que transformam LLMs em tutores
 
 ---
 
-### 🔎 8. Comparador de preços de carros
+### 🔎 Comparador de preços de carros
 - **Objetivo**: Comparar carros novos e usados no Brasil por categoria, marca, modelo, versão, ano e região.
 - **Destaques**: Diferencia preço sugerido, preço anunciado e FIPE; inclui links de fontes e compara consumo e custo de uso quando há dados confiáveis.
 
