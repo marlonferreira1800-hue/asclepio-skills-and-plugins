@@ -1,223 +1,65 @@
 # Asclépio — Skills & Plugins para Agentes de IA
 
 <p align="center">
-  <strong>Ecossistema modular de plugins e habilidades (skills) para aprendizagem, produtividade e pesquisa prática em diferentes áreas.</strong>
+  <strong>Ecossistema modular de plugins e habilidades para aprendizagem, produtividade e pesquisa prática em diferentes áreas.</strong>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Vers%C3%A3o-1.0.0-blue.svg" alt="Versão 1.0.0">
-  <img src="https://img.shields.io/badge/Plugins-10_Integrados-success.svg" alt="9 Plugins">
+  <img src="https://img.shields.io/badge/Plugins-13_Integrados-success.svg" alt="13 plugins">
   <img src="https://img.shields.io/badge/Compatibilidade-Codex%20%7C%20ChatGPT%20%7C%20Claude%20%7C%20Antigravity-orange.svg" alt="Compatibilidade">
   <img src="https://img.shields.io/badge/Licen%C3%A7a-MIT-green.svg" alt="Licença MIT">
 </p>
 
 ---
 
-## 🏛️ Sobre o Projeto
+## Sobre o projeto
 
-O **Asclépio** (em referência à divindade grega da medicina e da cura) é uma coleção estruturada de plugins e skills para modelos de linguagem e agentes autônomos de IA. 
+O **Asclépio** reúne plugins e skills portáteis para estudo, pesquisa, produtividade e criação. Cada plugin tem um manifesto, uma skill com instruções de uso e um README próprio. Os plugins de instruções usam as ferramentas disponíveis no assistente; não alegam possuir APIs ou integrações que não estejam configuradas.
 
-O repositório reúne ferramentas especializadas que transformam LLMs em tutores ativos, avaliadores clínicos diagnósticos, desenhistas de resumos visuais de alta retenção e facilitadores de produção de conteúdo educativo.
+## Catálogo
 
----
-
-## 📦 Catálogo de Plugins e Habilidades
-
-| Plugin | Habilidade (`skill`) | Categoria | Descrição Principal |
+| Plugin | Skill | Categoria | Função |
 |---|---|---|---|
-| [**MedQuest**](plugins/medquest) | `questoes-medicina` | Educação Médica | Treino ativo por questões objetivas, casos clínicos progressivos, correção comentada e simulados estilo ENAMED. |
-| [**MedTermo AI**](plugins/medtermo-ai) | `jogar-medtermo` | Raciocínio Clínico / Jogo | Jogo de adivinhação diagnóstica em até 5 tentativas com liberação gradual de pistas e revisão de alto rendimento. |
-| [**Cognitus**](plugins/cognitus) | `aprendizagem-ativa` | Tutoria Cognitiva | Aprendizagem ativa baseada em método socrático, técnica de Feynman, diagramas Mermaid e flashcards Anki. |
-| [**Mentor de Estudos**](plugins/mentor-de-estudos) | `tutoria-de-estudos` | Planejamento de Estudos | Mentoria personalizada para estruturação de cronogramas, revisão sistemática e acompanhamento de metas. |
-| [**Resumo Visual Manuscrito**](plugins/resumo-visual-manuscrito) | `criar-resumo-visual` | Design & Síntese Visual | Transformação de apostilas e temas densos em folhas de estudo ilustradas, caligrafadas e com caixas de prova. |
-| [**LinkedIn Conteúdo Diário**](plugins/linkedin-conteudo-diario) | `linkedin-conteudo-diario` | Produtividade | Preparação e organização em lotes de posts educativos com imagens, validação e fila local de agendamento. |
+| [Cognitus](plugins/cognitus) | `aprendizagem-ativa` | Educação | Tutoria ativa com método socrático, Feynman e flashcards. |
+| [Dados de Saúde Brasil](plugins/dados-saude-brasil) | `consulta-dados-doencas` | Saúde pública | Pesquisa dados agregados de doenças em fontes oficiais do SUS. |
+| [MedQuest](plugins/medquest) | `questoes-medicina` | Educação médica | Treino de Medicina com questões e casos progressivos. |
+| [MedTermo AI](plugins/medtermo-ai) | `jogar-medtermo` | Educação médica | Jogo de adivinhação diagnóstica com pistas graduais. |
+| [Mentor de Estudos](plugins/mentor-de-estudos) | `tutoria-de-estudos` | Educação | Planejamento e acompanhamento de estudos. |
+| [Resumo Visual Manuscrito](plugins/resumo-visual-manuscrito) | `criar-resumo-visual` | Educação e design | Converte temas em folhas visuais de revisão. |
+| [LinkedIn Conteúdo Diário](plugins/linkedin-conteudo-diario) | `linkedin-conteudo-diario` | Produtividade | Prepara lotes de posts com validação e fila de agendamento. |
+| [PostLab](plugins/postlab) | `criar-posts-criativos` | Criação de conteúdo | Cria peças, legendas e carrosséis para redes sociais. |
+| [TokenMeter Universal](plugins/tokenmeter-universal) | `medir-tokens` | Produtividade | Registra e analisa consumo de tokens importado de metadados. |
+| [Comparador de preços de carros](plugins/comparador-precos-carros) | `comparar-precos-carros` | Pesquisa | Compara preços de veículos no Brasil com critérios e fontes. |
+| [Residência Radar Brasil](plugins/residencia-radar-brasil) | `residencia-radar` | Educação | Compara editais, vagas, notas e chamadas de residência médica. |
+| [Edital Fácil](plugins/edital-facil) | `ler-editais` | Produtividade | Extrai requisitos, etapas e prazos de editais. |
+| [ProvaLab](plugins/provalab) | `criar-avaliacoes` | Educação | Cria provas e estudos dirigidos com base em materiais enviados. |
 
-| [**PostLab — Designer Criativo**](plugins/postlab) | `criar-posts-criativos` | Design & Redes Sociais | Artes, fotos, legendas e carrosséis criativos com identidade visual consistente. |
-| [**Dados de Saúde Brasil**](plugins/dados-saude-brasil) | `consulta-dados-doencas` | Saúde Pública | Consulta notificações, internações e óbitos por doença usando fontes oficiais do SUS. |
+## Os três novos plugins
 
-| [**Comparador de preços de carros**](plugins/comparador-precos-carros) | `comparar-precos-carros` | Produtividade / Pesquisa | Pesquisa e comparação de preços de carros por categoria, marca, versão, ano e região, com fontes. |
----
+### Residência Radar Brasil
+Pesquisa programas por especialidade, estado e instituição. Organiza editais, vagas, concorrência, notas e convocações; compara ampla concorrência e PcD somente quando as fontes oficiais permitem comparação equivalente.
 
-## 🔍 Detalhamento dos Plugins
+### Edital Fácil
+Lê editais e retificações para destacar cargos, requisitos, remuneração, etapas, cotas, documentos e prazos, sempre apontando para o item ou página de origem.
 
-### 🩺 1. MedQuest — Medicina por Questões
-- **Objetivo**: Conduzir o estudante por um treino deliberado onde o gabarito nunca é revelado de imediato.
-- **Destaques**:
-  - Questões objetivas (A–E) com análise crítica dos distratores.
-  - Casos clínicos com liberação progressiva da vinheta (Queixa → HDA → Exame Físico → Exames → Conduta).
-  - Geração automatizada de flashcards de fixação Anki após a demonstração de domínio conceitual.
-  - Simulados autorais balanceados no padrão ENAMED e bancas de Residência Médica.
+### ProvaLab
+Usa apostilas, slides e guias enviados para montar provas, simulados e estudos dirigidos. Mantém o gabarito separado conforme a solicitação e sinaliza qualquer conteúdo complementar.
 
-### 🎯 2. MedTermo AI — Desafio Diagnóstico
-- **Objetivo**: Treinar o raciocínio dedutivo rápido diante de vinhetas clínicas reais.
-- **Mecânica**:
-  - O usuário tem **5 tentativas** para cravar o diagnóstico principal.
-  - A cada palpite incorreto, o assistente desconta uma tentativa e libera uma pista hierarquizada (Exame Físico → Laboratório → Imagem/ECG → Pista de Prova/Patognomônica).
-  - Ao final, apresenta uma revisão concisa: diagnóstico correto, pistas essenciais de prova e conduta terapêutica imediata.
+## Instalação e uso
 
-### 🧠 3. Cognitus — Aprendizagem Ativa
-- **Objetivo**: Combater a ilusão de competência provocada pela leitura passiva.
-- **Metodologia**:
-  - Aplicação do Método Socrático: estimula o raciocínio antes de antecipar conclusões.
-  - Técnica de Feynman para simplificação e analogias com limites definidos.
-  - Diagramação visual em tempo real com sintaxe Mermaid.
-  - Síntese de flashcards direcionados para repetição espaçada.
+Cada diretório em `plugins/` é um pacote independente. Para usar uma skill em outro cliente compatível, copie `skills/<nome-da-skill>` para o local de skills indicado por esse cliente. Consulte o README de cada plugin para ver exemplos.
 
-### 📚 4. Mentor de Estudos
-- **Objetivo**: Planejamento estratégico de rotina de estudos acadêmicos e para concursos.
-- **Recursos**:
-  - Diagnóstico de tempo disponível, metas e nível prévio do estudante.
-  - Criação de planos de estudos modulares e intercalados.
-  - Monitoramento contínuo de retenção e adaptação dinâmica do cronograma.
+Os arquivos `plugin.json` descrevem o pacote. Os arquivos `.codex-plugin/plugin.json` mantêm metadados de compatibilidade do Codex. Skills que precisam consultar informações atuais orientam o assistente a pesquisar fontes vigentes e não contêm uma API própria.
 
-### 🎨 5. Resumo Visual Manuscrito
-- **Objetivo**: Síntese de alta performance no formato de fichamento ilustrado.
-- **Elementos Visuais**:
-  - Estruturação em 5 a 9 blocos didáticos prioritários.
-  - Seção fixa `🧠 MEMORIZE PARA A PROVA` com dados de alto rendimento.
-  - Seção de alerta `⚠️ NÃO CONFUNDA` para diferenciação de pegadinhas frequentes.
-  - Geração de prompts otimizados para renderização de cadernos e folhas visuais.
+## Segurança e qualidade
 
-### 🚀 6. LinkedIn Conteúdo Diário
-- **Objetivo**: Automação e consistência na publicação de posts técnicos e acadêmicos.
-- **Capacidades**:
-  - Script local em Python (`linkedin_queue.py`) para gestão de fila e validação sem chamadas externas inseguras.
-  - Preparação de lotes de 5 posts com imagens associadas e horários ajustados para o fuso de Brasília.
-  - Garantia de governança: nenhuma publicação ocorre sem aprovação prévia explícita.
+- Não coloque senhas, tokens ou chaves de API no repositório.
+- Prefira fontes primárias e links verificáveis para informações públicas.
+- Diferencie conteúdo do documento, cálculo e inferência.
+- Não estime dados ausentes nem trate material educacional como aconselhamento profissional.
 
-### 🎨 7. PostLab — Designer Criativo
-- **Objetivo**: Criar e refinar posts com composição, tipografia, cores e mensagem coerentes.
-- **Capacidades**: Peças únicas, carrosséis com páginas separadas, legendas e adaptação de referências.
-- **Dependência**: A geração de artes exige uma ferramenta de imagens disponível no assistente.
+## Licença
 
-### 🩺 8. Dados de Saúde Brasil — Pesquisa Epidemiológica
-- **Objetivo**: Consultar dados públicos sobre doenças por localidade e período.
-- **Fontes**: SINAN para notificações, SIH/SUS para internações e SIM para óbitos.
-- **Resposta**: Tabela curta com totais, links oficiais, atualização e limitações; não estima valores ausentes.
+Distribuído sob a licença [MIT](LICENSE).
 
----
-
-### 🔎 Comparador de preços de carros
-- **Objetivo**: Comparar carros novos e usados no Brasil por categoria, marca, modelo, versão, ano e região.
-- **Destaques**: Diferencia preço sugerido, preço anunciado e FIPE; inclui links de fontes e compara consumo e custo de uso quando há dados confiáveis.
-
-## 🗂️ Estrutura do Repositório
-
-```text
-asclepio-skills-and-plugins/
-├── .gitignore
-├── LICENSE
-├── README.md
-├── plugins-index.json
-└── plugins/
-    ├── dados-saude-brasil/
-    │   ├── .codex-plugin/plugin.json
-    │   ├── plugin.json
-    │   ├── README.md
-    │   └── skills/
-    │       └── consulta-dados-doencas/
-    │           └── SKILL.md
-    ├── comparador-precos-carros/
-    │   ├── .codex-plugin/
-    │   │   └── plugin.json
-    │   ├── plugin.json
-    │   ├── README.md
-    │   └── skills/
-    │       └── comparar-precos-carros/
-    │           ├── SKILL.md
-    │           └── agents/openai.yaml
-    ├── cognitus/
-    │   ├── .codex-plugin/
-    │   │   └── plugin.json
-    │   ├── plugin.json
-    │   ├── README.md
-    │   └── skills/
-    │       └── aprendizagem-ativa/
-    │           └── SKILL.md
-    ├── linkedin-conteudo-diario/
-    │   ├── .codex-plugin/
-    │   │   └── plugin.json
-    │   ├── assets/
-    │   │   └── icon.svg
-    │   ├── plugin.json
-    │   ├── README.md
-    │   └── skills/
-    │       └── linkedin-conteudo-diario/
-    │           ├── assets/
-    │           ├── references/
-    │           ├── scripts/
-    │           │   └── linkedin_queue.py
-    │           └── SKILL.md
-    ├── medquest/
-    │   ├── .codex-plugin/
-    │   │   └── plugin.json
-    │   ├── plugin.json
-    │   ├── README.md
-    │   └── skills/
-    │       └── questoes-medicina/
-    │           └── SKILL.md
-    ├── medtermo-ai/
-    │   ├── .codex-plugin/
-    │   │   └── plugin.json
-    │   ├── plugin.json
-    │   ├── README.md
-    │   └── skills/
-    │       └── jogar-medtermo/
-    │           └── SKILL.md
-    ├── mentor-de-estudos/
-    │   ├── .codex-plugin/
-    │   │   └── plugin.json
-    │   ├── plugin.json
-    │   ├── README.md
-    │   └── skills/
-    │       └── tutoria-de-estudos/
-    │           └── SKILL.md
-    ├── postlab/
-    │   ├── plugin.json
-    │   ├── assets/icon.svg
-    │   ├── README.md
-    │   └── skills/criar-posts-criativos/
-    │       ├── SKILL.md
-    │       ├── agents/openai.yaml
-    │       └── references/direcao-visual.md
-    └── resumo-visual-manuscrito/
-        ├── .codex-plugin/
-        │   └── plugin.json
-        ├── plugin.json
-        ├── README.md
-        └── skills/
-            └── criar-resumo-visual/
-                └── SKILL.md
-```
-
----
-
-## 💻 Instalação e Utilização
-
-### No OpenAI Codex / ChatGPT
-1. Cada plugin possui o arquivo de manifesto `plugin.json` e a pasta `.codex-plugin/plugin.json` compatíveis com o padrão do Codex e do schema `agent-plugins.org`.
-2. Para instalar um plugin específico, aponte o carregamento para a pasta do plugin desejado em `plugins/<nome-do-plugin>`.
-
-### No Antigravity IDE / Claude Code
-1. Copie as pastas localizadas dentro de `plugins/<plugin>/skills/<skill-name>` para o diretório de skills do seu workspace (`.agents/skills/`) ou para o root global (`~/.gemini/config/skills/`).
-2. Os arquivos `SKILL.md` incluem frontmatter YAML completo com metadados de ativação (`name` e `description`).
-
----
-
-## 🔒 Segurança e Boas Práticas
-
-- **Sem Credenciais Embutidas**: Nenhum arquivo deste repositório armazena chaves de API, senhas ou tokens de acesso.
-- **Rigor Científico & Educacional**: Os plugins de medicina são orientados a recursos educacionais, incentivando o raciocínio independente e a consulta de fontes primárias e diretrizes reconhecidas.
-- **Execução Local**: Todos os utilitários (como o gerenciador de filas em Python) operam exclusivamente no sistema de arquivos local.
-
----
-
-## 📄 Licença
-
-Distribuído sob a licença **MIT**. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-<p align="center">
-  Desenvolvido por <strong>Marlon Ferreira</strong>
-</p>
+<p align="center">Desenvolvido por <strong>Marlon Ferreira</strong></p>
