@@ -113,8 +113,8 @@ uv run scripts/linkedin_queue.py record `
 
 - Siga `references/editorial-guide.md`.
 - Produza conteúdo correto, educativo, profissional e acessível a iniciantes.
-- Cada post deve ter gancho, explicação prática, pergunta de engajamento e de
-  três a cinco hashtags relevantes.
+- Cada post deve ter gancho, explicação prática e de três a cinco hashtags
+  relevantes. Incluir pergunta somente quando abrir uma discussão concreta.
 - Não invente experiência pessoal, emprego, projeto concluído ou resultados do
   usuário.
 - Salve cada texto em `posts/NN.md`, conforme os caminhos da fila.
@@ -175,3 +175,8 @@ Não há API nova nesta skill. Limites são operacionais:
 - Reutilizar a mesma imagem, gancho ou pergunta em posts consecutivos.
 - Criar fatos pessoais ou profissionais não fornecidos pelo usuário.
 
+
+
+## Métodos selecionados do ECC
+
+Para planejar ou revisar esta tarefa, consultar [references/ecc-methods.md](references/ecc-methods.md). Aplicar apenas as etapas relevantes ao pedido; a referência complementa este fluxo e não ativa ferramentas adicionais.

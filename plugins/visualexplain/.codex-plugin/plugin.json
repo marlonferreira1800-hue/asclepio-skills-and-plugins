@@ -11,7 +11,7 @@
     "defaultPrompt": "Transforme este material em uma aula visual animada em português."
   },
   "name": "visualexplain",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Esqueleto para transformar materiais em explicações visuais animadas com roteiro e HTML.",
   "author": {
     "name": "Marlon Ferreira"

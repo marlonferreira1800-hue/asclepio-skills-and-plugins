@@ -1,6 +1,6 @@
 {
   "name": "asclepio-skills-and-plugins",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Ecossistema de plugins e habilidades para aprendizagem, produtividade e pesquisa prática em diferentes áreas.",
   "author": {
     "name": "Marlon Ferreira"
@@ -109,6 +109,14 @@
         {
           "name": "documento-studio",
           "primarySkill": "criar-relatorio-documento"
+        },
+        {
+          "name": "linkedin-post-design-kit",
+          "primarySkill": "linkedin-post-designer"
+        },
+        {
+          "name": "linkedin-design-studio",
+          "primarySkill": "linkedin-design-router"
         }
       ]
     },

@@ -1,6 +1,6 @@
 {
   "name": "asclepio-skills-and-plugins",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Ecossistema de plugins e habilidades para aprendizagem, produtividade e pesquisa prática em diferentes áreas.",
   "author": {
     "name": "Marlon Ferreira"
@@ -73,7 +73,7 @@
     {
       "name": "cognitus",
       "displayName": "Cognitus",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "category": "Education",
       "group": "estudos",
       "skill": "aprendizagem-ativa",
@@ -86,7 +86,7 @@
     {
       "name": "comparador-precos-carros",
       "displayName": "Comparador de carros",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "category": "Productivity",
       "group": "financas",
       "skill": "comparar-precos-carros",
@@ -102,7 +102,7 @@
     {
       "name": "dados-saude-brasil",
       "displayName": "Dados de Saúde Brasil",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "category": "Research",
       "group": "pesquisa",
       "skill": "consulta-dados-doencas",
@@ -199,7 +199,7 @@
     {
       "name": "investia",
       "displayName": "InvestIA — Análise de Investimentos",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "category": "Productivity",
       "group": "financas",
       "skill": "analisar-investimentos-ia",
@@ -215,7 +215,7 @@
     {
       "name": "linkedin-conteudo-diario",
       "displayName": "LinkedIn Conteúdo Diário",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "category": "Productivity",
       "group": "criacao",
       "skill": "linkedin-conteudo-diario",
@@ -226,9 +226,38 @@
       ]
     },
     {
+      "name": "linkedin-design-studio",
+      "displayName": "LinkedIn Design Studio",
+      "version": "0.1.1",
+      "category": "Design",
+      "group": "criacao",
+      "skill": "linkedin-design-router",
+      "description": "A design assistant for LinkedIn posts, carousels and explainers, with workflows inspired by Penpot, Excalidraw and tldraw.",
+      "path": "plugins/linkedin-design-studio",
+      "skills": [
+        "excalidraw-linkedin-infographic",
+        "linkedin-design-router",
+        "penpot-linkedin-design",
+        "tldraw-linkedin-canvas"
+      ]
+    },
+    {
+      "name": "linkedin-post-design-kit",
+      "displayName": "LinkedIn Design Kit",
+      "version": "0.1.1",
+      "category": "Productivity",
+      "group": "criacao",
+      "skill": "linkedin-post-designer",
+      "description": "Cria conceitos, textos e direções visuais para posts e carrosséis profissionais no LinkedIn, usando repositórios abertos de design como referência.",
+      "path": "plugins/linkedin-post-design-kit",
+      "skills": [
+        "linkedin-post-designer"
+      ]
+    },
+    {
       "name": "medquest",
       "displayName": "MedQuest — Medicina por Questões",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "category": "Education",
       "group": "medicina",
       "skill": "questoes-medicina",
@@ -244,7 +273,7 @@
     {
       "name": "medtermo-ai",
       "displayName": "MedTermo AI",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "category": "Education",
       "group": "medicina",
       "skill": "jogar-medtermo",
@@ -257,7 +286,7 @@
     {
       "name": "mentor-de-estudos",
       "displayName": "Mentor de Estudos",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "category": "Education",
       "group": "estudos",
       "skill": "tutoria-de-estudos",
@@ -302,7 +331,7 @@
     {
       "name": "postlab",
       "displayName": "PostLab — Designer Criativo",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "category": "Productivity",
       "group": "criacao",
       "skill": "criar-posts-criativos",
@@ -365,7 +394,7 @@
     {
       "name": "resumo-visual-manuscrito",
       "displayName": "Resumo Visual Manuscrito",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "category": "Education",
       "group": "criacao",
       "skill": "criar-resumo-visual",
@@ -410,7 +439,7 @@
     {
       "name": "tokenmeter-universal",
       "displayName": "TokenMeter Universal",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "category": "Productivity",
       "group": "financas",
       "skill": "medir-tokens",
@@ -423,7 +452,7 @@
     {
       "name": "visualexplain",
       "displayName": "VisualExplain",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "category": "Education",
       "group": "criacao",
       "skill": "animar-processo-explicativo",

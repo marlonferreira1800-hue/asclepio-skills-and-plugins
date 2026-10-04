@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "linkedin-design-studio",
+  "version": "0.1.1",
+  "description": "A design assistant for LinkedIn posts, carousels and explainers, with workflows inspired by Penpot, Excalidraw and tldraw.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "LinkedIn Design Studio",
+        "shortDescription": "Design posts and carousels",
+        "longDescription": "Creates practical design briefs, slide plans, copy and visual specifications for LinkedIn posts. Selects a Penpot-inspired polished layout, an Excalidraw-inspired hand-drawn explainer, or a tldraw-inspired canvas workflow based on the request.",
+        "developerName": "Marlon Ferreira",
+        "category": "Design",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": [
+          "Crie um post visual para LinkedIn sobre este tema.",
+          "Monte um carrossel profissional para LinkedIn com este conteúdo.",
+          "Transforme esta explicação em um infográfico visual para LinkedIn."
+        ]
+      }
+    }
+  }
+}
+

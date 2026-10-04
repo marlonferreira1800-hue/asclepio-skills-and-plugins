@@ -15,7 +15,7 @@
     ]
   },
   "name": "medtermo-ai",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Jogo de adivinhação diagnóstica com cinco tentativas, pistas progressivas e revisão para provas de residência médica.",
   "author": {
     "name": "Marlon Ferreira"

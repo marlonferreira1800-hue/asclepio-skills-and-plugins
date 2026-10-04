@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "cognitus",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Mentor de aprendizagem ativa que desenvolve raciocínio, retenção e autonomia com método socrático, Feynman, prática deliberada e repetição espaçada.",
   "author": {
     "name": "Cognitus"

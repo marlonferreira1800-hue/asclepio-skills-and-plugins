@@ -42,3 +42,8 @@ Em Medicina e ciências da saúde, priorize mecanismo, anatomia/fisiologia perti
 Quando a solicitação for para criar a folha visual final, use a capacidade de geração de imagem disponível para produzir a página, e não apenas descrever como ela deveria parecer. Preserve todo o conteúdo importante dentro da página. Se a quantidade de conteúdo comprometer a legibilidade, reduza detalhes secundários em vez de diminuir excessivamente a letra; se o usuário pedir conteúdo extenso, distribua em mais de uma página coerente.
 
 Se o usuário pedir somente o conteúdo, roteiro ou prompt para usar em outro gerador, entregue a estrutura textual correspondente em vez de gerar a imagem.
+
+
+## Métodos selecionados do ECC
+
+Para planejar ou revisar esta tarefa, consultar [references/ecc-methods.md](references/ecc-methods.md). Aplicar apenas as etapas relevantes ao pedido; a referência complementa este fluxo e não ativa ferramentas adicionais.

@@ -53,3 +53,8 @@ Se a pessoa pedir uma resposta rápida, mostrar de três a cinco opções e resu
 Pedido: “Compare SUVs usados até R$ 80 mil em Jaru, econômicos para cidade e com manutenção acessível.”
 
 Aplicar filtros de categoria, orçamento, condição, cidade e prioridades; localizar anúncios de versões comparáveis; conferir FIPE, consumo quando houver dado oficial e apresentar faixa de preços com fontes e ressalvas.
+
+
+## Métodos selecionados do ECC
+
+Para planejar ou revisar esta tarefa, consultar [references/ecc-methods.md](references/ecc-methods.md). Aplicar apenas as etapas relevantes ao pedido; a referência complementa este fluxo e não ativa ferramentas adicionais.

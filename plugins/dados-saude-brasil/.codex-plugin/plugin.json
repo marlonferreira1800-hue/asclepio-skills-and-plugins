@@ -1,6 +1,6 @@
 {
   "name": "dados-saude-brasil",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Consulta simples a dados públicos de doenças no Brasil usando fontes oficiais do SUS.",
   "author": {
     "name": "Marlon Ferreira"

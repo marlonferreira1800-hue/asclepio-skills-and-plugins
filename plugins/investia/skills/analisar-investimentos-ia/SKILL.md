@@ -39,3 +39,8 @@ Não enviar ordens, conectar corretoras ou prometer retorno como parte deste flu
 Entregar primeiro conclusão e qualidade da evidência; depois tabela de métricas relevantes com período e fontes, teses favorável/contrária, notícias, cenários e riscos. Para comparações, usar mesmas datas, moedas e critérios. Encerrar com fontes e informações faltantes. Manter relatório curto por padrão; ampliar quando pedido. Descrever eventuais preços-alvo como estimativas de um modelo com premissas e sensibilidade. Não apresentar a análise como recomendação profissional individualizada ou posição exata garantida.
 
 Usar exemplos de `references/metodo.md` para escolher o formato. Aplicar habilidades de arquivos apenas quando houver pedido de exportação; salvar os entregáveis conforme o ambiente.
+
+
+## Métodos selecionados do ECC
+
+Para planejar ou revisar esta tarefa, consultar [references/ecc-methods.md](references/ecc-methods.md). Aplicar apenas as etapas relevantes ao pedido; a referência complementa este fluxo e não ativa ferramentas adicionais.

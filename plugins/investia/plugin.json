@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "investia",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Pesquisa e compara investimentos com fundamentos, notícias, cenários e simulação de risco usando ferramentas disponíveis no ChatGPT.",
   "author": {
     "name": "Marlon Ferreira"

@@ -1,5 +1,13 @@
 # Histórico de mudanças
 
+## 1.3.0 — 2026-10-04
+
+- Incorporar referências metodológicas do ECC 2.2.3 a 17 skills em 14 plugins, com carregamento sob demanda e créditos MIT.
+- Preservar as skills adicionais e as versões mais recentes existentes no repositório.
+- Adicionar LinkedIn Post Design Kit e LinkedIn Design Studio com seus recursos e cinco skills ao catálogo de criação.
+- Reforçar critérios de evidência, revisão editorial, legibilidade, avaliação educacional e prevenção de dupla contagem de tokens.
+- Manter scripts e integrações existentes; as adaptações são instruções e não ativam hooks ou serviços externos.
+
 ## 1.2.0 — 2026-10-03
 
 - Organizar os 28 plugins em oito áreas com atalhos no README e catálogo das 94 skills.

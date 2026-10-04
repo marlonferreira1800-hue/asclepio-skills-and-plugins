@@ -33,3 +33,8 @@ python scripts/tokenmeter.py mcp
 ```
 
 Adaptar estas instruções para um prompt em clientes sem suporte a skills. O plugin local requer Python no computador do cliente; um upload de plugin não habilita execução local em navegador/mobile.
+
+
+## Métodos selecionados do ECC
+
+Para planejar ou revisar esta tarefa, consultar [references/ecc-methods.md](references/ecc-methods.md). Aplicar apenas as etapas relevantes ao pedido; a referência complementa este fluxo e não ativa ferramentas adicionais.

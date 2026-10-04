@@ -41,3 +41,8 @@ Sem ferramenta de imagens, informar a limitação e entregar texto e direção v
 - Verificar fatos atuais, números e afirmações técnicas, de saúde, jurídicas ou financeiras em fontes apropriadas. Citar no apoio ou legenda sem poluir a arte. Omitir afirmações não verificáveis ou declarar a incerteza.
 - Criar não significa publicar: executar publicação ou agendamento somente com pedido explícito e ferramenta apropriada.
 - Entregar arte e legenda prontas em resposta curta. Explicar decisões de design apenas quando útil ou solicitado.
+
+
+## Métodos selecionados do ECC
+
+Para planejar ou revisar esta tarefa, consultar [references/ecc-methods.md](references/ecc-methods.md). Aplicar apenas as etapas relevantes ao pedido; a referência complementa este fluxo e não ativa ferramentas adicionais.

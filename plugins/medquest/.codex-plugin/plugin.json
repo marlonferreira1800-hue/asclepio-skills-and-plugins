@@ -15,7 +15,7 @@
     ]
   },
   "name": "medquest",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Treino ativo de Medicina por questões, casos clínicos e correção comentada.",
   "author": {
     "name": "Marlon Ferreira"

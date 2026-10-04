@@ -2,7 +2,7 @@
 
 # Catálogo de plugins e skills
 
-28 plugins e 94 skills. Os nomes abaixo são os identificadores reais dos arquivos. Para exemplos e dependências, abra o README de cada plugin.
+30 plugins e 99 skills. Os nomes abaixo são os identificadores reais dos arquivos. Para exemplos e dependências, abra o README de cada plugin.
 
 [Voltar ao início](../README.md) · [Guia rápido](guia-rapido.md)
 
@@ -12,7 +12,7 @@
 
 ### MedQuest — Medicina por Questões
 
-[Documentação do plugin](../plugins/medquest/README.md) · Versão `0.2.0`
+[Documentação do plugin](../plugins/medquest/README.md) · Versão `0.2.1`
 
 Treino ativo de Medicina por questões, casos clínicos e correção comentada.
 
@@ -25,7 +25,7 @@ Treino ativo de Medicina por questões, casos clínicos e correção comentada.
 
 ### MedTermo AI
 
-[Documentação do plugin](../plugins/medtermo-ai/README.md) · Versão `0.1.1`
+[Documentação do plugin](../plugins/medtermo-ai/README.md) · Versão `0.1.2`
 
 Jogo de adivinhação diagnóstica com cinco tentativas, pistas progressivas e revisão para provas de residência médica.
 
@@ -53,7 +53,7 @@ Pesquisa e compara vagas, editais, concorrência, notas e chamadas de programas 
 
 ### Cognitus
 
-[Documentação do plugin](../plugins/cognitus/README.md) · Versão `0.1.1`
+[Documentação do plugin](../plugins/cognitus/README.md) · Versão `0.1.2`
 
 Mentor de aprendizagem ativa que desenvolve raciocínio, retenção e autonomia com método socrático, Feynman, prática deliberada e repetição espaçada.
 
@@ -63,7 +63,7 @@ Mentor de aprendizagem ativa que desenvolve raciocínio, retenção e autonomia 
 
 ### Mentor de Estudos
 
-[Documentação do plugin](../plugins/mentor-de-estudos/README.md) · Versão `0.1.1`
+[Documentação do plugin](../plugins/mentor-de-estudos/README.md) · Versão `0.1.2`
 
 Tutor pessoal para planejar estudos, explicar conteúdos, praticar, revisar e acompanhar o progresso do estudante.
 
@@ -182,7 +182,7 @@ Avaliar desenho, vieses, estatísticas e aplicabilidade de pesquisas.
 
 ### Dados de Saúde Brasil
 
-[Documentação do plugin](../plugins/dados-saude-brasil/README.md) · Versão `0.2.0`
+[Documentação do plugin](../plugins/dados-saude-brasil/README.md) · Versão `0.2.1`
 
 Consulta simples a dados públicos de doenças no Brasil usando fontes oficiais do SUS.
 
@@ -199,7 +199,7 @@ Consulta simples a dados públicos de doenças no Brasil usando fontes oficiais 
 
 ### PostLab — Designer Criativo
 
-[Documentação do plugin](../plugins/postlab/README.md) · Versão `0.2.0`
+[Documentação do plugin](../plugins/postlab/README.md) · Versão `0.2.1`
 
 Designer de posts criativos com artes, fotos, legendas e carrosséis para redes sociais.
 
@@ -213,7 +213,7 @@ Designer de posts criativos com artes, fotos, legendas e carrosséis para redes 
 
 ### LinkedIn Conteúdo Diário
 
-[Documentação do plugin](../plugins/linkedin-conteudo-diario/README.md) · Versão `0.1.0`
+[Documentação do plugin](../plugins/linkedin-conteudo-diario/README.md) · Versão `0.1.1`
 
 Cria, valida e agenda lotes diários de posts educativos com imagens para LinkedIn.
 
@@ -223,7 +223,7 @@ Cria, valida e agenda lotes diários de posts educativos com imagens para Linked
 
 ### Resumo Visual Manuscrito
 
-[Documentação do plugin](../plugins/resumo-visual-manuscrito/README.md) · Versão `0.1.1`
+[Documentação do plugin](../plugins/resumo-visual-manuscrito/README.md) · Versão `0.1.2`
 
 Transforma qualquer tema ou material de estudo em um resumo visual manuscrito, didático, organizado e focado em revisão de prova.
 
@@ -233,7 +233,7 @@ Transforma qualquer tema ou material de estudo em um resumo visual manuscrito, d
 
 ### VisualExplain
 
-[Documentação do plugin](../plugins/visualexplain/README.md) · Versão `0.2.0`
+[Documentação do plugin](../plugins/visualexplain/README.md) · Versão `0.2.1`
 
 Esqueleto para transformar materiais em explicações visuais animadas com roteiro e HTML.
 
@@ -256,6 +256,29 @@ Criar relatórios, formatar documentos, preparar apresentações e revisar PDFs.
 | [`formatar-documento`](../plugins/documento-studio/skills/formatar-documento/SKILL.md) | Use para aplicar estilos, hierarquia, sumário, tabelas e paginação a um documento. |
 | [`montar-apresentacao`](../plugins/documento-studio/skills/montar-apresentacao/SKILL.md) | Use para transformar material em roteiro ou arquivo de slides organizado. |
 | [`revisar-pdf`](../plugins/documento-studio/skills/revisar-pdf/SKILL.md) | Use para verificar conteúdo, legibilidade, paginação e problemas visuais em PDF. |
+
+### LinkedIn Design Kit
+
+[Documentação do plugin](../plugins/linkedin-post-design-kit/README.md) · Versão `0.1.1`
+
+Cria conceitos, textos e direções visuais para posts e carrosséis profissionais no LinkedIn, usando repositórios abertos de design como referência.
+
+| Skill | Quando usar |
+|---|---|
+| [`linkedin-post-designer`](../plugins/linkedin-post-design-kit/skills/linkedin-post-designer/SKILL.md) | Cria e refina conteúdo e peças visuais para LinkedIn, como artes únicas, carrosséis e infográficos. Use quando o usuário pedir um post pronto, uma legenda, um roteiro visual ou orientação para montar uma peça profissional para LinkedIn. |
+
+### LinkedIn Design Studio
+
+[Documentação do plugin](../plugins/linkedin-design-studio/README.md) · Versão `0.1.1`
+
+A design assistant for LinkedIn posts, carousels and explainers, with workflows inspired by Penpot, Excalidraw and tldraw.
+
+| Skill | Quando usar |
+|---|---|
+| [`excalidraw-linkedin-infographic`](../plugins/linkedin-design-studio/skills/excalidraw-linkedin-infographic/SKILL.md) | Transforma conceitos, processos e comparações em infográficos e carrosséis didáticos com traços desenhados à mão. Use quando setas, caixas, ícones simples ou fluxos ajudarem a explicar uma ideia. |
+| [`linkedin-design-router`](../plugins/linkedin-design-studio/skills/linkedin-design-router/SKILL.md) | Escolhe um fluxo visual para criar posts, carrosséis, infográficos e explicações para LinkedIn. Use quando o pedido não indicar qual abordagem visual adotar ou quando o usuário quiser combinar estilos. |
+| [`penpot-linkedin-design`](../plugins/linkedin-design-studio/skills/penpot-linkedin-design/SKILL.md) | Planeja posts estáticos e carrosséis de LinkedIn com aparência profissional, componentes reutilizáveis e identidade visual consistente. Use para peças de marca, educação, anúncios, dicas, dados ou divulgação. |
+| [`tldraw-linkedin-canvas`](../plugins/linkedin-design-studio/skills/tldraw-linkedin-canvas/SKILL.md) | Organiza ideias e narrativas de LinkedIn em uma tela ampla com blocos, setas, anotações e storyboard. Use para brainstorm, mapas de conteúdo, fluxos e planejamento visual antes da arte final. |
 
 ## carreira
 
@@ -350,7 +373,7 @@ Ler documentação, realizar consultas autorizadas, paginar resultados e documen
 
 ### InvestIA — Análise de Investimentos
 
-[Documentação do plugin](../plugins/investia/README.md) · Versão `0.2.0`
+[Documentação do plugin](../plugins/investia/README.md) · Versão `0.2.1`
 
 Pesquisa e compara investimentos com fundamentos, notícias, cenários e simulação de risco usando ferramentas disponíveis no ChatGPT.
 
@@ -363,7 +386,7 @@ Pesquisa e compara investimentos com fundamentos, notícias, cenários e simula�
 
 ### Comparador de carros
 
-[Documentação do plugin](../plugins/comparador-precos-carros/README.md) · Versão `0.2.0`
+[Documentação do plugin](../plugins/comparador-precos-carros/README.md) · Versão `0.2.1`
 
 Pesquisa e compara preços de carros no Brasil por categoria, marca, modelo, versão e região, com fontes e critérios claros.
 
@@ -376,7 +399,7 @@ Pesquisa e compara preços de carros no Brasil por categoria, marca, modelo, ver
 
 ### TokenMeter Universal
 
-[Documentação do plugin](../plugins/tokenmeter-universal/README.md) · Versão `1.0.0`
+[Documentação do plugin](../plugins/tokenmeter-universal/README.md) · Versão `1.0.1`
 
 Registro portátil de consumo de tokens com relatórios diários, semanais, mensais, anuais e total acumulado. Importação de metadados, custos configuráveis e MCP local.
 

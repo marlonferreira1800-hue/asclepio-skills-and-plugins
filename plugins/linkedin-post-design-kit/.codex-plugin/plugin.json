@@ -1,0 +1,20 @@
+{
+  "interface": {
+    "displayName": "LinkedIn Design Kit",
+    "shortDescription": "Design de posts no LinkedIn",
+    "longDescription": "Planeja posts est\u00e1ticos e carross\u00e9is para LinkedIn com mensagem clara, estrutura visual consistente e refer\u00eancias de recursos abertos de design.",
+    "developerName": "Marlon Ferreira",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Crie um post visual para LinkedIn sobre o tema que eu informar. Escolha o formato mais adequado e, se poss\u00edvel, entregue a arte pronta com a legenda."
+  },
+  "name": "linkedin-post-design-kit",
+  "version": "0.1.1",
+  "description": "Cria conceitos, textos e dire\u00e7\u00f5es visuais para posts e carross\u00e9is profissionais no LinkedIn, usando reposit\u00f3rios abertos de design como refer\u00eancia.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}
+

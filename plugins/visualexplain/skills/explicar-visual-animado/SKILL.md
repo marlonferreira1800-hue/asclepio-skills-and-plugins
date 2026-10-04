@@ -23,3 +23,8 @@ Transformar o material em uma explicação visual fiel e progressiva. Usar PT-BR
 10. Entregar a aula HTML e o roteiro editável, usando o fluxo de arquivos da plataforma. Informar o que foi coberto e limitações reais. Não prometer vídeo, áudio, PPTX animado ou conversão de todo formato: esses recursos dependem de ferramentas adicionais.
 
 Não enviar documentos a serviços externos por iniciativa própria. Para materiais médicos, explicar o conteúdo como estudo; verificar diretrizes atuais somente quando a tarefa exigir recomendações clínicas atualizadas.
+
+
+## Métodos selecionados do ECC
+
+Para planejar ou revisar esta tarefa, consultar [references/ecc-methods.md](references/ecc-methods.md). Aplicar apenas as etapas relevantes ao pedido; a referência complementa este fluxo e não ativa ferramentas adicionais.

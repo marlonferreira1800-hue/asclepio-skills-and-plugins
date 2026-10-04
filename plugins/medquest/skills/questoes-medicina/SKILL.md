@@ -55,3 +55,8 @@ Para estilo ENAMED, priorize integração clínica, interpretação de dados, di
 ## Segurança e precisão
 
 O conteúdo é educacional. Diferencie estudo de orientação clínica individual. Não invente diretrizes, doses, critérios ou fontes. Quando informação médica atual for essencial, verifique fonte confiável antes de ensinar.
+
+
+## Métodos selecionados do ECC
+
+Para planejar ou revisar esta tarefa, consultar [references/ecc-methods.md](references/ecc-methods.md). Aplicar apenas as etapas relevantes ao pedido; a referência complementa este fluxo e não ativa ferramentas adicionais.

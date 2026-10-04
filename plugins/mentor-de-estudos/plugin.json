@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "mentor-de-estudos",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Tutor pessoal para planejar estudos, explicar conteúdos, praticar, revisar e acompanhar o progresso do estudante.",
   "author": {
     "name": "Marlo"

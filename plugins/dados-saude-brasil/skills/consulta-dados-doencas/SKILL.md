@@ -39,3 +39,8 @@ Depois, informe os links diretos das fontes e uma observação breve sobre atual
 - Internações SIH/SUS: https://datasus.saude.gov.br/acesso-a-informacao/morbidade-hospitalar-do-sus-sih-sus/
 
 Use somente dados públicos agregados. Não tente identificar pacientes nem interprete estatísticas populacionais como diagnóstico individual.
+
+
+## Métodos selecionados do ECC
+
+Para planejar ou revisar esta tarefa, consultar [references/ecc-methods.md](references/ecc-methods.md). Aplicar apenas as etapas relevantes ao pedido; a referência complementa este fluxo e não ativa ferramentas adicionais.

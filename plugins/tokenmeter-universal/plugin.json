@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "tokenmeter-universal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Registro portátil de consumo de tokens com relatórios diários, semanais, mensais, anuais e total acumulado. Importação de metadados, custos configuráveis e MCP local.",
   "author": {
     "name": "Marlon Ferreira"
