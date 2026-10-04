@@ -1,0 +1,4 @@
+interface:
+  display_name: "Consultar genes"
+  short_description: "Fluxo prático: Consultar genes"
+  default_prompt: "Use $consultar-genes para esta tarefa: Explique este gene e mostre as fontes oficiais."

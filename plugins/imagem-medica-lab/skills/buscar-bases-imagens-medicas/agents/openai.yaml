@@ -1,0 +1,4 @@
+interface:
+  display_name: "Buscar bases públicas de imagens"
+  short_description: "Fluxo prático: Buscar bases públicas de imagens"
+  default_prompt: "Use $buscar-bases-imagens-medicas para esta tarefa: Encontre bases públicas de imagens para estudar radiologia."

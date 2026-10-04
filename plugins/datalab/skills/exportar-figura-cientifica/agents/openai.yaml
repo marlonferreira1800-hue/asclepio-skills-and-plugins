@@ -1,0 +1,4 @@
+interface:
+  display_name: "Exportar figura científica"
+  short_description: "Fluxo prático: Exportar figura científica"
+  default_prompt: "Use $exportar-figura-cientifica para esta tarefa: Exporte esta figura nos formatos exigidos pelo periódico."

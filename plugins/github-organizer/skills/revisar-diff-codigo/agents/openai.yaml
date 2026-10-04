@@ -1,0 +1,4 @@
+interface:
+  display_name: "Revisar diff de código"
+  short_description: "Fluxo prático: Revisar diff de código"
+  default_prompt: "Use $revisar-diff-codigo para esta tarefa: Revise este diff antes de integrar."

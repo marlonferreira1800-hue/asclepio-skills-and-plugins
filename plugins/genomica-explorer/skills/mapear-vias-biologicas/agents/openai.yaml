@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mapear vias biológicas"
+  short_description: "Fluxo prático: Mapear vias biológicas"
+  default_prompt: "Use $mapear-vias-biologicas para esta tarefa: Mapeie estes genes a vias biológicas e explique o que isso permite concluir."

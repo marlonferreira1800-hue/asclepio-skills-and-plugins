@@ -1,0 +1,4 @@
+interface:
+  display_name: "Escolher teste estatístico"
+  short_description: "Fluxo prático: Escolher teste estatístico"
+  default_prompt: "Use $escolher-teste-estatistico para esta tarefa: Qual teste usar para medir alunos antes e depois de uma intervenção?"

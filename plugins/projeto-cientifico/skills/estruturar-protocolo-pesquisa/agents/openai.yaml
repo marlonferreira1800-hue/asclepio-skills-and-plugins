@@ -1,0 +1,4 @@
+interface:
+  display_name: "Estruturar protocolo de pesquisa"
+  short_description: "Fluxo prático: Estruturar protocolo de pesquisa"
+  default_prompt: "Use $estruturar-protocolo-pesquisa para esta tarefa: Estruture meu projeto de iniciação científica com métodos e cronograma."

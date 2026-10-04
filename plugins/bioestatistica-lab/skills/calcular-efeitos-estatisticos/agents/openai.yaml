@@ -1,0 +1,4 @@
+interface:
+  display_name: "Calcular efeitos estatísticos"
+  short_description: "Fluxo prático: Calcular efeitos estatísticos"
+  default_prompt: "Use $calcular-efeitos-estatisticos para esta tarefa: Calcule diferença de médias e intervalo de confiança destes grupos."

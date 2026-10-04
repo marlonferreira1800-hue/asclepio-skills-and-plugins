@@ -1,0 +1,4 @@
+interface:
+  display_name: "Planejar migração de release"
+  short_description: "Fluxo prático: Planejar migração de release"
+  default_prompt: "Use $planejar-migracao-release para esta tarefa: Planeje a migração para esta nova versão sem perder dados."

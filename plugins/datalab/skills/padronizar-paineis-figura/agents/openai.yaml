@@ -1,0 +1,4 @@
+interface:
+  display_name: "Padronizar painéis de figura"
+  short_description: "Fluxo prático: Padronizar painéis de figura"
+  default_prompt: "Use $padronizar-paineis-figura para esta tarefa: Monte uma figura com três painéis para este artigo."

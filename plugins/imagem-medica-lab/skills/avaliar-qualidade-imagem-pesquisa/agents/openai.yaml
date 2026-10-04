@@ -1,0 +1,4 @@
+interface:
+  display_name: "Avaliar qualidade técnica de imagens"
+  short_description: "Fluxo prático: Avaliar qualidade técnica de imagens"
+  default_prompt: "Use $avaliar-qualidade-imagem-pesquisa para esta tarefa: Confira a qualidade técnica deste dataset de imagens."

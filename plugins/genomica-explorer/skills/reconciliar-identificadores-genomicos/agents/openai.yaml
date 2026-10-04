@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reconciliar identificadores genômicos"
+  short_description: "Fluxo prático: Reconciliar identificadores genômicos"
+  default_prompt: "Use $reconciliar-identificadores-genomicos para esta tarefa: Converta estes IDs Ensembl para símbolos de genes humanos."

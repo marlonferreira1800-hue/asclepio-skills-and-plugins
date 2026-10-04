@@ -1,0 +1,4 @@
+interface:
+  display_name: "Comparar protocolos de ensaios"
+  short_description: "Fluxo prático: Comparar protocolos de ensaios"
+  default_prompt: "Use $comparar-protocolos-ensaios para esta tarefa: Compare os protocolos destes três ensaios."

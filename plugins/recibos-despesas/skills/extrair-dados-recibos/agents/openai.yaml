@@ -1,0 +1,4 @@
+interface:
+  display_name: "Extrair dados de recibos"
+  short_description: "Fluxo prático: Extrair dados de recibos"
+  default_prompt: "Use $extrair-dados-recibos para esta tarefa: Extraia datas e totais destes recibos com o arquivo de origem."

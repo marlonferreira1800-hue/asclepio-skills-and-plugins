@@ -1,0 +1,4 @@
+interface:
+  display_name: "Formular hipótese de pesquisa"
+  short_description: "Fluxo prático: Formular hipótese de pesquisa"
+  default_prompt: "Use $formular-hipotese-pesquisa para esta tarefa: Transforme ensino de anatomia com realidade virtual em uma pergunta de pesquisa."

@@ -1,6 +1,6 @@
 {
   "name": "datalab",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Limpar bases, explorar dados, construir gráficos e produzir relatórios reproduzíveis.",
   "author": {
     "name": "Marlon Ferreira"

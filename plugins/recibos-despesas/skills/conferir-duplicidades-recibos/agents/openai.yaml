@@ -1,0 +1,4 @@
+interface:
+  display_name: "Conferir duplicidades de recibos"
+  short_description: "Fluxo prático: Conferir duplicidades de recibos"
+  default_prompt: "Use $conferir-duplicidades-recibos para esta tarefa: Veja quais recibos parecem repetidos antes de consolidar."

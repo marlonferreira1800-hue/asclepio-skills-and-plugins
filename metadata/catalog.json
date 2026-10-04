@@ -1,6 +1,6 @@
 {
   "name": "asclepio-skills-and-plugins",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Ecossistema de plugins e habilidades para aprendizagem, produtividade e pesquisa prática em diferentes áreas.",
   "author": {
     "name": "Marlon Ferreira"
@@ -83,6 +83,26 @@
         {
           "name": "dados-saude-brasil",
           "primarySkill": "consulta-dados-doencas"
+        },
+        {
+          "name": "projeto-cientifico",
+          "primarySkill": "formular-hipotese-pesquisa"
+        },
+        {
+          "name": "bioestatistica-lab",
+          "primarySkill": "escolher-teste-estatistico"
+        },
+        {
+          "name": "ensaios-clinicos-radar",
+          "primarySkill": "buscar-ensaios-registrados"
+        },
+        {
+          "name": "imagem-medica-lab",
+          "primarySkill": "inspecionar-dicom"
+        },
+        {
+          "name": "genomica-explorer",
+          "primarySkill": "consultar-genes"
         }
       ]
     },
@@ -114,7 +134,7 @@
     },
     {
       "id": "carreira",
-      "title": "Carreira e concursos",
+      "title": "Carreira, concursos e organização",
       "plugins": [
         {
           "name": "carreira-lab",
@@ -123,6 +143,14 @@
         {
           "name": "edital-facil",
           "primarySkill": "ler-editais"
+        },
+        {
+          "name": "arquivo-inteligente",
+          "primarySkill": "classificar-arquivos"
+        },
+        {
+          "name": "reuniao-clara",
+          "primarySkill": "resumir-reuniao"
         }
       ]
     },
@@ -145,6 +173,18 @@
         {
           "name": "api-explorer",
           "primarySkill": "documentar-resposta-api"
+        },
+        {
+          "name": "projeto-do-zero",
+          "primarySkill": "refinar-requisitos-projeto"
+        },
+        {
+          "name": "debug-investigador",
+          "primarySkill": "reproduzir-falha"
+        },
+        {
+          "name": "release-manager",
+          "primarySkill": "verificar-versao-release"
         }
       ]
     },
@@ -163,6 +203,10 @@
         {
           "name": "tokenmeter-universal",
           "primarySkill": "medir-tokens"
+        },
+        {
+          "name": "recibos-despesas",
+          "primarySkill": "extrair-dados-recibos"
         }
       ]
     }

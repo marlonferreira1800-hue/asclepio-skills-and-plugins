@@ -1,0 +1,4 @@
+interface:
+  display_name: "Buscar ensaios registrados"
+  short_description: "Fluxo prático: Buscar ensaios registrados"
+  default_prompt: "Use $buscar-ensaios-registrados para esta tarefa: Encontre ensaios registrados sobre prevenção de dengue."

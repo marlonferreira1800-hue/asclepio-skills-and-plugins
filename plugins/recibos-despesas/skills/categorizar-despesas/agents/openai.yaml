@@ -1,0 +1,4 @@
+interface:
+  display_name: "Categorizar despesas"
+  short_description: "Fluxo prático: Categorizar despesas"
+  default_prompt: "Use $categorizar-despesas para esta tarefa: Separe estas despesas em alimentação, transporte e estudo."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Escrever legenda científica"
+  short_description: "Fluxo prático: Escrever legenda científica"
+  default_prompt: "Use $escrever-legenda-cientifica para esta tarefa: Escreva uma legenda científica para este gráfico."

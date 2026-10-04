@@ -1,0 +1,4 @@
+interface:
+  display_name: "Avaliar impacto de alteração"
+  short_description: "Fluxo prático: Avaliar impacto de alteração"
+  default_prompt: "Use $avaliar-impacto-alteracao para esta tarefa: Avalie o impacto desta mudança de API."

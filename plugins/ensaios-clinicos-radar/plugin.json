@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ensaios-clinicos-radar",
+  "version": "0.1.0",
+  "description": "Buscar ensaios registrados, comparar protocolos e organizar fases e status com fontes.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Ensaios Clínicos Radar",
+        "shortDescription": "Explore estudos registrados",
+        "longDescription": "Buscar ensaios registrados, comparar protocolos e organizar fases e status com fontes. Pesquisa em registros oficiais como ClinicalTrials.gov ou ReBEC; não decide elegibilidade individual.",
+        "developerName": "Marlon Ferreira",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": "Encontre ensaios registrados sobre prevenção de dengue."
+      }
+    }
+  }
+}

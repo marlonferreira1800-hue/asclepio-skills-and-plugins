@@ -1,0 +1,4 @@
+interface:
+  display_name: "Criar figura científica"
+  short_description: "Fluxo prático: Criar figura científica"
+  default_prompt: "Use $criar-figura-publicacao para esta tarefa: Crie uma figura para artigo com estes resultados."

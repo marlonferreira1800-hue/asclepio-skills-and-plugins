@@ -1,0 +1,4 @@
+interface:
+  display_name: "Preparar resposta a revisão"
+  short_description: "Fluxo prático: Preparar resposta a revisão"
+  default_prompt: "Use $responder-feedback-codigo para esta tarefa: Analise estes comentários e prepare as correções e respostas."

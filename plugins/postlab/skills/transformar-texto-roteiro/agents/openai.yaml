@@ -1,0 +1,4 @@
+interface:
+  display_name: "Transformar texto em roteiro"
+  short_description: "Fluxo prático: Transformar texto em roteiro"
+  default_prompt: "Use $transformar-texto-roteiro para esta tarefa: Transforme esta aula em um roteiro de vídeo de três minutos."

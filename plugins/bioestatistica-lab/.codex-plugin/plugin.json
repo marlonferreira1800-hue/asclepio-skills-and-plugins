@@ -1,0 +1,20 @@
+{
+  "name": "bioestatistica-lab",
+  "version": "0.1.0",
+  "description": "Escolher testes, avaliar pressupostos, calcular efeitos e interpretar resultados de pesquisa.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "interface": {
+    "displayName": "Bioestatística Lab",
+    "shortDescription": "Analise dados de pesquisa",
+    "longDescription": "Escolher testes, avaliar pressupostos, calcular efeitos e interpretar resultados de pesquisa. Dados agregados ou anonimizados e runtime estatístico quando houver execução; métodos verificados em fontes primárias.",
+    "developerName": "Marlon Ferreira",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": "Qual teste usar para medir alunos antes e depois de uma intervenção?"
+  },
+  "skills": "./skills"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Corrigir causa de falha"
+  short_description: "Fluxo prático: Corrigir causa de falha"
+  default_prompt: "Use $corrigir-causa-falha para esta tarefa: Corrija a causa desta falha com a menor alteração necessária."

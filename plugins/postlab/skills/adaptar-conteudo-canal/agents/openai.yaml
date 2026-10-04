@@ -1,0 +1,4 @@
+interface:
+  display_name: "Adaptar conteúdo por canal"
+  short_description: "Fluxo prático: Adaptar conteúdo por canal"
+  default_prompt: "Use $adaptar-conteudo-canal para esta tarefa: Adapte este conteúdo para LinkedIn, newsletter e Pinterest."

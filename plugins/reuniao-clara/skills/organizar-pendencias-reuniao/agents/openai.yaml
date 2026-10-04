@@ -1,0 +1,4 @@
+interface:
+  display_name: "Organizar pendências de reunião"
+  short_description: "Fluxo prático: Organizar pendências de reunião"
+  default_prompt: "Use $organizar-pendencias-reuniao para esta tarefa: Monte as pendências para a próxima reunião."

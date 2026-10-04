@@ -1,0 +1,4 @@
+interface:
+  display_name: "Interpretar resultados de pesquisa"
+  short_description: "Fluxo prático: Interpretar resultados de pesquisa"
+  default_prompt: "Use $interpretar-resultados-pesquisa para esta tarefa: Explique os resultados desta pesquisa em linguagem simples."

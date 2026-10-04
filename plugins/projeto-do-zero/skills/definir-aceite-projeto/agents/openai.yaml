@@ -1,0 +1,4 @@
+interface:
+  display_name: "Definir critérios de aceite"
+  short_description: "Fluxo prático: Definir critérios de aceite"
+  default_prompt: "Use $definir-aceite-projeto para esta tarefa: Crie critérios de aceite para estas funcionalidades."

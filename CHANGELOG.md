@@ -1,5 +1,12 @@
 # Histórico de mudanças
 
+## 1.3.0 — 2026-10-04
+
+- 11 plugins novos e 56 skills novas: catálogo com 39 plugins e 150 skills.
+- Ampliação de PostLab, DataLab e GitHub Organizer.
+- Inventário de arquivos somente leitura e consolidação decimal de despesas, com testes.
+
+
 ## 1.2.0 — 2026-10-03
 
 - Organizar os 28 plugins em oito áreas com atalhos no README e catálogo das 94 skills.

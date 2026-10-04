@@ -48,3 +48,25 @@ Este pacote fornece instruções reutilizáveis. Não cria conexões, assinatura
 - Corrija os erros de português e de código desta arte.
 - Adapte este post para LinkedIn e Pinterest.
 - Monte uma identidade consistente para meus posts educativos.
+
+## Skills desta ampliação
+
+| Skill | Função |
+|---|---|
+| [`transformar-texto-roteiro`](skills/transformar-texto-roteiro/SKILL.md) | Transformar texto em roteiro |
+| [`adaptar-newsletter`](skills/adaptar-newsletter/SKILL.md) | Adaptar conteúdo para newsletter |
+| [`criar-sequencia-posts`](skills/criar-sequencia-posts/SKILL.md) | Criar sequência de posts |
+| [`adaptar-conteudo-canal`](skills/adaptar-conteudo-canal/SKILL.md) | Adaptar conteúdo por canal |
+
+## Requisitos e execução
+
+Material fonte e público; ferramenta visual para arte final. Sem publicação automática.
+
+Este pacote fornece instruções reutilizáveis. Não cria conexões, assinaturas, publicação ou execução automática. Os scripts incluídos estão documentados nas skills que os utilizam.
+
+## Exemplos
+
+- Transforme esta aula em um roteiro de vídeo de três minutos.
+- Transforme este artigo em uma newsletter educativa.
+- Divida esta aula em uma série de cinco posts.
+- Adapte este conteúdo para LinkedIn, newsletter e Pinterest.
