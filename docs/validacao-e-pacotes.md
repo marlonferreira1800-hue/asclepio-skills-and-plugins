@@ -6,13 +6,17 @@ Requisitos: Python 3.10+ e PyYAML 6. As dependências de geração de documentos
 
 ```bash
 python3 -m pip install -r requirements-dev.txt
+python3 scripts/generate_catalog.py --check
 python3 scripts/validate_catalog.py
+python3 scripts/check_links.py
 python3 -m unittest discover -s tests -v
 ```
 
 O validador local verifica nomes, versões, estrutura YAML, existência de referências Markdown, assets, links simbólicos, coerência dos overlays e catálogo. Retorna código diferente de zero para erros. Avisos de metadados antigos são separados de erros. Não valida o schema completo de cada cliente nem certifica o comportamento das skills.
 
 Para validação no cliente, usar seu validador e testar exemplos com as ferramentas que estarão disponíveis na instalação. Não assumir que uma skill que usa navegação tem uma API própria.
+
+O gerador lê manifestos, frontmatter das skills e `metadata/catalog.json`; `--check` retorna erro quando README, catálogo ou índice estiverem desatualizados. Sem `--check`, atualiza esses três arquivos. O verificador de links checa somente destinos locais, sem validar URLs externas ou âncoras. O GitHub executa esses checks pelo workflow de validação.
 
 ## Exportação Anki
 

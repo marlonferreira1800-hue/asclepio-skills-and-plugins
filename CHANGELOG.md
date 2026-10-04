@@ -1,5 +1,12 @@
 # Histórico de mudanças
 
+## 1.2.0 — 2026-10-03
+
+- Organizar os 28 plugins em oito áreas com atalhos no README e catálogo das 94 skills.
+- Adicionar guia rápido, índice da documentação e instruções de contribuição.
+- Gerar README, catálogo e índice a partir de manifestos, skills e metadados de áreas, preservando caminhos e identificadores existentes.
+- Adicionar conferência de links locais, testes da navegação e workflow de validação em push e pull request.
+
 ## 1.1.0 — 2026-10-03
 
 - Adicionar DataLab, SQL Mentor, Python Lab, Dashboard Studio, Pesquisa Científica, Artigo Crítico, Anki Builder, Carreira Lab, Documento Studio, GitHub Organizer, Skill Auditor, Plugin Builder e API Explorer.

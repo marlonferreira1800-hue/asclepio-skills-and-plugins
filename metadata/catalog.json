@@ -1,0 +1,170 @@
+{
+  "name": "asclepio-skills-and-plugins",
+  "version": "1.2.0",
+  "description": "Ecossistema de plugins e habilidades para aprendizagem, produtividade e pesquisa prática em diferentes áreas.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "groups": [
+    {
+      "id": "medicina",
+      "title": "Medicina e residência",
+      "plugins": [
+        {
+          "name": "medquest",
+          "primarySkill": "questoes-medicina"
+        },
+        {
+          "name": "medtermo-ai",
+          "primarySkill": "jogar-medtermo"
+        },
+        {
+          "name": "residencia-radar-brasil",
+          "primarySkill": "residencia-radar"
+        }
+      ]
+    },
+    {
+      "id": "estudos",
+      "title": "Estudos e aprendizagem",
+      "plugins": [
+        {
+          "name": "cognitus",
+          "primarySkill": "aprendizagem-ativa"
+        },
+        {
+          "name": "mentor-de-estudos",
+          "primarySkill": "tutoria-de-estudos"
+        },
+        {
+          "name": "provalab",
+          "primarySkill": "criar-avaliacoes"
+        },
+        {
+          "name": "anki-builder",
+          "primarySkill": "criar-cloze"
+        }
+      ]
+    },
+    {
+      "id": "dados",
+      "title": "Dados e programação",
+      "plugins": [
+        {
+          "name": "datalab",
+          "primarySkill": "criar-graficos-dados"
+        },
+        {
+          "name": "sql-mentor",
+          "primarySkill": "depurar-sql"
+        },
+        {
+          "name": "python-lab",
+          "primarySkill": "depurar-python"
+        },
+        {
+          "name": "dashboard-studio",
+          "primarySkill": "definir-indicadores"
+        }
+      ]
+    },
+    {
+      "id": "pesquisa",
+      "title": "Pesquisa e saúde pública",
+      "plugins": [
+        {
+          "name": "pesquisa-cientifica",
+          "primarySkill": "buscar-literatura"
+        },
+        {
+          "name": "artigo-critico",
+          "primarySkill": "avaliar-aplicabilidade"
+        },
+        {
+          "name": "dados-saude-brasil",
+          "primarySkill": "consulta-dados-doencas"
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "title": "Design, documentos e conteúdo",
+      "plugins": [
+        {
+          "name": "postlab",
+          "primarySkill": "criar-posts-criativos"
+        },
+        {
+          "name": "linkedin-conteudo-diario",
+          "primarySkill": "linkedin-conteudo-diario"
+        },
+        {
+          "name": "resumo-visual-manuscrito",
+          "primarySkill": "criar-resumo-visual"
+        },
+        {
+          "name": "visualexplain",
+          "primarySkill": "animar-processo-explicativo"
+        },
+        {
+          "name": "documento-studio",
+          "primarySkill": "criar-relatorio-documento"
+        }
+      ]
+    },
+    {
+      "id": "carreira",
+      "title": "Carreira e concursos",
+      "plugins": [
+        {
+          "name": "carreira-lab",
+          "primarySkill": "adaptar-curriculo"
+        },
+        {
+          "name": "edital-facil",
+          "primarySkill": "ler-editais"
+        }
+      ]
+    },
+    {
+      "id": "desenvolvimento",
+      "title": "Plugins, GitHub e APIs",
+      "plugins": [
+        {
+          "name": "github-organizer",
+          "primarySkill": "catalogar-plugins"
+        },
+        {
+          "name": "skill-auditor",
+          "primarySkill": "auditar-skill"
+        },
+        {
+          "name": "plugin-builder",
+          "primarySkill": "documentar-plugin"
+        },
+        {
+          "name": "api-explorer",
+          "primarySkill": "documentar-resposta-api"
+        }
+      ]
+    },
+    {
+      "id": "financas",
+      "title": "Finanças e comparações",
+      "plugins": [
+        {
+          "name": "investia",
+          "primarySkill": "analisar-investimentos-ia"
+        },
+        {
+          "name": "comparador-precos-carros",
+          "primarySkill": "comparar-precos-carros"
+        },
+        {
+          "name": "tokenmeter-universal",
+          "primarySkill": "medir-tokens"
+        }
+      ]
+    }
+  ]
+}

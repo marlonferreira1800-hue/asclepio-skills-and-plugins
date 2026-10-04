@@ -1,76 +1,68 @@
+<!-- Gerado por scripts/generate_catalog.py. Editar manifestos, skills ou metadata/catalog.json. -->
+
 # Asclépio — Skills & Plugins para Agentes de IA
 
-Coleção modular para estudo, dados, pesquisa, produtividade e criação. Desenvolvida por Marlon Ferreira.
+**28 plugins · 94 skills · 8 áreas**
 
-**28 plugins e 94 skills** disponíveis como código-fonte. Cada pacote possui manifesto, instruções e exemplos; ferramentas e conexões dependem do cliente.
+Uma coleção em português para aprender, pesquisar, analisar dados e criar conteúdo com agentes de IA. Desenvolvida por Marlon Ferreira.
 
-## Catálogo
+[Começar a usar](docs/guia-rapido.md) · [Todas as skills](docs/catalogo.md) · [Documentação](docs/README.md) · [Contribuir](CONTRIBUTING.md)
 
-| Plugin | Skills | Função |
-|---|---:|---|
-| [Anki Builder](plugins/anki-builder) | 4 | Criar flashcards básicos, cloze e exportação TSV com origem rastreável. |
-| [API Explorer](plugins/api-explorer) | 4 | Ler documentação, realizar consultas autorizadas, paginar resultados e documentar respostas. |
-| [Artigo Crítico](plugins/artigo-critico) | 4 | Avaliar desenho, vieses, estatísticas e aplicabilidade de pesquisas. |
-| [Carreira Lab](plugins/carreira-lab) | 4 | Adaptar currículo, revisar perfil, praticar entrevista e mapear evidências de competências. |
-| [Cognitus](plugins/cognitus) | 1 | Mentor de aprendizagem ativa que desenvolve raciocínio, retenção e autonomia com método socrático, Feynman, prática deliberada e repetição espaçada. |
-| [Comparador de carros](plugins/comparador-precos-carros) | 4 | Pesquisa e compara preços de carros no Brasil por categoria, marca, modelo, versão e região, com fontes e critérios claros. |
-| [Dados de Saúde Brasil](plugins/dados-saude-brasil) | 4 | Consulta simples a dados públicos de doenças no Brasil usando fontes oficiais do SUS. |
-| [Dashboard Studio](plugins/dashboard-studio) | 4 | Definir indicadores, modelagem, layout e medidas DAX para dashboards. |
-| [DataLab — Análise de Dados](plugins/datalab) | 4 | Limpar bases, explorar dados, construir gráficos e produzir relatórios reproduzíveis. |
-| [Documento Studio](plugins/documento-studio) | 4 | Criar relatórios, formatar documentos, preparar apresentações e revisar PDFs. |
-| [Edital Fácil](plugins/edital-facil) | 5 | Lê editais de concursos e seleções e transforma requisitos, etapas, salários e prazos em um resumo e checklist prático. |
-| [GitHub Organizer](plugins/github-organizer) | 4 | Melhorar README, gerar catálogo, registrar mudanças e conferir links. |
-| [InvestIA — Análise de Investimentos](plugins/investia) | 4 | Pesquisa e compara investimentos com fundamentos, notícias, cenários e simulação de risco usando ferramentas disponíveis no ChatGPT. |
-| [LinkedIn Conteúdo Diário](plugins/linkedin-conteudo-diario) | 1 | Cria, valida e agenda lotes diários de posts educativos com imagens para LinkedIn. |
-| [MedQuest — Medicina por Questões](plugins/medquest) | 4 | Treino ativo de Medicina por questões, casos clínicos e correção comentada. |
-| [MedTermo AI](plugins/medtermo-ai) | 1 | Jogo de adivinhação diagnóstica com cinco tentativas, pistas progressivas e revisão para provas de residência médica. |
-| [Mentor de Estudos](plugins/mentor-de-estudos) | 1 | Tutor pessoal para planejar estudos, explicar conteúdos, praticar, revisar e acompanhar o progresso do estudante. |
-| [Pesquisa Científica](plugins/pesquisa-cientifica) | 4 | Buscar literatura, extrair evidências, comparar estudos e organizar referências. |
-| [Plugin Builder](plugins/plugin-builder) | 4 | Estruturar plugins de skills, preparar manifestos, documentar requisitos e empacotar versões. |
-| [PostLab — Designer Criativo](plugins/postlab) | 5 | Designer de posts criativos com artes, fotos, legendas e carrosséis para redes sociais. |
-| [ProvaLab](plugins/provalab) | 1 | Cria avaliações e cadernos de questões a partir de apostilas, slides, guias e materiais enviados pelo usuário. |
-| [Python Lab](plugins/python-lab) | 4 | Explicar código, depurar erros, criar exercícios e organizar projetos Python. |
-| [Residência Radar Brasil](plugins/residencia-radar-brasil) | 5 | Pesquisa e compara vagas, editais, concorrência, notas e chamadas de programas de residência médica no Brasil. |
-| [Resumo Visual Manuscrito](plugins/resumo-visual-manuscrito) | 1 | Transforma qualquer tema ou material de estudo em um resumo visual manuscrito, didático, organizado e focado em revisão de prova. |
-| [Skill Auditor](plugins/skill-auditor) | 4 | Avaliar estrutura, instruções, recursos e comportamento de skills com casos de uso. |
-| [SQL Mentor](plugins/sql-mentor) | 4 | Ensinar, escrever, depurar e praticar SQL com exemplos controlados. |
-| [TokenMeter Universal](plugins/tokenmeter-universal) | 1 | Registro portátil de consumo de tokens com relatórios diários, semanais, mensais, anuais e total acumulado. Importação de metadados, custos configuráveis e MCP local. |
-| [VisualExplain](plugins/visualexplain) | 4 | Esqueleto para transformar materiais em explicações visuais animadas com roteiro e HTML. |
+## Explore por área
 
-## Uso e instalação
+| Área | Plugins | Skills |
+|---|---|---:|
+| [Medicina e residência](docs/catalogo.md#medicina) | [MedQuest — Medicina por Questões](plugins/medquest), [MedTermo AI](plugins/medtermo-ai), [Residência Radar Brasil](plugins/residencia-radar-brasil) | 10 |
+| [Estudos e aprendizagem](docs/catalogo.md#estudos) | [Cognitus](plugins/cognitus), [Mentor de Estudos](plugins/mentor-de-estudos), [ProvaLab](plugins/provalab), [Anki Builder](plugins/anki-builder) | 7 |
+| [Dados e programação](docs/catalogo.md#dados) | [DataLab — Análise de Dados](plugins/datalab), [SQL Mentor](plugins/sql-mentor), [Python Lab](plugins/python-lab), [Dashboard Studio](plugins/dashboard-studio) | 16 |
+| [Pesquisa e saúde pública](docs/catalogo.md#pesquisa) | [Pesquisa Científica](plugins/pesquisa-cientifica), [Artigo Crítico](plugins/artigo-critico), [Dados de Saúde Brasil](plugins/dados-saude-brasil) | 12 |
+| [Design, documentos e conteúdo](docs/catalogo.md#criacao) | [PostLab — Designer Criativo](plugins/postlab), [LinkedIn Conteúdo Diário](plugins/linkedin-conteudo-diario), [Resumo Visual Manuscrito](plugins/resumo-visual-manuscrito), [VisualExplain](plugins/visualexplain), [Documento Studio](plugins/documento-studio) | 15 |
+| [Carreira e concursos](docs/catalogo.md#carreira) | [Carreira Lab](plugins/carreira-lab), [Edital Fácil](plugins/edital-facil) | 9 |
+| [Plugins, GitHub e APIs](docs/catalogo.md#desenvolvimento) | [GitHub Organizer](plugins/github-organizer), [Skill Auditor](plugins/skill-auditor), [Plugin Builder](plugins/plugin-builder), [API Explorer](plugins/api-explorer) | 16 |
+| [Finanças e comparações](docs/catalogo.md#financas) | [InvestIA — Análise de Investimentos](plugins/investia), [Comparador de carros](plugins/comparador-precos-carros), [TokenMeter Universal](plugins/tokenmeter-universal) | 9 |
 
-Cada pasta `plugins/<nome>` contém um pacote independente. O manifesto raiz segue Agent Plugins 1.0; `.codex-plugin/plugin.json` conserva o overlay usado neste projeto. As skills estão em `skills/<nome>/SKILL.md`.
+## Escolha um ponto de partida
 
-Para um cliente que aceite skills, use o mecanismo de instalação documentado por ele e selecione a pasta da skill. Para importar um plugin no ChatGPT/Codex, use o fluxo de plugins suportado pela sua versão. Estes arquivos no GitHub **não instalam nem atualizam automaticamente plugins da sua conta**. A compatibilidade de manifests e recursos deve ser validada pelo cliente de destino.
+| Quero… | Começar por |
+|---|---|
+| Aprender ou praticar Medicina | [MedQuest](plugins/medquest) |
+| Analisar uma planilha | [DataLab](plugins/datalab) |
+| Aprender SQL ou Python | [SQL Mentor](plugins/sql-mentor) ou [Python Lab](plugins/python-lab) |
+| Ler artigos com atenção aos métodos | [Pesquisa Científica](plugins/pesquisa-cientifica) e [Artigo Crítico](plugins/artigo-critico) |
+| Transformar material em cartões | [Anki Builder](plugins/anki-builder) |
+| Criar posts ou aulas visuais | [PostLab](plugins/postlab) e [VisualExplain](plugins/visualexplain) |
+| Criar e revisar meus plugins | [Plugin Builder](plugins/plugin-builder) e [Skill Auditor](plugins/skill-auditor) |
 
-Não há um novo servidor MCP nos pacotes desta ampliação. Navegação, execução de Python, geração de imagens, criação de documentos e conexão a banco de dados precisam estar disponíveis no assistente; cada README explica as dependências.
+## Como os pacotes funcionam
 
-## Ampliação de outubro de 2026
+Cada pasta em `plugins/` é um pacote independente. Ela reúne um manifesto `plugin.json`, documentação e skills em `skills/<nome>/SKILL.md`. Algumas também incluem scripts, assets ou configuração MCP.
 
-Foram adicionadas 79 skills para os 15 conjuntos propostos e para PostLab, VisualExplain, MedQuest, Dados de Saúde Brasil, InvestIA e Comparador de Carros. Edital Fácil e Residência Radar Brasil foram ampliados; o nome Residência Explorer foi incorporado ao Radar para manter sua identidade. A versão existente do VisualExplain foi incluída no repositório junto com suas novas skills.
+As skills orientam o agente; sua execução depende das ferramentas disponíveis no cliente. Consultas atuais precisam de navegação, código precisa de runtime e arquivos como PBIX dependem do aplicativo apropriado. Confira o README de cada pacote. Os arquivos do GitHub não instalam nem conectam automaticamente plugins da sua conta.
 
-- [Mapa completo das novas skills](docs/novas-skills.md)
-- [Como validar e empacotar](docs/validacao-e-pacotes.md)
-- [Histórico de mudanças](CHANGELOG.md)
+## Estrutura
 
-## Utilitários
+| Pasta ou arquivo | Finalidade |
+|---|---|
+| `plugins/` | Pacotes independentes e suas skills |
+| `docs/` | Guias, catálogo completo e registros de verificação |
+| `metadata/catalog.json` | Áreas e skill principal de cada pacote |
+| `plugins-index.json` | Índice gerado para ferramentas |
+| `scripts/` | Geração, validação, links e empacotamento |
+| `tests/` | Testes dos utilitários do catálogo |
+| `.github/workflows/` | Verificações automáticas |
+
+## Desenvolvimento
 
 ```bash
 python3 -m pip install -r requirements-dev.txt
+python3 scripts/generate_catalog.py --check
 python3 scripts/validate_catalog.py
-python3 scripts/package_plugin.py plugins/datalab /caminho/fora-do-plugin/datalab.zip
+python3 scripts/check_links.py
+python3 -m unittest discover -s tests -v
 ```
 
-O Anki Builder inclui exportador TSV, documentado em sua skill `exportar-anki-tsv`. Scripts funcionam localmente e não incluem tokens ou conexão automática a serviços.
+Após alterar pacotes ou áreas, executar `python3 scripts/generate_catalog.py` para atualizar o README, catálogo e índice. Confira [como contribuir](CONTRIBUTING.md).
 
-## Qualidade e limites
+## Licença e mudanças
 
-- Distinguir análise executada de código ou roteiro apenas preparado.
-- Usar fontes oficiais e registrar edição, período e data em pesquisas atuais.
-- Não substituir dados ausentes por números inventados.
-- Não publicar conteúdo nem enviar dados a terceiros sem pedido específico.
-- Os checks locais conferem estrutura e consistência; não certificam todos os comportamentos nem garantem importação em cada cliente.
-
-## Licença
-
-[MIT](LICENSE). O conteúdo novo desta ampliação foi escrito para este projeto; os repositórios pesquisados serviram como referência de organização, sem importar suas coleções. Recursos de terceiros já existentes mantêm seus avisos e condições.
+[Licença MIT](LICENSE) · [Histórico de mudanças](CHANGELOG.md). Recursos de terceiros mantêm seus avisos e condições.
