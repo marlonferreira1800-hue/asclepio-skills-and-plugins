@@ -1,0 +1,4 @@
+interface:
+  display_name: "Consolidar despesas"
+  short_description: "Fluxo prático: Consolidar despesas"
+  default_prompt: "Use $consolidar-despesas para esta tarefa: Consolide estes recibos em uma tabela mensal de despesas."

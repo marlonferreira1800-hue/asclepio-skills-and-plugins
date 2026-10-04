@@ -1,0 +1,4 @@
+interface:
+  display_name: "Classificar arquivos"
+  short_description: "Fluxo prático: Classificar arquivos"
+  default_prompt: "Use $classificar-arquivos para esta tarefa: Organize um inventário das minhas apostilas por disciplina."

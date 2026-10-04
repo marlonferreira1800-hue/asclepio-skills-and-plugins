@@ -15,6 +15,7 @@
 
 ## Registros da ampliação
 
+- [Segunda expansão: 56 novas skills](segunda-expansao.md).
 - [Mapa das 79 skills adicionadas](novas-skills.md).
 - [Verificação de outubro de 2026](verificacao-2026-10-03.md).
 

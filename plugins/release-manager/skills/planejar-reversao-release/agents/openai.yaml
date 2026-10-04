@@ -1,0 +1,4 @@
+interface:
+  display_name: "Planejar reversão de release"
+  short_description: "Fluxo prático: Planejar reversão de release"
+  default_prompt: "Use $planejar-reversao-release para esta tarefa: Prepare um plano de reversão para esta entrega."

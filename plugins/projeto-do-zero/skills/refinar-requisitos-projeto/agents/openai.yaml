@@ -1,0 +1,4 @@
+interface:
+  display_name: "Refinar requisitos de projeto"
+  short_description: "Fluxo prático: Refinar requisitos de projeto"
+  default_prompt: "Use $refinar-requisitos-projeto para esta tarefa: Transforme minha ideia de aplicativo em requisitos claros."

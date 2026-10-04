@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dividir implementação de projeto"
+  short_description: "Fluxo prático: Dividir implementação de projeto"
+  default_prompt: "Use $dividir-implementacao-projeto para esta tarefa: Divida este projeto em tarefas pequenas e executáveis."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verificar status de ensaios"
+  short_description: "Fluxo prático: Verificar status de ensaios"
+  default_prompt: "Use $verificar-status-ensaios para esta tarefa: Confira quais destes estudos estão recrutando no Brasil."

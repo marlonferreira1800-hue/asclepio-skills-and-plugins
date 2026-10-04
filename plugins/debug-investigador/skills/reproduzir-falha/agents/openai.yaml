@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reproduzir falha"
+  short_description: "Fluxo prático: Reproduzir falha"
+  default_prompt: "Use $reproduzir-falha para esta tarefa: Reproduza este erro no menor exemplo possível."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Organizar séries DICOM"
+  short_description: "Fluxo prático: Organizar séries DICOM"
+  default_prompt: "Use $organizar-series-dicom para esta tarefa: Agrupe estas imagens DICOM por série e verifique a ordem."

@@ -1,0 +1,20 @@
+{
+  "name": "reuniao-clara",
+  "version": "0.1.0",
+  "description": "Resumir transcrições, separar decisões, responsáveis e pendências.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "interface": {
+    "displayName": "Reunião Clara",
+    "shortDescription": "Transforme reuniões em ações",
+    "longDescription": "Resumir transcrições, separar decisões, responsáveis e pendências. Transcrição autorizada ou ferramenta de transcrição disponível. Não grava nem envia mensagens automaticamente.",
+    "developerName": "Marlon Ferreira",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": "Resuma esta reunião e destaque os assuntos principais."
+  },
+  "skills": "./skills"
+}

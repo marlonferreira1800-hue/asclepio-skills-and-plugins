@@ -1,0 +1,20 @@
+{
+  "name": "imagem-medica-lab",
+  "version": "0.1.0",
+  "description": "Inspecionar metadados DICOM, organizar séries, localizar bases públicas e avaliar qualidade técnica para pesquisa.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "interface": {
+    "displayName": "Imagem Médica Lab",
+    "shortDescription": "Explore imagens para estudo",
+    "longDescription": "Inspecionar metadados DICOM, organizar séries, localizar bases públicas e avaliar qualidade técnica para pesquisa. Arquivos autorizados e pydicom/visualizador quando necessários. Trabalhar localmente com dados sintéticos ou autorizados; não emite laudos.",
+    "developerName": "Marlon Ferreira",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": "Inspecione tecnicamente estes DICOM sem mostrar dados de paciente."
+  },
+  "skills": "./skills"
+}

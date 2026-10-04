@@ -1,0 +1,4 @@
+interface:
+  display_name: "Planejar amostra de pesquisa"
+  short_description: "Fluxo prático: Planejar amostra de pesquisa"
+  default_prompt: "Use $planejar-amostra-pesquisa para esta tarefa: Planeje uma amostra para comparar médias entre dois grupos."

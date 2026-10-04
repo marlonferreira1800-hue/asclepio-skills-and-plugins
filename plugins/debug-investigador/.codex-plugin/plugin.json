@@ -1,0 +1,20 @@
+{
+  "name": "debug-investigador",
+  "version": "0.1.0",
+  "description": "Reproduzir falhas, investigar causas, aplicar correções e verificar resultados em projetos diversos.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "interface": {
+    "displayName": "Debug Investigador",
+    "shortDescription": "Investigue e corrija falhas",
+    "longDescription": "Reproduzir falhas, investigar causas, aplicar correções e verificar resultados em projetos diversos. Checkout e ambiente de teste autorizados; logs sanitizados e ferramentas apropriadas à linguagem.",
+    "developerName": "Marlon Ferreira",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": "Reproduza este erro no menor exemplo possível."
+  },
+  "skills": "./skills"
+}

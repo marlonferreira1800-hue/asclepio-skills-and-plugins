@@ -1,0 +1,4 @@
+interface:
+  display_name: "Detectar arquivos duplicados"
+  short_description: "Fluxo prático: Detectar arquivos duplicados"
+  default_prompt: "Use $detectar-arquivos-duplicados para esta tarefa: Encontre arquivos repetidos nesta pasta sem excluir nenhum."

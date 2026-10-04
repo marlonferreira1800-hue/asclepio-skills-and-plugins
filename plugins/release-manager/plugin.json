@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "release-manager",
+  "version": "0.1.0",
+  "description": "Verificar versões, preparar releases, planejar migração e reversão.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Release Manager",
+        "shortDescription": "Prepare versões e entregas",
+        "longDescription": "Verificar versões, preparar releases, planejar migração e reversão. Repositório e convenções do projeto; publicação e deploy só no escopo explicitamente autorizado.",
+        "developerName": "Marlon Ferreira",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": "Confira se a versão está correta para estas mudanças."
+      }
+    }
+  }
+}

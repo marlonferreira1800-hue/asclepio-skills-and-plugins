@@ -1,0 +1,20 @@
+{
+  "name": "projeto-cientifico",
+  "version": "0.1.0",
+  "description": "Formular hipóteses, definir variáveis, planejar amostra e estruturar protocolos de pesquisa.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "interface": {
+    "displayName": "Projeto Científico",
+    "shortDescription": "Planeje pesquisas científicas",
+    "longDescription": "Formular hipóteses, definir variáveis, planejar amostra e estruturar protocolos de pesquisa. Pergunta e contexto científico; fontes metodológicas primárias e orientação institucional quando aplicável.",
+    "developerName": "Marlon Ferreira",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": "Transforme ensino de anatomia com realidade virtual em uma pergunta de pesquisa."
+  },
+  "skills": "./skills"
+}

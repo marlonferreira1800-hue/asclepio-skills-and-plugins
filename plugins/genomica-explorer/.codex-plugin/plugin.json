@@ -1,0 +1,20 @@
+{
+  "name": "genomica-explorer",
+  "version": "0.1.0",
+  "description": "Consultar genes, reconciliar identificadores, comparar anotações e mapear vias para pesquisa.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "interface": {
+    "displayName": "Genômica Explorer",
+    "shortDescription": "Explore genes e vias",
+    "longDescription": "Consultar genes, reconciliar identificadores, comparar anotações e mapear vias para pesquisa. Bases oficiais e acesso de consulta; dados autorizados. Não interpreta teste genético individual nem orienta conduta clínica.",
+    "developerName": "Marlon Ferreira",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": "Explique este gene e mostre as fontes oficiais."
+  },
+  "skills": "./skills"
+}

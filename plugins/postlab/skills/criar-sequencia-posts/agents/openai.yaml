@@ -1,0 +1,4 @@
+interface:
+  display_name: "Criar sequência de posts"
+  short_description: "Fluxo prático: Criar sequência de posts"
+  default_prompt: "Use $criar-sequencia-posts para esta tarefa: Divida esta aula em uma série de cinco posts."

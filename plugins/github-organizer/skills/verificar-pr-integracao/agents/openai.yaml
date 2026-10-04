@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verificar PR antes de integração"
+  short_description: "Fluxo prático: Verificar PR antes de integração"
+  default_prompt: "Use $verificar-pr-integracao para esta tarefa: Confira se este PR está pronto para integrar."

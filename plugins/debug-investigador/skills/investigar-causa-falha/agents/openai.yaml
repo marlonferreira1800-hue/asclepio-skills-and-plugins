@@ -1,0 +1,4 @@
+interface:
+  display_name: "Investigar causa de falha"
+  short_description: "Fluxo prático: Investigar causa de falha"
+  default_prompt: "Use $investigar-causa-falha para esta tarefa: Investigue por que esta falha ocorre só em algumas entradas."

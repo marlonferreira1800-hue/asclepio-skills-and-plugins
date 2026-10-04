@@ -1,0 +1,4 @@
+interface:
+  display_name: "Definir variáveis de pesquisa"
+  short_description: "Fluxo prático: Definir variáveis de pesquisa"
+  default_prompt: "Use $definir-variaveis-pesquisa para esta tarefa: Defina variáveis para comparar dois métodos de estudo."

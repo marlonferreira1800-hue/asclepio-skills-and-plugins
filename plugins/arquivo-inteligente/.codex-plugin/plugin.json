@@ -1,0 +1,20 @@
+{
+  "name": "arquivo-inteligente",
+  "version": "0.1.0",
+  "description": "Inventariar arquivos, reconhecer duplicatas, propor nomes e organizar pastas com rastreabilidade.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "interface": {
+    "displayName": "Arquivo Inteligente",
+    "shortDescription": "Organize arquivos e pastas",
+    "longDescription": "Inventariar arquivos, reconhecer duplicatas, propor nomes e organizar pastas com rastreabilidade. Acesso autorizado aos arquivos; Python padrão para inventário. Mudanças usam plano explícito, sem exclusão automática.",
+    "developerName": "Marlon Ferreira",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": "Organize um inventário das minhas apostilas por disciplina."
+  },
+  "skills": "./skills"
+}

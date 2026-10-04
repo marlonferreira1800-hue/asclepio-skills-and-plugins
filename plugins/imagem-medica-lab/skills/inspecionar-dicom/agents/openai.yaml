@@ -1,0 +1,4 @@
+interface:
+  display_name: "Inspecionar metadados DICOM"
+  short_description: "Fluxo prático: Inspecionar metadados DICOM"
+  default_prompt: "Use $inspecionar-dicom para esta tarefa: Inspecione tecnicamente estes DICOM sem mostrar dados de paciente."

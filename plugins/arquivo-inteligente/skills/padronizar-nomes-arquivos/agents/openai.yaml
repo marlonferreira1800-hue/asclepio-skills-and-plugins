@@ -1,0 +1,4 @@
+interface:
+  display_name: "Padronizar nomes de arquivos"
+  short_description: "Fluxo prático: Padronizar nomes de arquivos"
+  default_prompt: "Use $padronizar-nomes-arquivos para esta tarefa: Padronize os nomes das apostilas e mostre o mapa de alteração."

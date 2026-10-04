@@ -54,3 +54,16 @@ python3 scripts/package_plugin.py plugins/datalab /caminho/de/saida/datalab.zip
 A saída precisa estar fora da pasta do plugin e ainda não existir. O utilitário inclui uma única raiz, mantém arquivos ocultos de compatibilidade, exclui caches e recusa links simbólicos e nomes de arquivos secretos conhecidos. A detecção por nome não substitui revisão humana para credenciais embutidas no conteúdo. O resultado inclui SHA-256 e contagem de arquivos.
 
 Gerar pacote não significa instalar, publicar ou conectar uma ferramenta. Para publicar um plugin em diretório público, seguir os requisitos atuais desse diretório separadamente.
+
+## Inventário de arquivos e recibos
+
+Os utilitários exigem Python 3.10 ou superior e não usam dependências externas. Não substituem saídas existentes.
+
+```bash
+python3 plugins/arquivo-inteligente/skills/classificar-arquivos/scripts/inventory.py --root /pasta/autorizada --output /tmp/inventario.json --hash
+python3 plugins/recibos-despesas/skills/consolidar-despesas/scripts/consolidate.py /tmp/recibos.json /tmp/resumo.csv
+```
+
+O inventário não move arquivos nem segue links simbólicos. Exclui pastas de dependências e nomes conhecidos de credenciais; a lista não é uma detecção completa de segredos. `--hash` lê bytes para identificar conteúdo idêntico, incluindo arquivos vazios; sem essa opção não confirma duplicatas. Erros ficam no JSON.
+
+A consolidação recebe uma lista JSON: `[{"date":"2026-10-03","amount":"12.50","currency":"BRL","category":"Material","source":"recibo-001","id":"001"}]`. Todos os campos, exceto `id`, são obrigatórios; datas devem ser válidas, valores decimais devem ser strings e moedas devem ter três letras maiúsculas. Moedas diferentes ficam separadas, valores negativos são estornos, IDs repetidos causam erro. As fontes permanecem na entrada original; o CSV contém mês, moeda, categoria, quantidade e soma. Sem ID, suspeitas de duplicação precisam ser revisadas antes.

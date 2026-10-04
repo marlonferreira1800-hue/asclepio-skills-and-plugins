@@ -1,0 +1,4 @@
+interface:
+  display_name: "Organizar fases de ensaios"
+  short_description: "Fluxo prático: Organizar fases de ensaios"
+  default_prompt: "Use $organizar-fases-ensaios para esta tarefa: Organize estes estudos por fase e explique as diferenças."

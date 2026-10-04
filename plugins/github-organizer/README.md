@@ -23,3 +23,25 @@ Este pacote fornece instruções reutilizáveis. Não cria conexões, assinatura
 - Atualize o catálogo com todos os plugins e skills presentes.
 - Escreva o changelog destas alterações.
 - Verifique todos os links locais e externos do README.
+
+## Skills desta ampliação
+
+| Skill | Função |
+|---|---|
+| [`revisar-diff-codigo`](skills/revisar-diff-codigo/SKILL.md) | Revisar diff de código |
+| [`avaliar-impacto-alteracao`](skills/avaliar-impacto-alteracao/SKILL.md) | Avaliar impacto de alteração |
+| [`responder-feedback-codigo`](skills/responder-feedback-codigo/SKILL.md) | Preparar resposta a revisão |
+| [`verificar-pr-integracao`](skills/verificar-pr-integracao/SKILL.md) | Verificar PR antes de integração |
+
+## Requisitos e execução
+
+Repositório e diff autorizados; não envia comentários nem integra código sem pedido.
+
+Este pacote fornece instruções reutilizáveis. Não cria conexões, assinaturas, publicação ou execução automática. Os scripts incluídos estão documentados nas skills que os utilizam.
+
+## Exemplos
+
+- Revise este diff antes de integrar.
+- Avalie o impacto desta mudança de API.
+- Analise estes comentários e prepare as correções e respostas.
+- Confira se este PR está pronto para integrar.

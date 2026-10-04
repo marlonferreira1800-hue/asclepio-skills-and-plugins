@@ -1,0 +1,4 @@
+interface:
+  display_name: "Comparar anotações genômicas"
+  short_description: "Fluxo prático: Comparar anotações genômicas"
+  default_prompt: "Use $comparar-anotacoes-genomicas para esta tarefa: Compare as anotações deste gene nas duas bases."

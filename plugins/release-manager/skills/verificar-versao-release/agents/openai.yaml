@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verificar versão de release"
+  short_description: "Fluxo prático: Verificar versão de release"
+  default_prompt: "Use $verificar-versao-release para esta tarefa: Confira se a versão está correta para estas mudanças."

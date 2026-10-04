@@ -1,0 +1,4 @@
+interface:
+  display_name: "Identificar responsáveis de reunião"
+  short_description: "Fluxo prático: Identificar responsáveis de reunião"
+  default_prompt: "Use $identificar-responsaveis-reuniao para esta tarefa: Extraia tarefas e responsáveis desta transcrição."

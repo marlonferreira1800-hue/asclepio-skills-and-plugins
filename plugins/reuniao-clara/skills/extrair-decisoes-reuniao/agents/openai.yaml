@@ -1,0 +1,4 @@
+interface:
+  display_name: "Extrair decisões de reunião"
+  short_description: "Fluxo prático: Extrair decisões de reunião"
+  default_prompt: "Use $extrair-decisoes-reuniao para esta tarefa: Liste somente as decisões tomadas nesta reunião."

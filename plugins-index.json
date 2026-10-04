@@ -1,6 +1,6 @@
 {
   "name": "asclepio-skills-and-plugins",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Ecossistema de plugins e habilidades para aprendizagem, produtividade e pesquisa prática em diferentes áreas.",
   "author": {
     "name": "Marlon Ferreira"
@@ -39,6 +39,22 @@
       ]
     },
     {
+      "name": "arquivo-inteligente",
+      "displayName": "Arquivo Inteligente",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "group": "carreira",
+      "skill": "classificar-arquivos",
+      "description": "Inventariar arquivos, reconhecer duplicatas, propor nomes e organizar pastas com rastreabilidade.",
+      "path": "plugins/arquivo-inteligente",
+      "skills": [
+        "classificar-arquivos",
+        "detectar-arquivos-duplicados",
+        "padronizar-nomes-arquivos",
+        "planejar-pastas"
+      ]
+    },
+    {
       "name": "artigo-critico",
       "displayName": "Artigo Crítico",
       "version": "0.1.0",
@@ -52,6 +68,22 @@
         "avaliar-vieses",
         "identificar-desenho-estudo",
         "interpretar-estatistica-artigo"
+      ]
+    },
+    {
+      "name": "bioestatistica-lab",
+      "displayName": "Bioestatística Lab",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "group": "pesquisa",
+      "skill": "escolher-teste-estatistico",
+      "description": "Escolher testes, avaliar pressupostos, calcular efeitos e interpretar resultados de pesquisa.",
+      "path": "plugins/bioestatistica-lab",
+      "skills": [
+        "avaliar-pressupostos-estatisticos",
+        "calcular-efeitos-estatisticos",
+        "escolher-teste-estatistico",
+        "interpretar-resultados-pesquisa"
       ]
     },
     {
@@ -134,17 +166,37 @@
     {
       "name": "datalab",
       "displayName": "DataLab — Análise de Dados",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "Productivity",
       "group": "dados",
       "skill": "criar-graficos-dados",
       "description": "Limpar bases, explorar dados, construir gráficos e produzir relatórios reproduzíveis.",
       "path": "plugins/datalab",
       "skills": [
+        "criar-figura-publicacao",
         "criar-graficos-dados",
+        "escrever-legenda-cientifica",
         "explorar-dados",
+        "exportar-figura-cientifica",
         "limpar-base-dados",
+        "padronizar-paineis-figura",
         "relatar-analise-dados"
+      ]
+    },
+    {
+      "name": "debug-investigador",
+      "displayName": "Debug Investigador",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "group": "desenvolvimento",
+      "skill": "reproduzir-falha",
+      "description": "Reproduzir falhas, investigar causas, aplicar correções e verificar resultados em projetos diversos.",
+      "path": "plugins/debug-investigador",
+      "skills": [
+        "corrigir-causa-falha",
+        "investigar-causa-falha",
+        "reproduzir-falha",
+        "verificar-correcao-falha"
       ]
     },
     {
@@ -181,19 +233,71 @@
       ]
     },
     {
+      "name": "ensaios-clinicos-radar",
+      "displayName": "Ensaios Clínicos Radar",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "group": "pesquisa",
+      "skill": "buscar-ensaios-registrados",
+      "description": "Buscar ensaios registrados, comparar protocolos e organizar fases e status com fontes.",
+      "path": "plugins/ensaios-clinicos-radar",
+      "skills": [
+        "buscar-ensaios-registrados",
+        "comparar-protocolos-ensaios",
+        "organizar-fases-ensaios",
+        "verificar-status-ensaios"
+      ]
+    },
+    {
+      "name": "genomica-explorer",
+      "displayName": "Genômica Explorer",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "group": "pesquisa",
+      "skill": "consultar-genes",
+      "description": "Consultar genes, reconciliar identificadores, comparar anotações e mapear vias para pesquisa.",
+      "path": "plugins/genomica-explorer",
+      "skills": [
+        "comparar-anotacoes-genomicas",
+        "consultar-genes",
+        "mapear-vias-biologicas",
+        "reconciliar-identificadores-genomicos"
+      ]
+    },
+    {
       "name": "github-organizer",
       "displayName": "GitHub Organizer",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "Productivity",
       "group": "desenvolvimento",
       "skill": "catalogar-plugins",
       "description": "Melhorar README, gerar catálogo, registrar mudanças e conferir links.",
       "path": "plugins/github-organizer",
       "skills": [
+        "avaliar-impacto-alteracao",
         "catalogar-plugins",
         "escrever-changelog",
         "melhorar-readme",
-        "verificar-links-repositorio"
+        "responder-feedback-codigo",
+        "revisar-diff-codigo",
+        "verificar-links-repositorio",
+        "verificar-pr-integracao"
+      ]
+    },
+    {
+      "name": "imagem-medica-lab",
+      "displayName": "Imagem Médica Lab",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "group": "pesquisa",
+      "skill": "inspecionar-dicom",
+      "description": "Inspecionar metadados DICOM, organizar séries, localizar bases públicas e avaliar qualidade técnica para pesquisa.",
+      "path": "plugins/imagem-medica-lab",
+      "skills": [
+        "avaliar-qualidade-imagem-pesquisa",
+        "buscar-bases-imagens-medicas",
+        "inspecionar-dicom",
+        "organizar-series-dicom"
       ]
     },
     {
@@ -302,18 +406,54 @@
     {
       "name": "postlab",
       "displayName": "PostLab — Designer Criativo",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "category": "Productivity",
       "group": "criacao",
       "skill": "criar-posts-criativos",
       "description": "Designer de posts criativos com artes, fotos, legendas e carrosséis para redes sociais.",
       "path": "plugins/postlab",
       "skills": [
+        "adaptar-conteudo-canal",
         "adaptar-formato-post",
+        "adaptar-newsletter",
         "criar-posts-criativos",
+        "criar-sequencia-posts",
         "manter-identidade-visual",
         "planejar-carrossel",
-        "revisar-texto-arte"
+        "revisar-texto-arte",
+        "transformar-texto-roteiro"
+      ]
+    },
+    {
+      "name": "projeto-cientifico",
+      "displayName": "Projeto Científico",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "group": "pesquisa",
+      "skill": "formular-hipotese-pesquisa",
+      "description": "Formular hipóteses, definir variáveis, planejar amostra e estruturar protocolos de pesquisa.",
+      "path": "plugins/projeto-cientifico",
+      "skills": [
+        "definir-variaveis-pesquisa",
+        "estruturar-protocolo-pesquisa",
+        "formular-hipotese-pesquisa",
+        "planejar-amostra-pesquisa"
+      ]
+    },
+    {
+      "name": "projeto-do-zero",
+      "displayName": "Projeto do Zero",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "group": "desenvolvimento",
+      "skill": "refinar-requisitos-projeto",
+      "description": "Refinar requisitos, definir aceite, dividir implementação e organizar dependências de um projeto.",
+      "path": "plugins/projeto-do-zero",
+      "skills": [
+        "definir-aceite-projeto",
+        "dividir-implementacao-projeto",
+        "mapear-dependencias-projeto",
+        "refinar-requisitos-projeto"
       ]
     },
     {
@@ -346,6 +486,38 @@
       ]
     },
     {
+      "name": "recibos-despesas",
+      "displayName": "Recibos & Despesas",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "group": "financas",
+      "skill": "extrair-dados-recibos",
+      "description": "Extrair recibos, categorizar gastos, identificar duplicidades e consolidar valores com origem.",
+      "path": "plugins/recibos-despesas",
+      "skills": [
+        "categorizar-despesas",
+        "conferir-duplicidades-recibos",
+        "consolidar-despesas",
+        "extrair-dados-recibos"
+      ]
+    },
+    {
+      "name": "release-manager",
+      "displayName": "Release Manager",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "group": "desenvolvimento",
+      "skill": "verificar-versao-release",
+      "description": "Verificar versões, preparar releases, planejar migração e reversão.",
+      "path": "plugins/release-manager",
+      "skills": [
+        "planejar-migracao-release",
+        "planejar-reversao-release",
+        "preparar-entrega-release",
+        "verificar-versao-release"
+      ]
+    },
+    {
       "name": "residencia-radar-brasil",
       "displayName": "Residência Radar Brasil",
       "version": "0.2.0",
@@ -373,6 +545,22 @@
       "path": "plugins/resumo-visual-manuscrito",
       "skills": [
         "criar-resumo-visual"
+      ]
+    },
+    {
+      "name": "reuniao-clara",
+      "displayName": "Reunião Clara",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "group": "carreira",
+      "skill": "resumir-reuniao",
+      "description": "Resumir transcrições, separar decisões, responsáveis e pendências.",
+      "path": "plugins/reuniao-clara",
+      "skills": [
+        "extrair-decisoes-reuniao",
+        "identificar-responsaveis-reuniao",
+        "organizar-pendencias-reuniao",
+        "resumir-reuniao"
       ]
     },
     {

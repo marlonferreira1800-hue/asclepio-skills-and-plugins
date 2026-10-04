@@ -1,0 +1,4 @@
+interface:
+  display_name: "Preparar entrega de release"
+  short_description: "Fluxo prático: Preparar entrega de release"
+  default_prompt: "Use $preparar-entrega-release para esta tarefa: Prepare a entrega desta versão com notas e hashes."

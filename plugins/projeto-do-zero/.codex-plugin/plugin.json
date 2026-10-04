@@ -1,0 +1,20 @@
+{
+  "name": "projeto-do-zero",
+  "version": "0.1.0",
+  "description": "Refinar requisitos, definir aceite, dividir implementação e organizar dependências de um projeto.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "interface": {
+    "displayName": "Projeto do Zero",
+    "shortDescription": "Transforme ideias em projetos",
+    "longDescription": "Refinar requisitos, definir aceite, dividir implementação e organizar dependências de um projeto. Descrição da ideia, usuários e restrições; não requer integração nova.",
+    "developerName": "Marlon Ferreira",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": "Transforme minha ideia de aplicativo em requisitos claros."
+  },
+  "skills": "./skills"
+}

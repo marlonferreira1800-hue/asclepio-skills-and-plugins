@@ -1,0 +1,4 @@
+interface:
+  display_name: "Resumir reunião"
+  short_description: "Fluxo prático: Resumir reunião"
+  default_prompt: "Use $resumir-reuniao para esta tarefa: Resuma esta reunião e destaque os assuntos principais."

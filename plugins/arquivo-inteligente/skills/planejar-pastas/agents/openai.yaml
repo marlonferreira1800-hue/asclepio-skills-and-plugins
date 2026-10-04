@@ -1,0 +1,4 @@
+interface:
+  display_name: "Planejar estrutura de pastas"
+  short_description: "Fluxo prático: Planejar estrutura de pastas"
+  default_prompt: "Use $planejar-pastas para esta tarefa: Planeje pastas para aulas, provas, resumos e artigos."

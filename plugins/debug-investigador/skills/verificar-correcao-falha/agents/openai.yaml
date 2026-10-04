@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verificar correção de falha"
+  short_description: "Fluxo prático: Verificar correção de falha"
+  default_prompt: "Use $verificar-correcao-falha para esta tarefa: Verifique se esta correção resolveu o erro sem quebrar os casos próximos."

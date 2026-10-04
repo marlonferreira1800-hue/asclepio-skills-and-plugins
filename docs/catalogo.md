@@ -2,7 +2,7 @@
 
 # Catálogo de plugins e skills
 
-28 plugins e 94 skills. Os nomes abaixo são os identificadores reais dos arquivos. Para exemplos e dependências, abra o README de cada plugin.
+39 plugins e 150 skills. Os nomes abaixo são os identificadores reais dos arquivos. Para exemplos e dependências, abra o README de cada plugin.
 
 [Voltar ao início](../README.md) · [Guia rápido](guia-rapido.md)
 
@@ -100,15 +100,19 @@ Criar flashcards básicos, cloze e exportação TSV com origem rastreável.
 
 ### DataLab — Análise de Dados
 
-[Documentação do plugin](../plugins/datalab/README.md) · Versão `0.1.0`
+[Documentação do plugin](../plugins/datalab/README.md) · Versão `0.2.0`
 
 Limpar bases, explorar dados, construir gráficos e produzir relatórios reproduzíveis.
 
 | Skill | Quando usar |
 |---|---|
+| [`criar-figura-publicacao`](../plugins/datalab/skills/criar-figura-publicacao/SKILL.md) | Use para produzir gráfico exato adequado à publicação. |
 | [`criar-graficos-dados`](../plugins/datalab/skills/criar-graficos-dados/SKILL.md) | Use para visualizar tendências, categorias, composição ou distribuição de dados fornecidos. |
+| [`escrever-legenda-cientifica`](../plugins/datalab/skills/escrever-legenda-cientifica/SKILL.md) | Use para redigir legenda que permita entender uma figura sem depender do corpo do artigo. |
 | [`explorar-dados`](../plugins/datalab/skills/explorar-dados/SKILL.md) | Use para análise exploratória de uma base, distribuições, padrões, correlações e qualidade de dados. |
+| [`exportar-figura-cientifica`](../plugins/datalab/skills/exportar-figura-cientifica/SKILL.md) | Use para preparar formatos e resolução de figura conforme destino. |
 | [`limpar-base-dados`](../plugins/datalab/skills/limpar-base-dados/SKILL.md) | Use para limpar CSV, TSV ou Excel, padronizar colunas e avaliar valores ausentes ou duplicados. |
+| [`padronizar-paineis-figura`](../plugins/datalab/skills/padronizar-paineis-figura/SKILL.md) | Use para organizar figuras multipainel com escalas e rótulos consistentes. |
 | [`relatar-analise-dados`](../plugins/datalab/skills/relatar-analise-dados/SKILL.md) | Use para consolidar uma análise em relatório com metodologia, resultados e limitações. |
 
 ### SQL Mentor
@@ -193,23 +197,92 @@ Consulta simples a dados públicos de doenças no Brasil usando fontes oficiais 
 | [`explicar-indicadores-saude`](../plugins/dados-saude-brasil/skills/explicar-indicadores-saude/SKILL.md) | Use para distinguir notificações, casos, internações, óbitos, incidência, mortalidade e letalidade. |
 | [`serie-historica-saude`](../plugins/dados-saude-brasil/skills/serie-historica-saude/SKILL.md) | Use para organizar tendência anual ou mensal de casos, internações ou óbitos. |
 
+### Projeto Científico
+
+[Documentação do plugin](../plugins/projeto-cientifico/README.md) · Versão `0.1.0`
+
+Formular hipóteses, definir variáveis, planejar amostra e estruturar protocolos de pesquisa.
+
+| Skill | Quando usar |
+|---|---|
+| [`definir-variaveis-pesquisa`](../plugins/projeto-cientifico/skills/definir-variaveis-pesquisa/SKILL.md) | Use para criar dicionário de variáveis e desfechos. |
+| [`estruturar-protocolo-pesquisa`](../plugins/projeto-cientifico/skills/estruturar-protocolo-pesquisa/SKILL.md) | Use para montar protocolo a partir de pergunta e desenho. |
+| [`formular-hipotese-pesquisa`](../plugins/projeto-cientifico/skills/formular-hipotese-pesquisa/SKILL.md) | Use para transformar tema em pergunta e hipótese testável. |
+| [`planejar-amostra-pesquisa`](../plugins/projeto-cientifico/skills/planejar-amostra-pesquisa/SKILL.md) | Use para definir estratégia amostral e parâmetros de tamanho amostral. |
+
+### Bioestatística Lab
+
+[Documentação do plugin](../plugins/bioestatistica-lab/README.md) · Versão `0.1.0`
+
+Escolher testes, avaliar pressupostos, calcular efeitos e interpretar resultados de pesquisa.
+
+| Skill | Quando usar |
+|---|---|
+| [`avaliar-pressupostos-estatisticos`](../plugins/bioestatistica-lab/skills/avaliar-pressupostos-estatisticos/SKILL.md) | Use para conferir condições para análise estatística. |
+| [`calcular-efeitos-estatisticos`](../plugins/bioestatistica-lab/skills/calcular-efeitos-estatisticos/SKILL.md) | Use para estimar magnitude de efeitos e intervalos de confiança. |
+| [`escolher-teste-estatistico`](../plugins/bioestatistica-lab/skills/escolher-teste-estatistico/SKILL.md) | Use para selecionar método conforme pergunta, desenho e variáveis. |
+| [`interpretar-resultados-pesquisa`](../plugins/bioestatistica-lab/skills/interpretar-resultados-pesquisa/SKILL.md) | Use para redigir interpretação estatística com relevância prática. |
+
+### Ensaios Clínicos Radar
+
+[Documentação do plugin](../plugins/ensaios-clinicos-radar/README.md) · Versão `0.1.0`
+
+Buscar ensaios registrados, comparar protocolos e organizar fases e status com fontes.
+
+| Skill | Quando usar |
+|---|---|
+| [`buscar-ensaios-registrados`](../plugins/ensaios-clinicos-radar/skills/buscar-ensaios-registrados/SKILL.md) | Use para localizar pesquisas registradas por condição, intervenção e local. |
+| [`comparar-protocolos-ensaios`](../plugins/ensaios-clinicos-radar/skills/comparar-protocolos-ensaios/SKILL.md) | Use para comparar populações, intervenções e desfechos de protocolos. |
+| [`organizar-fases-ensaios`](../plugins/ensaios-clinicos-radar/skills/organizar-fases-ensaios/SKILL.md) | Use para explicar e classificar fases e desenhos de estudos registrados. |
+| [`verificar-status-ensaios`](../plugins/ensaios-clinicos-radar/skills/verificar-status-ensaios/SKILL.md) | Use para conferir recrutamento, conclusão e atualização de registros. |
+
+### Imagem Médica Lab
+
+[Documentação do plugin](../plugins/imagem-medica-lab/README.md) · Versão `0.1.0`
+
+Inspecionar metadados DICOM, organizar séries, localizar bases públicas e avaliar qualidade técnica para pesquisa.
+
+| Skill | Quando usar |
+|---|---|
+| [`avaliar-qualidade-imagem-pesquisa`](../plugins/imagem-medica-lab/skills/avaliar-qualidade-imagem-pesquisa/SKILL.md) | Use para verificar dimensões, artefatos técnicos e consistência de imagens para pesquisa. |
+| [`buscar-bases-imagens-medicas`](../plugins/imagem-medica-lab/skills/buscar-bases-imagens-medicas/SKILL.md) | Use para localizar datasets públicos de radiologia ou patologia para estudo. |
+| [`inspecionar-dicom`](../plugins/imagem-medica-lab/skills/inspecionar-dicom/SKILL.md) | Use para ler metadados técnicos de arquivos DICOM autorizados. |
+| [`organizar-series-dicom`](../plugins/imagem-medica-lab/skills/organizar-series-dicom/SKILL.md) | Use para agrupar imagens em estudos e séries para pesquisa. |
+
+### Genômica Explorer
+
+[Documentação do plugin](../plugins/genomica-explorer/README.md) · Versão `0.1.0`
+
+Consultar genes, reconciliar identificadores, comparar anotações e mapear vias para pesquisa.
+
+| Skill | Quando usar |
+|---|---|
+| [`comparar-anotacoes-genomicas`](../plugins/genomica-explorer/skills/comparar-anotacoes-genomicas/SKILL.md) | Use para comparar funções ou coordenadas anotadas de genes e transcritos. |
+| [`consultar-genes`](../plugins/genomica-explorer/skills/consultar-genes/SKILL.md) | Use para buscar informações de um gene em bases oficiais. |
+| [`mapear-vias-biologicas`](../plugins/genomica-explorer/skills/mapear-vias-biologicas/SKILL.md) | Use para relacionar lista de genes a vias ou funções em bases de pesquisa. |
+| [`reconciliar-identificadores-genomicos`](../plugins/genomica-explorer/skills/reconciliar-identificadores-genomicos/SKILL.md) | Use para mapear símbolos e IDs entre bases para pesquisa. |
+
 ## criacao
 
 **Design, documentos e conteúdo**
 
 ### PostLab — Designer Criativo
 
-[Documentação do plugin](../plugins/postlab/README.md) · Versão `0.2.0`
+[Documentação do plugin](../plugins/postlab/README.md) · Versão `0.3.0`
 
 Designer de posts criativos com artes, fotos, legendas e carrosséis para redes sociais.
 
 | Skill | Quando usar |
 |---|---|
+| [`adaptar-conteudo-canal`](../plugins/postlab/skills/adaptar-conteudo-canal/SKILL.md) | Use para reaproveitar mensagem em formatos textuais de redes distintas. |
 | [`adaptar-formato-post`](../plugins/postlab/skills/adaptar-formato-post/SKILL.md) | Use para adaptar arte ou conteúdo entre formatos e redes sociais. |
+| [`adaptar-newsletter`](../plugins/postlab/skills/adaptar-newsletter/SKILL.md) | Use para criar newsletter a partir de material verificável. |
 | [`criar-posts-criativos`](../plugins/postlab/skills/criar-posts-criativos/SKILL.md) | Criar e refinar posts bonitos e criativos para Instagram, LinkedIn e outras redes, com direção de arte, imagens, legendas e carrosséis. Usar para design de post, arte para rede social, melhoria visual, campanha visual ou carrossel com identidade consistente. |
+| [`criar-sequencia-posts`](../plugins/postlab/skills/criar-sequencia-posts/SKILL.md) | Use para dividir tema em série de publicações complementares. |
 | [`manter-identidade-visual`](../plugins/postlab/skills/manter-identidade-visual/SKILL.md) | Use para criar guia visual ou aplicar consistência a uma série de posts. |
 | [`planejar-carrossel`](../plugins/postlab/skills/planejar-carrossel/SKILL.md) | Use para roteirizar páginas de carrossel educativo ou profissional. |
 | [`revisar-texto-arte`](../plugins/postlab/skills/revisar-texto-arte/SKILL.md) | Use para identificar erros de ortografia, conteúdo e legibilidade em imagem de post. |
+| [`transformar-texto-roteiro`](../plugins/postlab/skills/transformar-texto-roteiro/SKILL.md) | Use para adaptar aula, artigo ou texto para roteiro de vídeo ou áudio. |
 
 ### LinkedIn Conteúdo Diário
 
@@ -259,7 +332,7 @@ Criar relatórios, formatar documentos, preparar apresentações e revisar PDFs.
 
 ## carreira
 
-**Carreira e concursos**
+**Carreira, concursos e organização**
 
 ### Carreira Lab
 
@@ -288,22 +361,52 @@ Lê editais de concursos e seleções e transforma requisitos, etapas, salários
 | [`montar-checklist-edital`](../plugins/edital-facil/skills/montar-checklist-edital/SKILL.md) | Use para criar lista de documentos e ações de inscrição ou matrícula a partir de edital. |
 | [`organizar-prazos-edital`](../plugins/edital-facil/skills/organizar-prazos-edital/SKILL.md) | Use para montar cronograma de inscrição, recursos, provas e resultados de um edital. |
 
+### Arquivo Inteligente
+
+[Documentação do plugin](../plugins/arquivo-inteligente/README.md) · Versão `0.1.0`
+
+Inventariar arquivos, reconhecer duplicatas, propor nomes e organizar pastas com rastreabilidade.
+
+| Skill | Quando usar |
+|---|---|
+| [`classificar-arquivos`](../plugins/arquivo-inteligente/skills/classificar-arquivos/SKILL.md) | Use para inventariar e classificar documentos por tipo, tema e finalidade. |
+| [`detectar-arquivos-duplicados`](../plugins/arquivo-inteligente/skills/detectar-arquivos-duplicados/SKILL.md) | Use para encontrar arquivos com bytes iguais sem apagar originais. |
+| [`padronizar-nomes-arquivos`](../plugins/arquivo-inteligente/skills/padronizar-nomes-arquivos/SKILL.md) | Use para propor ou aplicar renomeação consistente de arquivos. |
+| [`planejar-pastas`](../plugins/arquivo-inteligente/skills/planejar-pastas/SKILL.md) | Use para propor estrutura de diretórios e migração de arquivos. |
+
+### Reunião Clara
+
+[Documentação do plugin](../plugins/reuniao-clara/README.md) · Versão `0.1.0`
+
+Resumir transcrições, separar decisões, responsáveis e pendências.
+
+| Skill | Quando usar |
+|---|---|
+| [`extrair-decisoes-reuniao`](../plugins/reuniao-clara/skills/extrair-decisoes-reuniao/SKILL.md) | Use para identificar decisões e critérios em uma transcrição. |
+| [`identificar-responsaveis-reuniao`](../plugins/reuniao-clara/skills/identificar-responsaveis-reuniao/SKILL.md) | Use para mapear compromissos e responsáveis explicitamente atribuídos. |
+| [`organizar-pendencias-reuniao`](../plugins/reuniao-clara/skills/organizar-pendencias-reuniao/SKILL.md) | Use para transformar assuntos abertos em lista de acompanhamento. |
+| [`resumir-reuniao`](../plugins/reuniao-clara/skills/resumir-reuniao/SKILL.md) | Use para resumir uma transcrição ou notas de reunião. |
+
 ## desenvolvimento
 
 **Plugins, GitHub e APIs**
 
 ### GitHub Organizer
 
-[Documentação do plugin](../plugins/github-organizer/README.md) · Versão `0.1.0`
+[Documentação do plugin](../plugins/github-organizer/README.md) · Versão `0.2.0`
 
 Melhorar README, gerar catálogo, registrar mudanças e conferir links.
 
 | Skill | Quando usar |
 |---|---|
+| [`avaliar-impacto-alteracao`](../plugins/github-organizer/skills/avaliar-impacto-alteracao/SKILL.md) | Use para mapear consumidores e efeitos de mudança em código ou contrato. |
 | [`catalogar-plugins`](../plugins/github-organizer/skills/catalogar-plugins/SKILL.md) | Use para gerar índice de plugins e skills a partir dos arquivos reais de um repositório. |
 | [`escrever-changelog`](../plugins/github-organizer/skills/escrever-changelog/SKILL.md) | Use para documentar mudanças entre versões ou commits. |
 | [`melhorar-readme`](../plugins/github-organizer/skills/melhorar-readme/SKILL.md) | Use para criar ou atualizar README de projeto com instruções verificáveis. |
+| [`responder-feedback-codigo`](../plugins/github-organizer/skills/responder-feedback-codigo/SKILL.md) | Use para analisar comentários de code review e preparar correções ou respostas. |
+| [`revisar-diff-codigo`](../plugins/github-organizer/skills/revisar-diff-codigo/SKILL.md) | Use para encontrar bugs e regressões em alterações de código. |
 | [`verificar-links-repositorio`](../plugins/github-organizer/skills/verificar-links-repositorio/SKILL.md) | Use para encontrar links quebrados ou caminhos inexistentes na documentação. |
+| [`verificar-pr-integracao`](../plugins/github-organizer/skills/verificar-pr-integracao/SKILL.md) | Use para conferir escopo, checks e condições antes de integrar pull request. |
 
 ### Skill Auditor
 
@@ -344,6 +447,45 @@ Ler documentação, realizar consultas autorizadas, paginar resultados e documen
 | [`paginar-api`](../plugins/api-explorer/skills/paginar-api/SKILL.md) | Use para coletar várias páginas de resultados de uma API com controle de limites. |
 | [`testar-consulta-api`](../plugins/api-explorer/skills/testar-consulta-api/SKILL.md) | Use para testar consulta HTTP de leitura a endpoint documentado. |
 
+### Projeto do Zero
+
+[Documentação do plugin](../plugins/projeto-do-zero/README.md) · Versão `0.1.0`
+
+Refinar requisitos, definir aceite, dividir implementação e organizar dependências de um projeto.
+
+| Skill | Quando usar |
+|---|---|
+| [`definir-aceite-projeto`](../plugins/projeto-do-zero/skills/definir-aceite-projeto/SKILL.md) | Use para escrever condições observáveis de conclusão de funcionalidades. |
+| [`dividir-implementacao-projeto`](../plugins/projeto-do-zero/skills/dividir-implementacao-projeto/SKILL.md) | Use para transformar requisitos em tarefas pequenas com entregas. |
+| [`mapear-dependencias-projeto`](../plugins/projeto-do-zero/skills/mapear-dependencias-projeto/SKILL.md) | Use para identificar bloqueios e sequência de entrega. |
+| [`refinar-requisitos-projeto`](../plugins/projeto-do-zero/skills/refinar-requisitos-projeto/SKILL.md) | Use para transformar ideia em requisitos claros e verificáveis. |
+
+### Debug Investigador
+
+[Documentação do plugin](../plugins/debug-investigador/README.md) · Versão `0.1.0`
+
+Reproduzir falhas, investigar causas, aplicar correções e verificar resultados em projetos diversos.
+
+| Skill | Quando usar |
+|---|---|
+| [`corrigir-causa-falha`](../plugins/debug-investigador/skills/corrigir-causa-falha/SKILL.md) | Use para implementar correção mínima preservando comportamento. |
+| [`investigar-causa-falha`](../plugins/debug-investigador/skills/investigar-causa-falha/SKILL.md) | Use para identificar causa raiz com hipóteses e evidências. |
+| [`reproduzir-falha`](../plugins/debug-investigador/skills/reproduzir-falha/SKILL.md) | Use para construir reprodução mínima de erro ou comportamento inesperado. |
+| [`verificar-correcao-falha`](../plugins/debug-investigador/skills/verificar-correcao-falha/SKILL.md) | Use para confirmar correção e avaliar regressões relevantes. |
+
+### Release Manager
+
+[Documentação do plugin](../plugins/release-manager/README.md) · Versão `0.1.0`
+
+Verificar versões, preparar releases, planejar migração e reversão.
+
+| Skill | Quando usar |
+|---|---|
+| [`planejar-migracao-release`](../plugins/release-manager/skills/planejar-migracao-release/SKILL.md) | Use para organizar atualização de usuários, formatos ou dados. |
+| [`planejar-reversao-release`](../plugins/release-manager/skills/planejar-reversao-release/SKILL.md) | Use para definir rollback e condições de acionamento. |
+| [`preparar-entrega-release`](../plugins/release-manager/skills/preparar-entrega-release/SKILL.md) | Use para produzir artefatos e notas de entrega verificáveis. |
+| [`verificar-versao-release`](../plugins/release-manager/skills/verificar-versao-release/SKILL.md) | Use para conferir versão e compatibilidade antes de entrega. |
+
 ## financas
 
 **Finanças e comparações**
@@ -383,3 +525,16 @@ Registro portátil de consumo de tokens com relatórios diários, semanais, mens
 | Skill | Quando usar |
 |---|---|
 | [`medir-tokens`](../plugins/tokenmeter-universal/skills/medir-tokens/SKILL.md) | Medir e registrar tokens de IA por dia, semana, mês, ano e total acumulado. Usar para auditoria de consumo, importação CSV/JSON/JSONL, metadados OpenAI/compatíveis, Claude, Gemini e Ollama, custos configuráveis e estimativas de texto. |
+
+### Recibos & Despesas
+
+[Documentação do plugin](../plugins/recibos-despesas/README.md) · Versão `0.1.0`
+
+Extrair recibos, categorizar gastos, identificar duplicidades e consolidar valores com origem.
+
+| Skill | Quando usar |
+|---|---|
+| [`categorizar-despesas`](../plugins/recibos-despesas/skills/categorizar-despesas/SKILL.md) | Use para agrupar gastos por categoria com regras explícitas. |
+| [`conferir-duplicidades-recibos`](../plugins/recibos-despesas/skills/conferir-duplicidades-recibos/SKILL.md) | Use para identificar possíveis lançamentos repetidos em despesas. |
+| [`consolidar-despesas`](../plugins/recibos-despesas/skills/consolidar-despesas/SKILL.md) | Use para somar lançamentos normalizados por mês, categoria e moeda. |
+| [`extrair-dados-recibos`](../plugins/recibos-despesas/skills/extrair-dados-recibos/SKILL.md) | Use para ler recibos e registrar valores, datas e origem. |

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Adaptar conteúdo para newsletter"
+  short_description: "Fluxo prático: Adaptar conteúdo para newsletter"
+  default_prompt: "Use $adaptar-newsletter para esta tarefa: Transforme este artigo em uma newsletter educativa."

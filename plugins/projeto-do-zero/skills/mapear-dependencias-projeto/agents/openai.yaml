@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mapear dependências de projeto"
+  short_description: "Fluxo prático: Mapear dependências de projeto"
+  default_prompt: "Use $mapear-dependencias-projeto para esta tarefa: Mostre quais tarefas deste projeto dependem umas das outras."

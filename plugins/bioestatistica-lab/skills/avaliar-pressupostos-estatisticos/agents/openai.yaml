@@ -1,0 +1,4 @@
+interface:
+  display_name: "Avaliar pressupostos estatísticos"
+  short_description: "Fluxo prático: Avaliar pressupostos estatísticos"
+  default_prompt: "Use $avaliar-pressupostos-estatisticos para esta tarefa: Confira os pressupostos desta comparação de grupos."
