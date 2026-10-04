@@ -1,0 +1,4 @@
+interface:
+  display_name: "Construir série histórica de saúde"
+  short_description: "Fluxo prático: Construir série histórica de saúde"
+  default_prompt: "Use $serie-historica-saude para esta tarefa: Mostre uma série histórica de internações por dengue em Rondônia."

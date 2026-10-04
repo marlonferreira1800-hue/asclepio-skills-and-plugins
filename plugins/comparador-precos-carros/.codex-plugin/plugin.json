@@ -1,6 +1,6 @@
 {
   "name": "comparador-precos-carros",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Pesquisa e compara preços de carros no Brasil por categoria, marca, modelo, versão e região, com fontes e critérios claros.",
   "author": {
     "name": "Marlon Ferreira"

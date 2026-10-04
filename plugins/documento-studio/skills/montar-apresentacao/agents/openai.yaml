@@ -1,0 +1,4 @@
+interface:
+  display_name: "Montar apresentação"
+  short_description: "Fluxo prático: Montar apresentação"
+  default_prompt: "Use $montar-apresentacao para esta tarefa: Transforme este capítulo em uma apresentação de 15 minutos."

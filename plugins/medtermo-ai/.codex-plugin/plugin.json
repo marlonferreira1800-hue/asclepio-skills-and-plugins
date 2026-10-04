@@ -1,22 +1,22 @@
 {
   "interface": {
     "displayName": "MedTermo AI",
-    "shortDescription": "Adivinhe o diagn\u00f3stico em cinco tentativas",
-    "longDescription": "Treine racioc\u00ednio cl\u00ednico com casos cl\u00e1ssicos, pistas liberadas a cada palpite e revis\u00e3o de alto rendimento ao final da rodada.",
+    "shortDescription": "Adivinhe diagnósticos",
+    "longDescription": "Treine raciocínio clínico com casos clássicos, pistas liberadas a cada palpite e revisão de alto rendimento ao final da rodada.",
     "developerName": "Marlon Ferreira",
     "category": "Education",
     "capabilities": [
       "Interactive"
     ],
     "defaultPrompt": [
-      "Come\u00e7ar uma rodada de diagn\u00f3stico cl\u00ednico.",
-      "Quero um caso de Cl\u00ednica M\u00e9dica para resid\u00eancia.",
-      "Iniciar rodada dif\u00edcil de Ginecologia e Obstetr\u00edcia."
+      "Começar uma rodada de diagnóstico clínico.",
+      "Quero um caso de Clínica Médica para residência.",
+      "Iniciar rodada difícil de Ginecologia e Obstetrícia."
     ]
   },
   "name": "medtermo-ai",
-  "version": "0.1.0",
-  "description": "Jogo de adivinha\u00e7\u00e3o diagn\u00f3stica com cinco tentativas, pistas progressivas e revis\u00e3o para provas de resid\u00eancia m\u00e9dica.",
+  "version": "0.1.1",
+  "description": "Jogo de adivinhação diagnóstica com cinco tentativas, pistas progressivas e revisão para provas de residência médica.",
   "author": {
     "name": "Marlon Ferreira"
   },

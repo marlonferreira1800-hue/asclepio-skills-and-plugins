@@ -1,0 +1,4 @@
+interface:
+  display_name: "Extrair evidências de artigo"
+  short_description: "Fluxo prático: Extrair evidências de artigo"
+  default_prompt: "Use $extrair-evidencias para esta tarefa: Extraia métodos e resultados deste artigo em uma tabela."

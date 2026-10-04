@@ -1,0 +1,4 @@
+interface:
+  display_name: "Preparar checklist de avaliação de carro"
+  short_description: "Fluxo prático: Preparar checklist de avaliação de carro"
+  default_prompt: "Use $checklist-avaliar-carro para esta tarefa: Monte um checklist para avaliar este carro usado antes da compra."

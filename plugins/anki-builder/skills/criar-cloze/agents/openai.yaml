@@ -1,0 +1,4 @@
+interface:
+  display_name: "Criar cartões cloze"
+  short_description: "Fluxo prático: Criar cartões cloze"
+  default_prompt: "Use $criar-cloze para esta tarefa: Faça 15 cartões cloze sobre este capítulo."

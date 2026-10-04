@@ -1,0 +1,4 @@
+interface:
+  display_name: "Auditar instruções de skill"
+  short_description: "Fluxo prático: Auditar instruções de skill"
+  default_prompt: "Use $auditar-skill para esta tarefa: Audite esta skill e corrija instruções ambíguas."

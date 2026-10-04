@@ -1,0 +1,4 @@
+interface:
+  display_name: "Revisar limites de skill"
+  short_description: "Fluxo prático: Revisar limites de skill"
+  default_prompt: "Use $revisar-limites-skill para esta tarefa: Revise esta skill que acessa APIs e grava relatórios."

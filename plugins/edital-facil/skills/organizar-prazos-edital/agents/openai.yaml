@@ -1,0 +1,4 @@
+interface:
+  display_name: "Organizar prazos de edital"
+  short_description: "Fluxo prático: Organizar prazos de edital"
+  default_prompt: "Use $organizar-prazos-edital para esta tarefa: Monte um cronograma com todos os prazos deste edital."

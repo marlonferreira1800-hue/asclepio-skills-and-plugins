@@ -1,18 +1,22 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "medquest",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Treino ativo de Medicina por questões, casos clínicos e correção comentada.",
-  "author": {"name": "Marlon Ferreira"},
+  "author": {
+    "name": "Marlon Ferreira"
+  },
   "extensions": {
     "com.openai": {
       "interface": {
         "displayName": "MedQuest — Medicina por Questões",
-        "shortDescription": "Treine Medicina com questões e casos clínicos",
+        "shortDescription": "Treine Medicina por questões",
         "longDescription": "Tutor de aprendizagem ativa para Medicina com questões objetivas, casos clínicos, correção comentada, revisão de erros e dificuldade progressiva.",
         "developerName": "Marlon Ferreira",
         "category": "Education",
-        "capabilities": ["Interactive"],
+        "capabilities": [
+          "Interactive"
+        ],
         "defaultPrompt": [
           "Comece um treino de Medicina com questões objetivas.",
           "Crie um caso clínico e espere minha resposta antes de corrigir.",

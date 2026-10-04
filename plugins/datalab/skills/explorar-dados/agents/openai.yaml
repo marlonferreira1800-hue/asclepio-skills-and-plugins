@@ -1,0 +1,4 @@
+interface:
+  display_name: "Explorar dados"
+  short_description: "Fluxo prático: Explorar dados"
+  default_prompt: "Use $explorar-dados para esta tarefa: Explore esta base e identifique os fatores associados ao faturamento."

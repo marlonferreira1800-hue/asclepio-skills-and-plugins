@@ -1,0 +1,4 @@
+interface:
+  display_name: "Estimar custo de uso de carro"
+  short_description: "Fluxo prático: Estimar custo de uso de carro"
+  default_prompt: "Use $estimar-custo-carro para esta tarefa: Estime o custo mensal deste carro rodando 1.000 km em Rondônia."

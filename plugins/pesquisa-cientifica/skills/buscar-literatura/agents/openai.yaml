@@ -1,0 +1,4 @@
+interface:
+  display_name: "Buscar literatura científica"
+  short_description: "Fluxo prático: Buscar literatura científica"
+  default_prompt: "Use $buscar-literatura para esta tarefa: Busque estudos sobre ensino de anatomia com realidade virtual."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Criar relatório profissional"
+  short_description: "Fluxo prático: Criar relatório profissional"
+  default_prompt: "Use $criar-relatorio-documento para esta tarefa: Crie um relatório executivo com estes resultados."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Definir indicadores"
+  short_description: "Fluxo prático: Definir indicadores"
+  default_prompt: "Use $definir-indicadores para esta tarefa: Defina indicadores para um dashboard de vendas."

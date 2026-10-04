@@ -1,0 +1,4 @@
+interface:
+  display_name: "Interpretar estatísticas de artigo"
+  short_description: "Fluxo prático: Interpretar estatísticas de artigo"
+  default_prompt: "Use $interpretar-estatistica-artigo para esta tarefa: Explique o risco relativo e o intervalo de confiança deste artigo."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Criar flashcards"
+  short_description: "Fluxo prático: Criar flashcards"
+  default_prompt: "Use $criar-flashcards para esta tarefa: Crie 20 flashcards desta apostila com fonte e página."

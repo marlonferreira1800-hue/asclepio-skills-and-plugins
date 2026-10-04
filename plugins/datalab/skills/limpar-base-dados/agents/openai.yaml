@@ -1,0 +1,4 @@
+interface:
+  display_name: "Limpar base de dados"
+  short_description: "Fluxo prático: Limpar base de dados"
+  default_prompt: "Use $limpar-base-dados para esta tarefa: Limpe esta planilha de vendas e preserve os códigos de clientes."

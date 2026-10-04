@@ -1,0 +1,4 @@
+interface:
+  display_name: "Relatar análise de dados"
+  short_description: "Fluxo prático: Relatar análise de dados"
+  default_prompt: "Use $relatar-analise-dados para esta tarefa: Transforme esta análise em um relatório executivo com gráficos."

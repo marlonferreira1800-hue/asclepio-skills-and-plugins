@@ -1,65 +1,203 @@
 {
-  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "asclepio-skills-and-plugins",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Ecossistema de plugins e habilidades para aprendizagem, produtividade e pesquisa prática em diferentes áreas.",
   "author": {
     "name": "Marlon Ferreira"
   },
   "plugins": [
     {
-      "name": "cognitus",
-      "displayName": "Cognitus — Aprendizagem Ativa",
+      "name": "anki-builder",
+      "displayName": "Anki Builder",
       "version": "0.1.0",
+      "category": "Productivity",
+      "description": "Criar flashcards básicos, cloze e exportação TSV com origem rastreável.",
+      "path": "plugins/anki-builder",
+      "skills": [
+        "criar-cloze",
+        "criar-flashcards",
+        "exportar-anki-tsv",
+        "revisar-flashcards"
+      ],
+      "skill": "criar-cloze"
+    },
+    {
+      "name": "api-explorer",
+      "displayName": "API Explorer",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "description": "Ler documentação, realizar consultas autorizadas, paginar resultados e documentar respostas.",
+      "path": "plugins/api-explorer",
+      "skills": [
+        "documentar-resposta-api",
+        "ler-documentacao-api",
+        "paginar-api",
+        "testar-consulta-api"
+      ],
+      "skill": "documentar-resposta-api"
+    },
+    {
+      "name": "artigo-critico",
+      "displayName": "Artigo Crítico",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "description": "Avaliar desenho, vieses, estatísticas e aplicabilidade de pesquisas.",
+      "path": "plugins/artigo-critico",
+      "skills": [
+        "avaliar-aplicabilidade",
+        "avaliar-vieses",
+        "identificar-desenho-estudo",
+        "interpretar-estatistica-artigo"
+      ],
+      "skill": "avaliar-aplicabilidade"
+    },
+    {
+      "name": "carreira-lab",
+      "displayName": "Carreira Lab",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "description": "Adaptar currículo, revisar perfil, praticar entrevista e mapear evidências de competências.",
+      "path": "plugins/carreira-lab",
+      "skills": [
+        "adaptar-curriculo",
+        "mapear-competencias-vaga",
+        "revisar-perfil-linkedin",
+        "simular-entrevista"
+      ],
+      "skill": "adaptar-curriculo"
+    },
+    {
+      "name": "cognitus",
+      "displayName": "Cognitus",
+      "version": "0.1.1",
       "category": "Education",
       "skill": "aprendizagem-ativa",
-      "description": "Tutoria ativa por diagnóstico cognitivo, método socrático, Feynman e flashcards Anki.",
-      "path": "plugins/cognitus"
+      "description": "Mentor de aprendizagem ativa que desenvolve raciocínio, retenção e autonomia com método socrático, Feynman, prática deliberada e repetição espaçada.",
+      "path": "plugins/cognitus",
+      "skills": [
+        "aprendizagem-ativa"
+      ]
+    },
+    {
+      "name": "comparador-precos-carros",
+      "displayName": "Comparador de carros",
+      "version": "0.2.0",
+      "category": "Productivity",
+      "skill": "comparar-precos-carros",
+      "description": "Pesquisa e compara preços de carros no Brasil por categoria, marca, modelo, versão e região, com fontes e critérios claros.",
+      "path": "plugins/comparador-precos-carros",
+      "skills": [
+        "checklist-avaliar-carro",
+        "comparar-precos-carros",
+        "comparar-versoes-carro",
+        "estimar-custo-carro"
+      ]
     },
     {
       "name": "dados-saude-brasil",
       "displayName": "Dados de Saúde Brasil",
-      "version": "0.1.0",
-      "category": "Health Data",
+      "version": "0.2.0",
+      "category": "Research",
       "skill": "consulta-dados-doencas",
-      "description": "Consulta simples de notificações, internações e óbitos por doença em fontes oficiais do SUS.",
-      "path": "plugins/dados-saude-brasil"
+      "description": "Consulta simples a dados públicos de doenças no Brasil usando fontes oficiais do SUS.",
+      "path": "plugins/dados-saude-brasil",
+      "skills": [
+        "comparar-municipios-saude",
+        "consulta-dados-doencas",
+        "explicar-indicadores-saude",
+        "serie-historica-saude"
+      ]
     },
     {
-      "name": "medquest",
-      "displayName": "MedQuest — Medicina por Questões",
+      "name": "dashboard-studio",
+      "displayName": "Dashboard Studio",
       "version": "0.1.0",
-      "category": "Medical Education",
-      "skill": "questoes-medicina",
-      "description": "Treino ativo de Medicina por questões objetivas, casos clínicos progressivos e estilo ENAMED.",
-      "path": "plugins/medquest"
+      "category": "Productivity",
+      "description": "Definir indicadores, modelagem, layout e medidas DAX para dashboards.",
+      "path": "plugins/dashboard-studio",
+      "skills": [
+        "definir-indicadores",
+        "escrever-dax",
+        "modelar-dashboard",
+        "planejar-layout-dashboard"
+      ],
+      "skill": "definir-indicadores"
     },
     {
-      "name": "medtermo-ai",
-      "displayName": "MedTermo AI — Adivinhação Diagnóstica",
+      "name": "datalab",
+      "displayName": "DataLab — Análise de Dados",
       "version": "0.1.0",
-      "category": "Medical Education & Gaming",
-      "skill": "jogar-medtermo",
-      "description": "Jogo de adivinhação clínica em 5 tentativas com pistas progressivas e revisão de alto rendimento.",
-      "path": "plugins/medtermo-ai"
+      "category": "Productivity",
+      "description": "Limpar bases, explorar dados, construir gráficos e produzir relatórios reproduzíveis.",
+      "path": "plugins/datalab",
+      "skills": [
+        "criar-graficos-dados",
+        "explorar-dados",
+        "limpar-base-dados",
+        "relatar-analise-dados"
+      ],
+      "skill": "criar-graficos-dados"
     },
     {
-      "name": "mentor-de-estudos",
-      "displayName": "Mentor de Estudos",
+      "name": "documento-studio",
+      "displayName": "Documento Studio",
       "version": "0.1.0",
-      "category": "Education",
-      "skill": "tutoria-de-estudos",
-      "description": "Tutoria personalizada para planejamento, explicação, prática e acompanhamento do progresso.",
-      "path": "plugins/mentor-de-estudos"
+      "category": "Productivity",
+      "description": "Criar relatórios, formatar documentos, preparar apresentações e revisar PDFs.",
+      "path": "plugins/documento-studio",
+      "skills": [
+        "criar-relatorio-documento",
+        "formatar-documento",
+        "montar-apresentacao",
+        "revisar-pdf"
+      ],
+      "skill": "criar-relatorio-documento"
     },
     {
-      "name": "resumo-visual-manuscrito",
-      "displayName": "Resumo Visual Manuscrito",
+      "name": "edital-facil",
+      "displayName": "Edital Fácil",
+      "version": "0.2.0",
+      "category": "Productivity",
+      "skill": "ler-editais",
+      "description": "Lê editais de concursos e seleções e transforma requisitos, etapas, salários e prazos em um resumo e checklist prático.",
+      "path": "plugins/edital-facil",
+      "skills": [
+        "comparar-editais",
+        "extrair-requisitos-edital",
+        "ler-editais",
+        "montar-checklist-edital",
+        "organizar-prazos-edital"
+      ]
+    },
+    {
+      "name": "github-organizer",
+      "displayName": "GitHub Organizer",
       "version": "0.1.0",
-      "category": "Education & Design",
-      "skill": "criar-resumo-visual",
-      "description": "Transformação de temas complexos em folhas de estudo manuscritas, ilustradas e esquematizadas.",
-      "path": "plugins/resumo-visual-manuscrito"
+      "category": "Productivity",
+      "description": "Melhorar README, gerar catálogo, registrar mudanças e conferir links.",
+      "path": "plugins/github-organizer",
+      "skills": [
+        "catalogar-plugins",
+        "escrever-changelog",
+        "melhorar-readme",
+        "verificar-links-repositorio"
+      ],
+      "skill": "catalogar-plugins"
+    },
+    {
+      "name": "investia",
+      "displayName": "InvestIA — Análise de Investimentos",
+      "version": "0.2.0",
+      "category": "Productivity",
+      "description": "Pesquisa e compara investimentos com fundamentos, notícias, cenários e simulação de risco usando ferramentas disponíveis no ChatGPT.",
+      "path": "plugins/investia",
+      "skills": [
+        "analisar-investimentos-ia",
+        "comparar-ativos",
+        "ler-demonstracoes-financeiras",
+        "simular-cenarios-investimento"
+      ],
+      "skill": "analisar-investimentos-ia"
     },
     {
       "name": "linkedin-conteudo-diario",
@@ -67,53 +205,96 @@
       "version": "0.1.0",
       "category": "Productivity",
       "skill": "linkedin-conteudo-diario",
-      "description": "Preparação e organização em lotes de posts educativos com validação e agendamento.",
-      "path": "plugins/linkedin-conteudo-diario"
+      "description": "Cria, valida e agenda lotes diários de posts educativos com imagens para LinkedIn.",
+      "path": "plugins/linkedin-conteudo-diario",
+      "skills": [
+        "linkedin-conteudo-diario"
+      ]
+    },
+    {
+      "name": "medquest",
+      "displayName": "MedQuest — Medicina por Questões",
+      "version": "0.2.0",
+      "category": "Education",
+      "skill": "questoes-medicina",
+      "description": "Treino ativo de Medicina por questões, casos clínicos e correção comentada.",
+      "path": "plugins/medquest",
+      "skills": [
+        "analisar-erros-estudo",
+        "classificar-questoes-medicas",
+        "criar-prova-equivalente",
+        "questoes-medicina"
+      ]
+    },
+    {
+      "name": "medtermo-ai",
+      "displayName": "MedTermo AI",
+      "version": "0.1.1",
+      "category": "Education",
+      "skill": "jogar-medtermo",
+      "description": "Jogo de adivinhação diagnóstica com cinco tentativas, pistas progressivas e revisão para provas de residência médica.",
+      "path": "plugins/medtermo-ai",
+      "skills": [
+        "jogar-medtermo"
+      ]
+    },
+    {
+      "name": "mentor-de-estudos",
+      "displayName": "Mentor de Estudos",
+      "version": "0.1.1",
+      "category": "Education",
+      "skill": "tutoria-de-estudos",
+      "description": "Tutor pessoal para planejar estudos, explicar conteúdos, praticar, revisar e acompanhar o progresso do estudante.",
+      "path": "plugins/mentor-de-estudos",
+      "skills": [
+        "tutoria-de-estudos"
+      ]
+    },
+    {
+      "name": "pesquisa-cientifica",
+      "displayName": "Pesquisa Científica",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "description": "Buscar literatura, extrair evidências, comparar estudos e organizar referências.",
+      "path": "plugins/pesquisa-cientifica",
+      "skills": [
+        "buscar-literatura",
+        "comparar-estudos",
+        "extrair-evidencias",
+        "organizar-referencias"
+      ],
+      "skill": "buscar-literatura"
+    },
+    {
+      "name": "plugin-builder",
+      "displayName": "Plugin Builder",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "description": "Estruturar plugins de skills, preparar manifestos, documentar requisitos e empacotar versões.",
+      "path": "plugins/plugin-builder",
+      "skills": [
+        "documentar-plugin",
+        "empacotar-plugin",
+        "estruturar-plugin",
+        "preparar-manifesto-plugin"
+      ],
+      "skill": "documentar-plugin"
     },
     {
       "name": "postlab",
       "displayName": "PostLab — Designer Criativo",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "Productivity",
       "skill": "criar-posts-criativos",
       "description": "Designer de posts criativos com artes, fotos, legendas e carrosséis para redes sociais.",
-      "path": "plugins/postlab"
-    },
-    {
-      "name": "tokenmeter-universal",
-      "displayName": "TokenMeter Universal",
-      "version": "1.0.0",
-      "category": "Productivity",
-      "skill": "medir-tokens",
-      "description": "Registro portátil de tokens por dia, semana, mês, ano e total, com importação de metadados, custos configuráveis e MCP local.",
-      "path": "plugins/tokenmeter-universal"
-    },
-    {
-      "name": "comparador-precos-carros",
-      "displayName": "Comparador de preços de carros",
-      "version": "0.1.0",
-      "category": "Productivity",
-      "skill": "comparar-precos-carros",
-      "description": "Pesquisa e compara preços de carros no Brasil por categoria, marca, modelo, versão e região, com fontes e critérios claros.",
-      "path": "plugins/comparador-precos-carros"
-    },
-    {
-      "name": "residencia-radar-brasil",
-      "displayName": "Residência Radar Brasil",
-      "version": "0.1.0",
-      "category": "Education",
-      "skill": "residencia-radar",
-      "description": "Pesquisa e compara vagas, editais, concorrência, notas e chamadas de residência médica, incluindo informações PcD publicadas oficialmente.",
-      "path": "plugins/residencia-radar-brasil"
-    },
-    {
-      "name": "edital-facil",
-      "displayName": "Edital Fácil",
-      "version": "0.1.0",
-      "category": "Productivity",
-      "skill": "ler-editais",
-      "description": "Lê editais de concursos e seleções e organiza requisitos, etapas, salários, documentos e prazos em um checklist.",
-      "path": "plugins/edital-facil"
+      "path": "plugins/postlab",
+      "skills": [
+        "adaptar-formato-post",
+        "criar-posts-criativos",
+        "manter-identidade-visual",
+        "planejar-carrossel",
+        "revisar-texto-arte"
+      ]
     },
     {
       "name": "provalab",
@@ -121,8 +302,111 @@
       "version": "0.1.0",
       "category": "Education",
       "skill": "criar-avaliacoes",
-      "description": "Cria provas, simulados e estudos dirigidos a partir de materiais enviados pelo usuário, com gabarito separado quando solicitado.",
-      "path": "plugins/provalab"
+      "description": "Cria avaliações e cadernos de questões a partir de apostilas, slides, guias e materiais enviados pelo usuário.",
+      "path": "plugins/provalab",
+      "skills": [
+        "criar-avaliacoes"
+      ]
+    },
+    {
+      "name": "python-lab",
+      "displayName": "Python Lab",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "description": "Explicar código, depurar erros, criar exercícios e organizar projetos Python.",
+      "path": "plugins/python-lab",
+      "skills": [
+        "depurar-python",
+        "explicar-codigo-python",
+        "organizar-projeto-python",
+        "praticar-python"
+      ],
+      "skill": "depurar-python"
+    },
+    {
+      "name": "residencia-radar-brasil",
+      "displayName": "Residência Radar Brasil",
+      "version": "0.2.0",
+      "category": "Education",
+      "skill": "residencia-radar",
+      "description": "Pesquisa e compara vagas, editais, concorrência, notas e chamadas de programas de residência médica no Brasil.",
+      "path": "plugins/residencia-radar-brasil",
+      "skills": [
+        "acompanhar-chamadas-residencia",
+        "comparar-ampla-pcd",
+        "comparar-vagas-residencia",
+        "organizar-notas-residencia",
+        "residencia-radar"
+      ]
+    },
+    {
+      "name": "resumo-visual-manuscrito",
+      "displayName": "Resumo Visual Manuscrito",
+      "version": "0.1.1",
+      "category": "Education",
+      "skill": "criar-resumo-visual",
+      "description": "Transforma qualquer tema ou material de estudo em um resumo visual manuscrito, didático, organizado e focado em revisão de prova.",
+      "path": "plugins/resumo-visual-manuscrito",
+      "skills": [
+        "criar-resumo-visual"
+      ]
+    },
+    {
+      "name": "skill-auditor",
+      "displayName": "Skill Auditor",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "description": "Avaliar estrutura, instruções, recursos e comportamento de skills com casos de uso.",
+      "path": "plugins/skill-auditor",
+      "skills": [
+        "auditar-skill",
+        "avaliar-exemplos-skill",
+        "revisar-limites-skill",
+        "validar-estrutura-skill"
+      ],
+      "skill": "auditar-skill"
+    },
+    {
+      "name": "sql-mentor",
+      "displayName": "SQL Mentor",
+      "version": "0.1.0",
+      "category": "Productivity",
+      "description": "Ensinar, escrever, depurar e praticar SQL com exemplos controlados.",
+      "path": "plugins/sql-mentor",
+      "skills": [
+        "depurar-sql",
+        "escrever-consultas-sql",
+        "explicar-joins-sql",
+        "praticar-sql"
+      ],
+      "skill": "depurar-sql"
+    },
+    {
+      "name": "tokenmeter-universal",
+      "displayName": "TokenMeter Universal",
+      "version": "1.0.0",
+      "category": "Productivity",
+      "skill": "medir-tokens",
+      "description": "Registro portátil de consumo de tokens com relatórios diários, semanais, mensais, anuais e total acumulado. Importação de metadados, custos configuráveis e MCP local.",
+      "path": "plugins/tokenmeter-universal",
+      "skills": [
+        "medir-tokens"
+      ]
+    },
+    {
+      "name": "visualexplain",
+      "displayName": "VisualExplain",
+      "version": "0.2.0",
+      "category": "Education",
+      "description": "Esqueleto para transformar materiais em explicações visuais animadas com roteiro e HTML.",
+      "path": "plugins/visualexplain",
+      "skills": [
+        "animar-processo-explicativo",
+        "criar-linha-tempo-visual",
+        "explicar-visual-animado",
+        "incluir-quiz-visual"
+      ],
+      "skill": "animar-processo-explicativo"
     }
   ]
 }

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analisar erros de estudo"
+  short_description: "Fluxo prático: Analisar erros de estudo"
+  default_prompt: "Use $analisar-erros-estudo para esta tarefa: Analise meus erros desta prova e monte uma revisão por tema."

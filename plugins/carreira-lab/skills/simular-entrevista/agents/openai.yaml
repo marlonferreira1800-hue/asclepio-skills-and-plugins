@@ -1,0 +1,4 @@
+interface:
+  display_name: "Simular entrevista"
+  short_description: "Fluxo prático: Simular entrevista"
+  default_prompt: "Use $simular-entrevista para esta tarefa: Simule uma entrevista para analista de dados júnior."

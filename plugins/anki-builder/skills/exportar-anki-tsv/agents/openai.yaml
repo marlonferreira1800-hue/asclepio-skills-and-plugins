@@ -1,0 +1,4 @@
+interface:
+  display_name: "Exportar cartões para Anki"
+  short_description: "Fluxo prático: Exportar cartões para Anki"
+  default_prompt: "Use $exportar-anki-tsv para esta tarefa: Exporte estes cartões em um TSV para importar no Anki."

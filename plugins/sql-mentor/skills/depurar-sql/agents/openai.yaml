@@ -1,0 +1,4 @@
+interface:
+  display_name: "Depurar SQL"
+  short_description: "Fluxo prático: Depurar SQL"
+  default_prompt: "Use $depurar-sql para esta tarefa: Esta consulta duplica meus totais; encontre a causa e corrija."

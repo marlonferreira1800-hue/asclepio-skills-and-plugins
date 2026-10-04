@@ -1,0 +1,4 @@
+interface:
+  display_name: "Comparar municípios em saúde"
+  short_description: "Fluxo prático: Comparar municípios em saúde"
+  default_prompt: "Use $comparar-municipios-saude para esta tarefa: Compare dengue em Jaru e Ariquemes no mesmo ano."

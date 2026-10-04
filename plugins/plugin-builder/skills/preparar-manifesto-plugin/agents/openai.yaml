@@ -1,0 +1,4 @@
+interface:
+  display_name: "Preparar manifesto de plugin"
+  short_description: "Fluxo prático: Preparar manifesto de plugin"
+  default_prompt: "Use $preparar-manifesto-plugin para esta tarefa: Prepare o manifesto deste plugin para o formato Agent Plugins."

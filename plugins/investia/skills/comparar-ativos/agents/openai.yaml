@@ -1,0 +1,4 @@
+interface:
+  display_name: "Comparar ativos financeiros"
+  short_description: "Fluxo prático: Comparar ativos financeiros"
+  default_prompt: "Use $comparar-ativos para esta tarefa: Compare PETR4 e VALE3 com fundamentos e riscos atuais."

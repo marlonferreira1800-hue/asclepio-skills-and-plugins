@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ler demonstrações financeiras"
+  short_description: "Fluxo prático: Ler demonstrações financeiras"
+  default_prompt: "Use $ler-demonstracoes-financeiras para esta tarefa: Analise estas demonstrações e explique a geração de caixa."

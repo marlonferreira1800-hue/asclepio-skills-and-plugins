@@ -1,0 +1,36 @@
+{
+  "title": "De um documento para uma aula visual",
+  "scenes": [
+    {
+      "title": "Entender antes de animar",
+      "explanation": "Cada afirmação da aula precisa ser rastreável ao material. Esta é uma demonstração do funcionamento, não a análise de um artigo.",
+      "steps": [
+        "Ler o material",
+        "Localizar conceitos centrais",
+        "Registrar páginas e seções"
+      ],
+      "source": "Demonstração criada para VisualExplain"
+    },
+    {
+      "title": "Transformar um conceito em etapas",
+      "explanation": "Revele cada etapa para acompanhar o raciocínio. O roteiro define o que aparece e em qual ordem.",
+      "steps": [
+        "Definir a pergunta",
+        "Mostrar as partes",
+        "Explicar as conexões",
+        "Aplicar em um exemplo"
+      ],
+      "source": "Demonstração criada para VisualExplain"
+    },
+    {
+      "title": "Conferir e entregar",
+      "explanation": "HTML é a saída funcional inicial. Narração e exportação para vídeo são extensões futuras.",
+      "steps": [
+        "Comparar com a fonte",
+        "Conferir legibilidade",
+        "Entregar a aula e o roteiro"
+      ],
+      "source": "Demonstração criada para VisualExplain"
+    }
+  ]
+}

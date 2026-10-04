@@ -1,0 +1,4 @@
+interface:
+  display_name: "Adaptar currículo para vaga"
+  short_description: "Fluxo prático: Adaptar currículo para vaga"
+  default_prompt: "Use $adaptar-curriculo para esta tarefa: Adapte meu currículo para esta vaga de analista de dados."

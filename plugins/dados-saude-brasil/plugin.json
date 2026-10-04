@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "dados-saude-brasil",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Consulta simples a dados públicos de doenças no Brasil usando fontes oficiais do SUS.",
   "author": {
     "name": "Marlon Ferreira"
@@ -14,7 +14,9 @@
         "longDescription": "Pesquisa notificações, internações e óbitos por doença, município e período em bases oficiais de saúde pública.",
         "developerName": "Marlon Ferreira",
         "category": "Research",
-        "capabilities": ["Interactive"],
+        "capabilities": [
+          "Interactive"
+        ],
         "defaultPrompt": "Consulte dados de uma doença por cidade e ano em fontes oficiais do SUS."
       }
     }

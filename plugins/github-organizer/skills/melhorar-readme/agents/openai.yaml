@@ -1,0 +1,4 @@
+interface:
+  display_name: "Melhorar README"
+  short_description: "Fluxo prático: Melhorar README"
+  default_prompt: "Use $melhorar-readme para esta tarefa: Melhore o README deste repositório para quem vai instalar os plugins."

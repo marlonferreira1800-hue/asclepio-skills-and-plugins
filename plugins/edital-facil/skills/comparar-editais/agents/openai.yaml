@@ -1,0 +1,4 @@
+interface:
+  display_name: "Comparar editais"
+  short_description: "Fluxo prático: Comparar editais"
+  default_prompt: "Use $comparar-editais para esta tarefa: Compare estes editais e destaque os cargos compatíveis comigo."

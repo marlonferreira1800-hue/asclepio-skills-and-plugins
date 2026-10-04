@@ -1,0 +1,4 @@
+interface:
+  display_name: "Planejar carrossel"
+  short_description: "Fluxo prático: Planejar carrossel"
+  default_prompt: "Use $planejar-carrossel para esta tarefa: Planeje um carrossel de cinco páginas sobre Python e SQL."

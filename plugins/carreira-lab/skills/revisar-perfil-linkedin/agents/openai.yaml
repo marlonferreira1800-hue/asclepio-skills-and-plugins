@@ -1,0 +1,4 @@
+interface:
+  display_name: "Revisar perfil LinkedIn"
+  short_description: "Fluxo prático: Revisar perfil LinkedIn"
+  default_prompt: "Use $revisar-perfil-linkedin para esta tarefa: Melhore meu Sobre do LinkedIn com foco em dados e Python."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Documentar resposta de API"
+  short_description: "Fluxo prático: Documentar resposta de API"
+  default_prompt: "Use $documentar-resposta-api para esta tarefa: Documente os campos desta resposta JSON de uma API."

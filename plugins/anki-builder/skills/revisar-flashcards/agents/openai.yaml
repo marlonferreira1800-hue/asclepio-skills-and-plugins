@@ -1,0 +1,4 @@
+interface:
+  display_name: "Revisar qualidade dos cartões"
+  short_description: "Fluxo prático: Revisar qualidade dos cartões"
+  default_prompt: "Use $revisar-flashcards para esta tarefa: Revise estes cartões e deixe cada um com um único objetivo."

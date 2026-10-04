@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "edital-facil",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Lê editais de concursos e seleções e transforma requisitos, etapas, salários e prazos em um resumo e checklist prático.",
   "author": {
     "name": "Marlon Ferreira"

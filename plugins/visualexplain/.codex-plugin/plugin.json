@@ -1,0 +1,21 @@
+{
+  "interface": {
+    "displayName": "VisualExplain",
+    "shortDescription": "Materiais em aulas animadas",
+    "longDescription": "Skill de leitura, roteiro rastreável e modelo HTML com revelação progressiva. Requer agente com ferramentas de leitura e execução. Voz e vídeo não implementados.",
+    "developerName": "Marlon Ferreira",
+    "category": "Education",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": "Transforme este material em uma aula visual animada em português."
+  },
+  "name": "visualexplain",
+  "version": "0.2.0",
+  "description": "Esqueleto para transformar materiais em explicações visuais animadas com roteiro e HTML.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

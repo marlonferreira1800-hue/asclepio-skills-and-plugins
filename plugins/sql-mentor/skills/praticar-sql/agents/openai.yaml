@@ -1,0 +1,4 @@
+interface:
+  display_name: "Praticar SQL"
+  short_description: "Fluxo prático: Praticar SQL"
+  default_prompt: "Use $praticar-sql para esta tarefa: Crie cinco exercícios de JOIN com dados para eu praticar."

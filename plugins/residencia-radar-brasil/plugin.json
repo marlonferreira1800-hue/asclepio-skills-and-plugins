@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "residencia-radar-brasil",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Pesquisa e compara vagas, editais, concorrência, notas e chamadas de programas de residência médica no Brasil.",
   "author": {
     "name": "Marlon Ferreira"

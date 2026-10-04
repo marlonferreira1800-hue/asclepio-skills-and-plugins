@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verificar links do repositório"
+  short_description: "Fluxo prático: Verificar links do repositório"
+  default_prompt: "Use $verificar-links-repositorio para esta tarefa: Verifique todos os links locais e externos do README."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Manter identidade visual"
+  short_description: "Fluxo prático: Manter identidade visual"
+  default_prompt: "Use $manter-identidade-visual para esta tarefa: Monte uma identidade consistente para meus posts educativos."

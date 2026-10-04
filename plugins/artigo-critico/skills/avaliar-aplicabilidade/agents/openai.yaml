@@ -1,0 +1,4 @@
+interface:
+  display_name: "Avaliar aplicabilidade de estudo"
+  short_description: "Fluxo prático: Avaliar aplicabilidade de estudo"
+  default_prompt: "Use $avaliar-aplicabilidade para esta tarefa: Este resultado se aplica à atenção primária brasileira?"

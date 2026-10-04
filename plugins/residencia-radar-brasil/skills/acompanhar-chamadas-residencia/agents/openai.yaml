@@ -1,0 +1,4 @@
+interface:
+  display_name: "Organizar chamadas de residência"
+  short_description: "Fluxo prático: Organizar chamadas de residência"
+  default_prompt: "Use $acompanhar-chamadas-residencia para esta tarefa: Veja até qual classificação a lista de Radiologia rodou nesta edição."

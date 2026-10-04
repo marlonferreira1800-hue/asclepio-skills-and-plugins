@@ -1,0 +1,4 @@
+interface:
+  display_name: "Organizar referências"
+  short_description: "Fluxo prático: Organizar referências"
+  default_prompt: "Use $organizar-referencias para esta tarefa: Organize estas referências e gere um arquivo BibTeX."

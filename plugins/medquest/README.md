@@ -26,3 +26,23 @@ Exemplos de prompts para iniciar:
 "Revise meus erros da sessão e faça novas questões focadas nas minhas dificuldades."
 "Crie um simulado de 5 questões no estilo ENAMED com gabarito comentado no final."
 ```
+
+## Skills desta ampliação
+
+| Skill | Função |
+|---|---|
+| [`classificar-questoes-medicas`](skills/classificar-questoes-medicas/SKILL.md) | Classificar questões médicas |
+| [`analisar-erros-estudo`](skills/analisar-erros-estudo/SKILL.md) | Analisar erros de estudo |
+| [`criar-prova-equivalente`](skills/criar-prova-equivalente/SKILL.md) | Criar prova equivalente |
+
+## Requisitos e execução
+
+Questões e gabarito; fontes médicas atuais para conteúdo clínico. Uso educacional.
+
+Este pacote fornece instruções reutilizáveis. Não cria conexões, assinaturas, publicação ou execução automática. Os scripts incluídos estão documentados nas skills que os utilizam.
+
+## Exemplos
+
+- Organize estas questões de imunologia por tema.
+- Analise meus erros desta prova e monte uma revisão por tema.
+- Faça outra prova com 9 objetivas e 3 discursivas sobre os mesmos temas.
