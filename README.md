@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Plugins-13_Integrados-success.svg" alt="13 plugins">
+  <img src="https://img.shields.io/badge/Plugins-14_Integrados-success.svg" alt="14 plugins">
   <img src="https://img.shields.io/badge/Compatibilidade-Codex%20%7C%20ChatGPT%20%7C%20Claude%20%7C%20Antigravity-orange.svg" alt="Compatibilidade">
   <img src="https://img.shields.io/badge/Licen%C3%A7a-MIT-green.svg" alt="Licença MIT">
 </p>
@@ -33,6 +33,8 @@ O **Asclépio** reúne plugins e skills portáteis para estudo, pesquisa, produt
 | [Residência Radar Brasil](plugins/residencia-radar-brasil) | `residencia-radar` | Educação | Compara editais, vagas, notas e chamadas de residência médica. |
 | [Edital Fácil](plugins/edital-facil) | `ler-editais` | Produtividade | Extrai requisitos, etapas e prazos de editais. |
 | [ProvaLab](plugins/provalab) | `criar-avaliacoes` | Educação | Cria provas e estudos dirigidos com base em materiais enviados. |
+
+| [InvestIA](plugins/investia) | `analisar-investimentos-ia` | Pesquisa financeira | Analisa fundamentos, notícias, cenários e riscos; simula posição à vista. |
 
 ## Os três novos plugins
 

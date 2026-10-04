@@ -1,0 +1,24 @@
+{
+  "name": "investia",
+  "version": "0.1.0",
+  "description": "Pesquisa e compara investimentos com fundamentos, notícias, cenários e simulação de risco usando ferramentas disponíveis no ChatGPT.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "interface": {
+    "displayName": "InvestIA — Análise de Investimentos",
+    "shortDescription": "Investimentos com fontes e IA",
+    "longDescription": "Analise ações, ETFs, FIIs e criptoativos por fundamentos, notícias e dados técnicos disponíveis. Compare cenários, avalie riscos de carteira e simule posição à vista. Contém uma skill, critérios por classe de ativo e calculadora de risco. A coleta depende das ferramentas de pesquisa disponíveis; não inclui API própria, corretora ou execução de ordens.",
+    "developerName": "Marlon Ferreira",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Analise PETR4 com fontes atuais, fundamentos, notícias e riscos.",
+      "Compare dois ETFs e explique taxas, concentração e exposição cambial.",
+      "Simule uma posição à vista com os dados de capital, entrada, stop e risco que eu informar."
+    ]
+  },
+  "skills": "./skills"
+}

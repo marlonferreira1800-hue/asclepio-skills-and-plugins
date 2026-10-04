@@ -1,0 +1,4 @@
+interface:
+  display_name: "InvestIA — Análise de Investimentos"
+  short_description: "Fundamentos, notícias, gráficos e cenários de risco"
+  default_prompt: "Use $analisar-investimentos-ia para analisar PETR4 com fontes atuais, cenários e riscos."
