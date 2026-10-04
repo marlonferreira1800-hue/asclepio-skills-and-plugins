@@ -1,0 +1,4 @@
+interface:
+  display_name: "Adaptar formato de post"
+  short_description: "Fluxo prático: Adaptar formato de post"
+  default_prompt: "Use $adaptar-formato-post para esta tarefa: Adapte este post para LinkedIn e Pinterest."

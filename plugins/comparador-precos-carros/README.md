@@ -11,3 +11,23 @@ Plugin privado com uma skill que pesquisa e compara carros no Brasil por categor
 ## Exemplo
 
 “Compare SUVs usados até R$ 80 mil em Jaru (RO), econômicos para cidade e com manutenção acessível.”
+
+## Skills desta ampliação
+
+| Skill | Função |
+|---|---|
+| [`estimar-custo-carro`](skills/estimar-custo-carro/SKILL.md) | Estimar custo de uso de carro |
+| [`comparar-versoes-carro`](skills/comparar-versoes-carro/SKILL.md) | Comparar versões de carro |
+| [`checklist-avaliar-carro`](skills/checklist-avaliar-carro/SKILL.md) | Preparar checklist de avaliação de carro |
+
+## Requisitos e execução
+
+Fontes de preços, fabricante, PBE/Inmetro e regras locais; orçamento com premissas declaradas.
+
+Este pacote fornece instruções reutilizáveis. Não cria conexões, assinaturas, publicação ou execução automática. Os scripts incluídos estão documentados nas skills que os utilizam.
+
+## Exemplos
+
+- Estime o custo mensal deste carro rodando 1.000 km em Rondônia.
+- Compare as versões deste modelo e diga o que muda entre elas.
+- Monte um checklist para avaliar este carro usado antes da compra.

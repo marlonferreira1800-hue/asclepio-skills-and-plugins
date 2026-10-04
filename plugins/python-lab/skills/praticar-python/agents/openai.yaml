@@ -1,0 +1,4 @@
+interface:
+  display_name: "Praticar Python"
+  short_description: "Fluxo prático: Praticar Python"
+  default_prompt: "Use $praticar-python para esta tarefa: Crie exercícios de listas e dicionários com gabarito ao final."

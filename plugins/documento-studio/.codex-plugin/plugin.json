@@ -1,0 +1,20 @@
+{
+  "name": "documento-studio",
+  "version": "0.1.0",
+  "description": "Criar relatórios, formatar documentos, preparar apresentações e revisar PDFs.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "interface": {
+    "displayName": "Documento Studio",
+    "shortDescription": "Crie documentos e slides",
+    "longDescription": "Criar relatórios, formatar documentos, preparar apresentações e revisar PDFs. Ferramentas de DOCX/PPTX/PDF e renderizador para arquivo final; sem ferramentas entregar texto/roteiro.",
+    "developerName": "Marlon Ferreira",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": "Crie um relatório executivo com estes resultados."
+  },
+  "skills": "./skills"
+}

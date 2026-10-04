@@ -1,0 +1,20 @@
+{
+  "name": "api-explorer",
+  "version": "0.1.0",
+  "description": "Ler documentação, realizar consultas autorizadas, paginar resultados e documentar respostas.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "interface": {
+    "displayName": "API Explorer",
+    "shortDescription": "Consulte e entenda APIs",
+    "longDescription": "Ler documentação, realizar consultas autorizadas, paginar resultados e documentar respostas. Documentação oficial e ferramenta HTTP autorizada; credenciais somente via ambiente/armazenamento seguro.",
+    "developerName": "Marlon Ferreira",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": "Explique como consultar dados nesta API oficial."
+  },
+  "skills": "./skills"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Modelar dados do dashboard"
+  short_description: "Fluxo prático: Modelar dados do dashboard"
+  default_prompt: "Use $modelar-dashboard para esta tarefa: Planeje um modelo estrela para pedidos, clientes e produtos."

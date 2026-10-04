@@ -1,0 +1,4 @@
+interface:
+  display_name: "Explicar código Python"
+  short_description: "Fluxo prático: Explicar código Python"
+  default_prompt: "Use $explicar-codigo-python para esta tarefa: Explique esta função Python como se eu estivesse começando."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Testar consulta de API"
+  short_description: "Fluxo prático: Testar consulta de API"
+  default_prompt: "Use $testar-consulta-api para esta tarefa: Teste este endpoint e mostre uma resposta sem expor credenciais."

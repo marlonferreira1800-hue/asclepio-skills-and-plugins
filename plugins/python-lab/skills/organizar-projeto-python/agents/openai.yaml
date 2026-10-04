@@ -1,0 +1,4 @@
+interface:
+  display_name: "Organizar projeto Python"
+  short_description: "Fluxo prático: Organizar projeto Python"
+  default_prompt: "Use $organizar-projeto-python para esta tarefa: Organize este script em um projeto Python fácil de manter."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Identificar desenho do estudo"
+  short_description: "Fluxo prático: Identificar desenho do estudo"
+  default_prompt: "Use $identificar-desenho-estudo para esta tarefa: Qual é o desenho deste estudo e o que ele permite concluir?"

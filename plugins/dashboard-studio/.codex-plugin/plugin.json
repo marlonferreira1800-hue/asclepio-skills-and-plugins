@@ -1,0 +1,20 @@
+{
+  "name": "dashboard-studio",
+  "version": "0.1.0",
+  "description": "Definir indicadores, modelagem, layout e medidas DAX para dashboards.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "interface": {
+    "displayName": "Dashboard Studio",
+    "shortDescription": "Planeje dashboards e DAX",
+    "longDescription": "Definir indicadores, modelagem, layout e medidas DAX para dashboards. Esquema e regras de negócio; Power BI necessário para validar DAX e produzir PBIX. Sem Power BI, entregar especificação e código.",
+    "developerName": "Marlon Ferreira",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": "Defina indicadores para um dashboard de vendas."
+  },
+  "skills": "./skills"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Explicar JOINs"
+  short_description: "Fluxo prático: Explicar JOINs"
+  default_prompt: "Use $explicar-joins-sql para esta tarefa: Explique LEFT JOIN com exemplos e uma pergunta para eu praticar."

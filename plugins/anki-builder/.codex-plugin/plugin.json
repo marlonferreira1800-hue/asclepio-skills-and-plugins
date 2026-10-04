@@ -1,0 +1,20 @@
+{
+  "name": "anki-builder",
+  "version": "0.1.0",
+  "description": "Criar flashcards básicos, cloze e exportação TSV com origem rastreável.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "interface": {
+    "displayName": "Anki Builder",
+    "shortDescription": "Transforme estudo em cartões",
+    "longDescription": "Criar flashcards básicos, cloze e exportação TSV com origem rastreável. Material fonte; Python padrão para exportar TSV. A importação no Anki é feita pelo usuário; APKG não incluído.",
+    "developerName": "Marlon Ferreira",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": "Crie 20 flashcards desta apostila com fonte e página."
+  },
+  "skills": "./skills"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Simular cenários de investimento"
+  short_description: "Fluxo prático: Simular cenários de investimento"
+  default_prompt: "Use $simular-cenarios-investimento para esta tarefa: Simule aportes mensais com três cenários de retorno e inflação."

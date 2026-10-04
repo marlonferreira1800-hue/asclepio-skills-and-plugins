@@ -1,0 +1,20 @@
+{
+  "name": "datalab",
+  "version": "0.1.0",
+  "description": "Limpar bases, explorar dados, construir gráficos e produzir relatórios reproduzíveis.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "interface": {
+    "displayName": "DataLab — Análise de Dados",
+    "shortDescription": "Explore e explique seus dados",
+    "longDescription": "Limpar bases, explorar dados, construir gráficos e produzir relatórios reproduzíveis. Python; pandas/openpyxl para Excel; matplotlib ou equivalente para gráficos. Sem essas ferramentas, entregar plano e código sem alegar execução.",
+    "developerName": "Marlon Ferreira",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": "Limpe esta planilha de vendas e preserve os códigos de clientes."
+  },
+  "skills": "./skills"
+}

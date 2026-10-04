@@ -1,0 +1,4 @@
+interface:
+  display_name: "Documentar plugin"
+  short_description: "Fluxo prático: Documentar plugin"
+  default_prompt: "Use $documentar-plugin para esta tarefa: Documente como instalar e usar este plugin de skills."

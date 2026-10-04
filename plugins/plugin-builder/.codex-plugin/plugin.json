@@ -1,0 +1,20 @@
+{
+  "name": "plugin-builder",
+  "version": "0.1.0",
+  "description": "Estruturar plugins de skills, preparar manifestos, documentar requisitos e empacotar versões.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "interface": {
+    "displayName": "Plugin Builder",
+    "shortDescription": "Crie pacotes de plugins",
+    "longDescription": "Estruturar plugins de skills, preparar manifestos, documentar requisitos e empacotar versões. Sistema de arquivos e Python; validar com schema oficial ou validador do cliente quando disponível.",
+    "developerName": "Marlon Ferreira",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": "Crie um plugin com três skills para análise de dados."
+  },
+  "skills": "./skills"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Montar checklist de inscrição"
+  short_description: "Fluxo prático: Montar checklist de inscrição"
+  default_prompt: "Use $montar-checklist-edital para esta tarefa: Faça um checklist de inscrição PcD a partir deste edital."

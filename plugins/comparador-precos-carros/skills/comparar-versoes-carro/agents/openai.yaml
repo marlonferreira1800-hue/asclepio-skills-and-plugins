@@ -1,0 +1,4 @@
+interface:
+  display_name: "Comparar versões de carro"
+  short_description: "Fluxo prático: Comparar versões de carro"
+  default_prompt: "Use $comparar-versoes-carro para esta tarefa: Compare as versões deste modelo e diga o que muda entre elas."

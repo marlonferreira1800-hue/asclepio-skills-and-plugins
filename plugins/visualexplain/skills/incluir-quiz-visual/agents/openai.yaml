@@ -1,0 +1,4 @@
+interface:
+  display_name: "Incluir perguntas no visual"
+  short_description: "Fluxo prático: Incluir perguntas no visual"
+  default_prompt: "Use $incluir-quiz-visual para esta tarefa: Adicione cinco perguntas com feedback a esta aula visual."

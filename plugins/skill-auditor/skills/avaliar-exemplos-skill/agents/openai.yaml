@@ -1,0 +1,4 @@
+interface:
+  display_name: "Avaliar exemplos de skill"
+  short_description: "Fluxo prático: Avaliar exemplos de skill"
+  default_prompt: "Use $avaliar-exemplos-skill para esta tarefa: Teste esta skill com um caso comum e dois casos difíceis."

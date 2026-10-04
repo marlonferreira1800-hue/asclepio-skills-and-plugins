@@ -1,67 +1,68 @@
+<!-- Gerado por scripts/generate_catalog.py. Editar manifestos, skills ou metadata/catalog.json. -->
+
 # Asclépio — Skills & Plugins para Agentes de IA
 
-<p align="center">
-  <strong>Ecossistema modular de plugins e habilidades para aprendizagem, produtividade e pesquisa prática em diferentes áreas.</strong>
-</p>
+**28 plugins · 94 skills · 8 áreas**
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Plugins-14_Integrados-success.svg" alt="14 plugins">
-  <img src="https://img.shields.io/badge/Compatibilidade-Codex%20%7C%20ChatGPT%20%7C%20Claude%20%7C%20Antigravity-orange.svg" alt="Compatibilidade">
-  <img src="https://img.shields.io/badge/Licen%C3%A7a-MIT-green.svg" alt="Licença MIT">
-</p>
+Uma coleção em português para aprender, pesquisar, analisar dados e criar conteúdo com agentes de IA. Desenvolvida por Marlon Ferreira.
 
----
+[Começar a usar](docs/guia-rapido.md) · [Todas as skills](docs/catalogo.md) · [Documentação](docs/README.md) · [Contribuir](CONTRIBUTING.md)
 
-## Sobre o projeto
+## Explore por área
 
-O **Asclépio** reúne plugins e skills portáteis para estudo, pesquisa, produtividade e criação. Cada plugin tem um manifesto, uma skill com instruções de uso e um README próprio. Os plugins de instruções usam as ferramentas disponíveis no assistente; não alegam possuir APIs ou integrações que não estejam configuradas.
+| Área | Plugins | Skills |
+|---|---|---:|
+| [Medicina e residência](docs/catalogo.md#medicina) | [MedQuest — Medicina por Questões](plugins/medquest), [MedTermo AI](plugins/medtermo-ai), [Residência Radar Brasil](plugins/residencia-radar-brasil) | 10 |
+| [Estudos e aprendizagem](docs/catalogo.md#estudos) | [Cognitus](plugins/cognitus), [Mentor de Estudos](plugins/mentor-de-estudos), [ProvaLab](plugins/provalab), [Anki Builder](plugins/anki-builder) | 7 |
+| [Dados e programação](docs/catalogo.md#dados) | [DataLab — Análise de Dados](plugins/datalab), [SQL Mentor](plugins/sql-mentor), [Python Lab](plugins/python-lab), [Dashboard Studio](plugins/dashboard-studio) | 16 |
+| [Pesquisa e saúde pública](docs/catalogo.md#pesquisa) | [Pesquisa Científica](plugins/pesquisa-cientifica), [Artigo Crítico](plugins/artigo-critico), [Dados de Saúde Brasil](plugins/dados-saude-brasil) | 12 |
+| [Design, documentos e conteúdo](docs/catalogo.md#criacao) | [PostLab — Designer Criativo](plugins/postlab), [LinkedIn Conteúdo Diário](plugins/linkedin-conteudo-diario), [Resumo Visual Manuscrito](plugins/resumo-visual-manuscrito), [VisualExplain](plugins/visualexplain), [Documento Studio](plugins/documento-studio) | 15 |
+| [Carreira e concursos](docs/catalogo.md#carreira) | [Carreira Lab](plugins/carreira-lab), [Edital Fácil](plugins/edital-facil) | 9 |
+| [Plugins, GitHub e APIs](docs/catalogo.md#desenvolvimento) | [GitHub Organizer](plugins/github-organizer), [Skill Auditor](plugins/skill-auditor), [Plugin Builder](plugins/plugin-builder), [API Explorer](plugins/api-explorer) | 16 |
+| [Finanças e comparações](docs/catalogo.md#financas) | [InvestIA — Análise de Investimentos](plugins/investia), [Comparador de carros](plugins/comparador-precos-carros), [TokenMeter Universal](plugins/tokenmeter-universal) | 9 |
 
-## Catálogo
+## Escolha um ponto de partida
 
-| Plugin | Skill | Categoria | Função |
-|---|---|---|---|
-| [Cognitus](plugins/cognitus) | `aprendizagem-ativa` | Educação | Tutoria ativa com método socrático, Feynman e flashcards. |
-| [Dados de Saúde Brasil](plugins/dados-saude-brasil) | `consulta-dados-doencas` | Saúde pública | Pesquisa dados agregados de doenças em fontes oficiais do SUS. |
-| [MedQuest](plugins/medquest) | `questoes-medicina` | Educação médica | Treino de Medicina com questões e casos progressivos. |
-| [MedTermo AI](plugins/medtermo-ai) | `jogar-medtermo` | Educação médica | Jogo de adivinhação diagnóstica com pistas graduais. |
-| [Mentor de Estudos](plugins/mentor-de-estudos) | `tutoria-de-estudos` | Educação | Planejamento e acompanhamento de estudos. |
-| [Resumo Visual Manuscrito](plugins/resumo-visual-manuscrito) | `criar-resumo-visual` | Educação e design | Converte temas em folhas visuais de revisão. |
-| [LinkedIn Conteúdo Diário](plugins/linkedin-conteudo-diario) | `linkedin-conteudo-diario` | Produtividade | Prepara lotes de posts com validação e fila de agendamento. |
-| [PostLab](plugins/postlab) | `criar-posts-criativos` | Criação de conteúdo | Cria peças, legendas e carrosséis para redes sociais. |
-| [TokenMeter Universal](plugins/tokenmeter-universal) | `medir-tokens` | Produtividade | Registra e analisa consumo de tokens importado de metadados. |
-| [Comparador de preços de carros](plugins/comparador-precos-carros) | `comparar-precos-carros` | Pesquisa | Compara preços de veículos no Brasil com critérios e fontes. |
-| [Residência Radar Brasil](plugins/residencia-radar-brasil) | `residencia-radar` | Educação | Compara editais, vagas, notas e chamadas de residência médica. |
-| [Edital Fácil](plugins/edital-facil) | `ler-editais` | Produtividade | Extrai requisitos, etapas e prazos de editais. |
-| [ProvaLab](plugins/provalab) | `criar-avaliacoes` | Educação | Cria provas e estudos dirigidos com base em materiais enviados. |
+| Quero… | Começar por |
+|---|---|
+| Aprender ou praticar Medicina | [MedQuest](plugins/medquest) |
+| Analisar uma planilha | [DataLab](plugins/datalab) |
+| Aprender SQL ou Python | [SQL Mentor](plugins/sql-mentor) ou [Python Lab](plugins/python-lab) |
+| Ler artigos com atenção aos métodos | [Pesquisa Científica](plugins/pesquisa-cientifica) e [Artigo Crítico](plugins/artigo-critico) |
+| Transformar material em cartões | [Anki Builder](plugins/anki-builder) |
+| Criar posts ou aulas visuais | [PostLab](plugins/postlab) e [VisualExplain](plugins/visualexplain) |
+| Criar e revisar meus plugins | [Plugin Builder](plugins/plugin-builder) e [Skill Auditor](plugins/skill-auditor) |
 
-| [InvestIA](plugins/investia) | `analisar-investimentos-ia` | Pesquisa financeira | Analisa fundamentos, notícias, cenários e riscos; simula posição à vista. |
+## Como os pacotes funcionam
 
-## Os três novos plugins
+Cada pasta em `plugins/` é um pacote independente. Ela reúne um manifesto `plugin.json`, documentação e skills em `skills/<nome>/SKILL.md`. Algumas também incluem scripts, assets ou configuração MCP.
 
-### Residência Radar Brasil
-Pesquisa programas por especialidade, estado e instituição. Organiza editais, vagas, concorrência, notas e convocações; compara ampla concorrência e PcD somente quando as fontes oficiais permitem comparação equivalente.
+As skills orientam o agente; sua execução depende das ferramentas disponíveis no cliente. Consultas atuais precisam de navegação, código precisa de runtime e arquivos como PBIX dependem do aplicativo apropriado. Confira o README de cada pacote. Os arquivos do GitHub não instalam nem conectam automaticamente plugins da sua conta.
 
-### Edital Fácil
-Lê editais e retificações para destacar cargos, requisitos, remuneração, etapas, cotas, documentos e prazos, sempre apontando para o item ou página de origem.
+## Estrutura
 
-### ProvaLab
-Usa apostilas, slides e guias enviados para montar provas, simulados e estudos dirigidos. Mantém o gabarito separado conforme a solicitação e sinaliza qualquer conteúdo complementar.
+| Pasta ou arquivo | Finalidade |
+|---|---|
+| `plugins/` | Pacotes independentes e suas skills |
+| `docs/` | Guias, catálogo completo e registros de verificação |
+| `metadata/catalog.json` | Áreas e skill principal de cada pacote |
+| `plugins-index.json` | Índice gerado para ferramentas |
+| `scripts/` | Geração, validação, links e empacotamento |
+| `tests/` | Testes dos utilitários do catálogo |
+| `.github/workflows/` | Verificações automáticas |
 
-## Instalação e uso
+## Desenvolvimento
 
-Cada diretório em `plugins/` é um pacote independente. Para usar uma skill em outro cliente compatível, copie `skills/<nome-da-skill>` para o local de skills indicado por esse cliente. Consulte o README de cada plugin para ver exemplos.
+```bash
+python3 -m pip install -r requirements-dev.txt
+python3 scripts/generate_catalog.py --check
+python3 scripts/validate_catalog.py
+python3 scripts/check_links.py
+python3 -m unittest discover -s tests -v
+```
 
-Os arquivos `plugin.json` descrevem o pacote. Os arquivos `.codex-plugin/plugin.json` mantêm metadados de compatibilidade do Codex. Skills que precisam consultar informações atuais orientam o assistente a pesquisar fontes vigentes e não contêm uma API própria.
+Após alterar pacotes ou áreas, executar `python3 scripts/generate_catalog.py` para atualizar o README, catálogo e índice. Confira [como contribuir](CONTRIBUTING.md).
 
-## Segurança e qualidade
+## Licença e mudanças
 
-- Não coloque senhas, tokens ou chaves de API no repositório.
-- Prefira fontes primárias e links verificáveis para informações públicas.
-- Diferencie conteúdo do documento, cálculo e inferência.
-- Não estime dados ausentes nem trate material educacional como aconselhamento profissional.
-
-## Licença
-
-Distribuído sob a licença [MIT](LICENSE).
-
-<p align="center">Desenvolvido por <strong>Marlon Ferreira</strong></p>
+[Licença MIT](LICENSE) · [Histórico de mudanças](CHANGELOG.md). Recursos de terceiros mantêm seus avisos e condições.

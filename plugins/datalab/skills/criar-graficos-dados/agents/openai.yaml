@@ -1,0 +1,4 @@
+interface:
+  display_name: "Criar gráficos de dados"
+  short_description: "Fluxo prático: Criar gráficos de dados"
+  default_prompt: "Use $criar-graficos-dados para esta tarefa: Faça um gráfico mensal de receita com os dados desta tabela."

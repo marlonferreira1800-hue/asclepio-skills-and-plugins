@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paginar consulta de API"
+  short_description: "Fluxo prático: Paginar consulta de API"
+  default_prompt: "Use $paginar-api para esta tarefa: Colete até 10 páginas desta API e indique se o resultado está completo."

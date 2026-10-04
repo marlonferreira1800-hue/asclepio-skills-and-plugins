@@ -1,0 +1,4 @@
+interface:
+  display_name: "Comparar vagas de residência"
+  short_description: "Fluxo prático: Comparar vagas de residência"
+  default_prompt: "Use $comparar-vagas-residencia para esta tarefa: Compare vagas de Radiologia por instituição e estado."

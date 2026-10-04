@@ -1,0 +1,4 @@
+interface:
+  display_name: "Escrever consultas SQL"
+  short_description: "Fluxo prático: Escrever consultas SQL"
+  default_prompt: "Use $escrever-consultas-sql para esta tarefa: Escreva uma consulta PostgreSQL para vendas mensais por vendedor."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Avaliar vieses de artigo"
+  short_description: "Fluxo prático: Avaliar vieses de artigo"
+  default_prompt: "Use $avaliar-vieses para esta tarefa: Avalie o risco de viés deste ensaio clínico."

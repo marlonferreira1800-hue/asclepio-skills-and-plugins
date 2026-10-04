@@ -1,0 +1,4 @@
+interface:
+  display_name: "Catalogar plugins"
+  short_description: "Fluxo prático: Catalogar plugins"
+  default_prompt: "Use $catalogar-plugins para esta tarefa: Atualize o catálogo com todos os plugins e skills presentes."

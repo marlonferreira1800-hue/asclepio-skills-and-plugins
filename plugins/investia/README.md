@@ -32,3 +32,23 @@ O exemplo fictício retorna 50 unidades, R$ 1.000 alocados e R$ 100 de risco nom
 Importe o pacote em um cliente compatível ou copie a pasta da skill para o diretório de skills indicado pelo cliente. Pesquisa e cotações dependem das ferramentas disponíveis no assistente. Este pacote não inclui API própria, credenciais, servidor MCP, conexão com corretora, envio de ordens ou monitoramento contínuo. A calculadora não cobre opções, futuros, alavancagem ou venda a descoberto. Taxas, gaps e slippage podem aumentar a perda além da simulação.
 
 Análises e cenários são educacionais; dividendos e retornos não são garantidos. Licença MIT conforme o repositório.
+
+## Skills desta ampliação
+
+| Skill | Função |
+|---|---|
+| [`comparar-ativos`](skills/comparar-ativos/SKILL.md) | Comparar ativos financeiros |
+| [`ler-demonstracoes-financeiras`](skills/ler-demonstracoes-financeiras/SKILL.md) | Ler demonstrações financeiras |
+| [`simular-cenarios-investimento`](skills/simular-cenarios-investimento/SKILL.md) | Simular cenários de investimento |
+
+## Requisitos e execução
+
+Fontes oficiais de emissores, CVM e mercado; cotações com data/hora. Simulação educacional, sem execução de ordens.
+
+Este pacote fornece instruções reutilizáveis. Não cria conexões, assinaturas, publicação ou execução automática. Os scripts incluídos estão documentados nas skills que os utilizam.
+
+## Exemplos
+
+- Compare PETR4 e VALE3 com fundamentos e riscos atuais.
+- Analise estas demonstrações e explique a geração de caixa.
+- Simule aportes mensais com três cenários de retorno e inflação.

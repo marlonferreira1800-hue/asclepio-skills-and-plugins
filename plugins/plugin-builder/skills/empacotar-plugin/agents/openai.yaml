@@ -1,0 +1,4 @@
+interface:
+  display_name: "Empacotar plugin"
+  short_description: "Fluxo prático: Empacotar plugin"
+  default_prompt: "Use $empacotar-plugin para esta tarefa: Empacote este plugin em ZIP com os arquivos de compatibilidade."

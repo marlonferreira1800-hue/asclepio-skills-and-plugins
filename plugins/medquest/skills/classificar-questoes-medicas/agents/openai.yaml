@@ -1,0 +1,4 @@
+interface:
+  display_name: "Classificar questões médicas"
+  short_description: "Fluxo prático: Classificar questões médicas"
+  default_prompt: "Use $classificar-questoes-medicas para esta tarefa: Organize estas questões de imunologia por tema."

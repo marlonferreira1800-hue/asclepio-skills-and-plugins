@@ -1,0 +1,4 @@
+interface:
+  display_name: "Criar prova equivalente"
+  short_description: "Fluxo prático: Criar prova equivalente"
+  default_prompt: "Use $criar-prova-equivalente para esta tarefa: Faça outra prova com 9 objetivas e 3 discursivas sobre os mesmos temas."

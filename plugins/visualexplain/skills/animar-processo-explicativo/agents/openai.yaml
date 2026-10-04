@@ -1,0 +1,4 @@
+interface:
+  display_name: "Animar processo explicativo"
+  short_description: "Fluxo prático: Animar processo explicativo"
+  default_prompt: "Use $animar-processo-explicativo para esta tarefa: Anime o trajeto da urina explicado neste material."

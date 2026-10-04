@@ -1,0 +1,4 @@
+interface:
+  display_name: "VisualExplain"
+  short_description: "Transforma materiais em aulas visuais animadas"
+  default_prompt: "Use $explicar-visual-animado para transformar este material em uma explicação visual animada."

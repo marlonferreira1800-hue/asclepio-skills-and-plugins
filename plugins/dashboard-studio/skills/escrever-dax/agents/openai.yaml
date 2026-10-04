@@ -1,0 +1,4 @@
+interface:
+  display_name: "Escrever medidas DAX"
+  short_description: "Fluxo prático: Escrever medidas DAX"
+  default_prompt: "Use $escrever-dax para esta tarefa: Crie medidas de receita, margem e crescimento anual no Power BI."

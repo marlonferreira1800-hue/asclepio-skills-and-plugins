@@ -1,0 +1,4 @@
+interface:
+  display_name: "Explicar indicadores de saúde"
+  short_description: "Fluxo prático: Explicar indicadores de saúde"
+  default_prompt: "Use $explicar-indicadores-saude para esta tarefa: Explique por que notificações e internações de dengue têm números diferentes."

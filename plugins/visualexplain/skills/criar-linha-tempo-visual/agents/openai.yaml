@@ -1,0 +1,4 @@
+interface:
+  display_name: "Criar linha do tempo visual"
+  short_description: "Fluxo prático: Criar linha do tempo visual"
+  default_prompt: "Use $criar-linha-tempo-visual para esta tarefa: Crie uma linha do tempo interativa deste capítulo."

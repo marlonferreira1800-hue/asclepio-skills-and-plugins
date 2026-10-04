@@ -1,0 +1,4 @@
+interface:
+  display_name: "Validar estrutura de skill"
+  short_description: "Fluxo prático: Validar estrutura de skill"
+  default_prompt: "Use $validar-estrutura-skill para esta tarefa: Valide esta pasta de skill antes de empacotar."

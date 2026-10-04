@@ -1,0 +1,4 @@
+interface:
+  display_name: "Comparar estudos científicos"
+  short_description: "Fluxo prático: Comparar estudos científicos"
+  default_prompt: "Use $comparar-estudos para esta tarefa: Compare estes três artigos sobre um mesmo tratamento."

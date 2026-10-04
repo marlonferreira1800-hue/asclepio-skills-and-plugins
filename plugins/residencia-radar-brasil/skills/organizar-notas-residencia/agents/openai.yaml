@@ -1,0 +1,4 @@
+interface:
+  display_name: "Organizar notas de residência"
+  short_description: "Fluxo prático: Organizar notas de residência"
+  default_prompt: "Use $organizar-notas-residencia para esta tarefa: Ordene as notas finais PcD destas instituições da menor para a maior."

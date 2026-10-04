@@ -1,0 +1,4 @@
+interface:
+  display_name: "Extrair requisitos de edital"
+  short_description: "Fluxo prático: Extrair requisitos de edital"
+  default_prompt: "Use $extrair-requisitos-edital para esta tarefa: Extraia os requisitos e documentos para este cargo."

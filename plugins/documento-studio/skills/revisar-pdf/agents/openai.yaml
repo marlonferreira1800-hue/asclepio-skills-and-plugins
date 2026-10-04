@@ -1,0 +1,4 @@
+interface:
+  display_name: "Revisar PDF"
+  short_description: "Fluxo prático: Revisar PDF"
+  default_prompt: "Use $revisar-pdf para esta tarefa: Revise este PDF e aponte erros de texto e diagramação."

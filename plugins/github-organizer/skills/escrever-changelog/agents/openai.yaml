@@ -1,0 +1,4 @@
+interface:
+  display_name: "Escrever changelog"
+  short_description: "Fluxo prático: Escrever changelog"
+  default_prompt: "Use $escrever-changelog para esta tarefa: Escreva o changelog destas alterações."

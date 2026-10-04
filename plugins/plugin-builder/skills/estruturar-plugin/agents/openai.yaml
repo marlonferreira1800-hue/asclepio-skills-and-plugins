@@ -1,0 +1,4 @@
+interface:
+  display_name: "Estruturar plugin"
+  short_description: "Fluxo prático: Estruturar plugin"
+  default_prompt: "Use $estruturar-plugin para esta tarefa: Crie um plugin com três skills para análise de dados."

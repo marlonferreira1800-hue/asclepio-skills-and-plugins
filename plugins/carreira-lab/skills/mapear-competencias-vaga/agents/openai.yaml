@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mapear competências da vaga"
+  short_description: "Fluxo prático: Mapear competências da vaga"
+  default_prompt: "Use $mapear-competencias-vaga para esta tarefa: Compare meu perfil com esta vaga e diga o que devo praticar."

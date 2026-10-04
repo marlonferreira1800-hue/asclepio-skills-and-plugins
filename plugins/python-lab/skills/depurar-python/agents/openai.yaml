@@ -1,0 +1,4 @@
+interface:
+  display_name: "Depurar Python"
+  short_description: "Fluxo prático: Depurar Python"
+  default_prompt: "Use $depurar-python para esta tarefa: Corrija este traceback e explique o que causou o erro."

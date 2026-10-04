@@ -1,0 +1,4 @@
+interface:
+  display_name: "Formatar documento"
+  short_description: "Fluxo prático: Formatar documento"
+  default_prompt: "Use $formatar-documento para esta tarefa: Formate este relatório com títulos, sumário e tabelas consistentes."

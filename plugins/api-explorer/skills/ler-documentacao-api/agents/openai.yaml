@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ler documentação de API"
+  short_description: "Fluxo prático: Ler documentação de API"
+  default_prompt: "Use $ler-documentacao-api para esta tarefa: Explique como consultar dados nesta API oficial."

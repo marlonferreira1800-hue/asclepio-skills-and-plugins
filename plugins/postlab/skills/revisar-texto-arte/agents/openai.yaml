@@ -1,0 +1,4 @@
+interface:
+  display_name: "Revisar texto de arte"
+  short_description: "Fluxo prático: Revisar texto de arte"
+  default_prompt: "Use $revisar-texto-arte para esta tarefa: Corrija os erros de português e de código desta arte."

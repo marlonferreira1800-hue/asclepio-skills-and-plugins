@@ -1,0 +1,4 @@
+interface:
+  display_name: "Planejar layout de dashboard"
+  short_description: "Fluxo prático: Planejar layout de dashboard"
+  default_prompt: "Use $planejar-layout-dashboard para esta tarefa: Planeje três páginas de um dashboard comercial."

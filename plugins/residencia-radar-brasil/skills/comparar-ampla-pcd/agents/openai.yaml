@@ -1,0 +1,4 @@
+interface:
+  display_name: "Comparar ampla concorrência e PcD"
+  short_description: "Fluxo prático: Comparar ampla concorrência e PcD"
+  default_prompt: "Use $comparar-ampla-pcd para esta tarefa: Compare a nota do último convocado na ampla e PcD em Radiologia."

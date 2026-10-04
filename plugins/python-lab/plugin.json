@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "python-lab",
+  "version": "0.1.0",
+  "description": "Explicar código, depurar erros, criar exercícios e organizar projetos Python.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Python Lab",
+        "shortDescription": "Aprenda e desenvolva Python",
+        "longDescription": "Explicar código, depurar erros, criar exercícios e organizar projetos Python. Interpretador Python e dependências do projeto; consultar documentação oficial para APIs atuais.",
+        "developerName": "Marlon Ferreira",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": "Explique esta função Python como se eu estivesse começando."
+      }
+    }
+  }
+}
