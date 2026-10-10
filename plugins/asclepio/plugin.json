@@ -1,0 +1,8 @@
+{
+  "name": "asclepio",
+  "version": "1.0.0",
+  "description": "Ativa o modo autônomo extremo. O agente deve assumir controle total, resolver problemas por conta própria, evitar perguntas e rodar até terminar a tarefa.",
+  "author": {
+    "name": "Marlon Ferreira"
+  }
+}
