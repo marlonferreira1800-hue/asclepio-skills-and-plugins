@@ -12,10 +12,11 @@
       "version": "1.0.0",
       "category": "Productivity",
       "group": "desenvolvimento",
-      "skill": "triage-maintainer",
+      "skill": "chief-orchestrator",
       "description": "Uma suíte de agentes trabalhadores autônomos que orquestram tarefas complexas no terminal: Triagem, Segurança, Documentação, Dados e Migração.",
       "path": "plugins/agentes-autonomos",
       "skills": [
+        "chief-orchestrator",
         "data-miner",
         "docbot-architect",
         "legacy-modernizer",

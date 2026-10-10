@@ -2,7 +2,7 @@
 
 # Catálogo de plugins e skills
 
-33 plugins e 111 skills. Os nomes abaixo são os identificadores reais dos arquivos. Para exemplos e dependências, abra o README de cada plugin.
+33 plugins e 112 skills. Os nomes abaixo são os identificadores reais dos arquivos. Para exemplos e dependências, abra o README de cada plugin.
 
 [Voltar ao início](../README.md) · [Guia rápido](guia-rapido.md)
 
@@ -398,13 +398,14 @@ Ativa o modo autônomo extremo. O agente deve assumir controle total, resolver p
 
 Uma suíte de agentes trabalhadores autônomos que orquestram tarefas complexas no terminal: Triagem, Segurança, Documentação, Dados e Migração.
 
-| Skill                                                                                 | Quando usar                                                                                                                                               |
-| ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`data-miner`](../plugins/agentes-autonomos/skills/data-miner/SKILL.md)               | Agente de engenharia de dados (ETL). Extrai dados brutos de APIs, limpa com Python, gera bancos de dados e relatórios de métricas.                        |
-| [`docbot-architect`](../plugins/agentes-autonomos/skills/docbot-architect/SKILL.md)   | Agente de engenharia reversa. Varre o código, deduz a arquitetura e gera diagramas (Mermaid) e documentação (JSDoc/Docstring) massivamente.               |
-| [`legacy-modernizer`](../plugins/agentes-autonomos/skills/legacy-modernizer/SKILL.md) | Agente de migração. Pega um projeto legado (versões antigas) e atualiza para linguagens e frameworks modernos de forma iterativa.                         |
-| [`secops-auditor`](../plugins/agentes-autonomos/skills/secops-auditor/SKILL.md)       | Engenheiro de segurança cibernética autônomo. Roda scanners no terminal, descobre bibliotecas vulneráveis e tenta consertar ou atualizar automaticamente. |
-| [`triage-maintainer`](../plugins/agentes-autonomos/skills/triage-maintainer/SKILL.md) | Atua como mantenedor Open Source. Lê issues do GitHub, tenta reproduzir o erro isoladamente, escreve a correção, testa e abre PRs automaticamente.        |
+| Skill                                                                                   | Quando usar                                                                                                                                               |
+| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`chief-orchestrator`](../plugins/agentes-autonomos/skills/chief-orchestrator/SKILL.md) | Agente orquestrador de alto nível que recebe um objetivo global, divide em tarefas, delega para subagentes especialistas e valida a entrega final.        |
+| [`data-miner`](../plugins/agentes-autonomos/skills/data-miner/SKILL.md)                 | Agente de engenharia de dados (ETL). Extrai dados brutos de APIs, limpa com Python, gera bancos de dados e relatórios de métricas.                        |
+| [`docbot-architect`](../plugins/agentes-autonomos/skills/docbot-architect/SKILL.md)     | Agente de engenharia reversa. Varre o código, deduz a arquitetura e gera diagramas (Mermaid) e documentação (JSDoc/Docstring) massivamente.               |
+| [`legacy-modernizer`](../plugins/agentes-autonomos/skills/legacy-modernizer/SKILL.md)   | Agente de migração. Pega um projeto legado (versões antigas) e atualiza para linguagens e frameworks modernos de forma iterativa.                         |
+| [`secops-auditor`](../plugins/agentes-autonomos/skills/secops-auditor/SKILL.md)         | Engenheiro de segurança cibernética autônomo. Roda scanners no terminal, descobre bibliotecas vulneráveis e tenta consertar ou atualizar automaticamente. |
+| [`triage-maintainer`](../plugins/agentes-autonomos/skills/triage-maintainer/SKILL.md)   | Atua como mantenedor Open Source. Lê issues do GitHub, tenta reproduzir o erro isoladamente, escreve a correção, testa e abre PRs automaticamente.        |
 
 ## financas
 
