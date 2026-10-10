@@ -29,11 +29,11 @@ Exemplos de prompts para iniciar:
 
 ## Skills desta ampliação
 
-| Skill | Função |
-|---|---|
+| Skill                                                                          | Função                       |
+| ------------------------------------------------------------------------------ | ---------------------------- |
 | [`classificar-questoes-medicas`](skills/classificar-questoes-medicas/SKILL.md) | Classificar questões médicas |
-| [`analisar-erros-estudo`](skills/analisar-erros-estudo/SKILL.md) | Analisar erros de estudo |
-| [`criar-prova-equivalente`](skills/criar-prova-equivalente/SKILL.md) | Criar prova equivalente |
+| [`analisar-erros-estudo`](skills/analisar-erros-estudo/SKILL.md)               | Analisar erros de estudo     |
+| [`criar-prova-equivalente`](skills/criar-prova-equivalente/SKILL.md)           | Criar prova equivalente      |
 
 ## Requisitos e execução
 

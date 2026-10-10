@@ -4,11 +4,11 @@ Melhorar README, gerar catálogo, registrar mudanças e conferir links.
 
 ## Skills desta ampliação
 
-| Skill | Função |
-|---|---|
-| [`melhorar-readme`](skills/melhorar-readme/SKILL.md) | Melhorar README |
-| [`catalogar-plugins`](skills/catalogar-plugins/SKILL.md) | Catalogar plugins |
-| [`escrever-changelog`](skills/escrever-changelog/SKILL.md) | Escrever changelog |
+| Skill                                                                        | Função                         |
+| ---------------------------------------------------------------------------- | ------------------------------ |
+| [`melhorar-readme`](skills/melhorar-readme/SKILL.md)                         | Melhorar README                |
+| [`catalogar-plugins`](skills/catalogar-plugins/SKILL.md)                     | Catalogar plugins              |
+| [`escrever-changelog`](skills/escrever-changelog/SKILL.md)                   | Escrever changelog             |
 | [`verificar-links-repositorio`](skills/verificar-links-repositorio/SKILL.md) | Verificar links do repositório |
 
 ## Requisitos e execução

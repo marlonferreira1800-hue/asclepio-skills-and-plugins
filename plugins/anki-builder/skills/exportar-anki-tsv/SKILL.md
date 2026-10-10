@@ -35,7 +35,14 @@ Exporte estes cartões em um TSV para importar no Anki.
 Fornecer JSON com uma lista de objetos. Para Basic, exigir `front` e `back`; para Cloze, exigir `text` com lacuna válida e usar `extra` opcional. Ambos aceitam `tags` como lista de strings sem espaços e `source` opcional. Não misturar modelos no mesmo arquivo.
 
 ```json
-[{"front":"O que é uma chave primária?","back":"Um identificador único do registro.","tags":["sql"],"source":"Material fornecido, seção Chaves"}]
+[
+  {
+    "front": "O que é uma chave primária?",
+    "back": "Um identificador único do registro.",
+    "tags": ["sql"],
+    "source": "Material fornecido, seção Chaves"
+  }
+]
 ```
 
 Executar, a partir desta pasta:

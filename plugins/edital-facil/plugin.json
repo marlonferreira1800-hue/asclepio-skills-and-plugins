@@ -14,9 +14,7 @@
         "longDescription": "Analise editais de concursos e seleções, extraia cargos, requisitos, salários, etapas, cotas, documentos e datas, e gere um checklist com referências às páginas e seções do documento.",
         "developerName": "Marlon Ferreira",
         "category": "Productivity",
-        "capabilities": [
-          "Interactive"
-        ],
+        "capabilities": ["Interactive"],
         "defaultPrompt": [
           "Resuma este edital e destaque requisitos, salário e datas importantes.",
           "Verifique se este cargo aceita meu nível de escolaridade e quais documentos pede.",

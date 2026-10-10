@@ -14,9 +14,7 @@
         "longDescription": "Adaptar currículo, revisar perfil, praticar entrevista e mapear evidências de competências. Currículo e vaga; criação de arquivos depende de ferramentas de documentos. Sem envio automático.",
         "developerName": "Marlon Ferreira",
         "category": "Productivity",
-        "capabilities": [
-          "Interactive"
-        ],
+        "capabilities": ["Interactive"],
         "defaultPrompt": "Adapte meu currículo para esta vaga de analista de dados."
       }
     }

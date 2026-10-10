@@ -14,9 +14,7 @@
         "longDescription": "Avaliar desenho, vieses, estatísticas e aplicabilidade de pesquisas. Texto do artigo e referências metodológicas oficiais ou primárias quando necessário.",
         "developerName": "Marlon Ferreira",
         "category": "Productivity",
-        "capabilities": [
-          "Interactive"
-        ],
+        "capabilities": ["Interactive"],
         "defaultPrompt": "Qual é o desenho deste estudo e o que ele permite concluir?"
       }
     }

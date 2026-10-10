@@ -22,12 +22,12 @@ O documento oficial e suas retificações são a referência principal. A skill 
 
 ## Skills desta ampliação
 
-| Skill | Função |
-|---|---|
-| [`extrair-requisitos-edital`](skills/extrair-requisitos-edital/SKILL.md) | Extrair requisitos de edital |
-| [`organizar-prazos-edital`](skills/organizar-prazos-edital/SKILL.md) | Organizar prazos de edital |
-| [`comparar-editais`](skills/comparar-editais/SKILL.md) | Comparar editais |
-| [`montar-checklist-edital`](skills/montar-checklist-edital/SKILL.md) | Montar checklist de inscrição |
+| Skill                                                                    | Função                        |
+| ------------------------------------------------------------------------ | ----------------------------- |
+| [`extrair-requisitos-edital`](skills/extrair-requisitos-edital/SKILL.md) | Extrair requisitos de edital  |
+| [`organizar-prazos-edital`](skills/organizar-prazos-edital/SKILL.md)     | Organizar prazos de edital    |
+| [`comparar-editais`](skills/comparar-editais/SKILL.md)                   | Comparar editais              |
+| [`montar-checklist-edital`](skills/montar-checklist-edital/SKILL.md)     | Montar checklist de inscrição |
 
 ## Requisitos e execução
 

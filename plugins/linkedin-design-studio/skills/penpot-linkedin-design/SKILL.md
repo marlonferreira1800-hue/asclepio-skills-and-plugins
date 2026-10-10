@@ -19,6 +19,7 @@ Use uma abordagem de design vetorial e editorial inspirada no Penpot, plataforma
 ## Saída padrão
 
 Entregue:
+
 - conceito e paleta;
 - texto final;
 - estrutura de cada slide com título, corpo e elemento visual;
@@ -29,8 +30,6 @@ Se o usuário anexar logo, cores ou referência, preserve-os e adapte o layout. 
 Referência do projeto: https://github.com/penpot/penpot
 Licença do código do Penpot: MPL-2.0. Este skill não inclui o código do Penpot.
 
-
 ## Métodos selecionados do ECC
 
 Para planejar ou revisar esta tarefa, consultar [references/ecc-methods.md](references/ecc-methods.md). Aplicar apenas as etapas relevantes ao pedido; a referência complementa este fluxo e não ativa ferramentas adicionais.
-

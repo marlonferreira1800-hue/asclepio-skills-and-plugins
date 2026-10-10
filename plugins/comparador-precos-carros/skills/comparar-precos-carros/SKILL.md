@@ -37,9 +37,10 @@ Quando houver dados confiáveis, incluir consumo, garantia, espaço/porta-malas,
 Começar com a data da pesquisa e um resumo curto. Usar a tabela:
 
 | Categoria | Marca/modelo | Ano/versão | Preço sugerido | Preço anunciado (faixa/mediana) | FIPE (referência) | Consumo | Cidade/condição | Fonte |
-|---|---|---|---:|---:|---:|---|---|---|
+| --------- | ------------ | ---------- | -------------: | ------------------------------: | ----------------: | ------- | --------------- | ----- |
 
 Depois:
+
 - agrupar as opções por faixa de preço;
 - indicar quais atendem melhor às prioridades especificadas;
 - listar vantagens, limitações e diferenças relevantes;
@@ -53,7 +54,6 @@ Se a pessoa pedir uma resposta rápida, mostrar de três a cinco opções e resu
 Pedido: “Compare SUVs usados até R$ 80 mil em Jaru, econômicos para cidade e com manutenção acessível.”
 
 Aplicar filtros de categoria, orçamento, condição, cidade e prioridades; localizar anúncios de versões comparáveis; conferir FIPE, consumo quando houver dado oficial e apresentar faixa de preços com fontes e ressalvas.
-
 
 ## Métodos selecionados do ECC
 

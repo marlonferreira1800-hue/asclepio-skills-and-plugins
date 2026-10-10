@@ -4,11 +4,11 @@ Definir indicadores, modelagem, layout e medidas DAX para dashboards.
 
 ## Skills desta ampliação
 
-| Skill | Função |
-|---|---|
-| [`definir-indicadores`](skills/definir-indicadores/SKILL.md) | Definir indicadores |
-| [`modelar-dashboard`](skills/modelar-dashboard/SKILL.md) | Modelar dados do dashboard |
-| [`escrever-dax`](skills/escrever-dax/SKILL.md) | Escrever medidas DAX |
+| Skill                                                                    | Função                       |
+| ------------------------------------------------------------------------ | ---------------------------- |
+| [`definir-indicadores`](skills/definir-indicadores/SKILL.md)             | Definir indicadores          |
+| [`modelar-dashboard`](skills/modelar-dashboard/SKILL.md)                 | Modelar dados do dashboard   |
+| [`escrever-dax`](skills/escrever-dax/SKILL.md)                           | Escrever medidas DAX         |
 | [`planejar-layout-dashboard`](skills/planejar-layout-dashboard/SKILL.md) | Planejar layout de dashboard |
 
 ## Requisitos e execução

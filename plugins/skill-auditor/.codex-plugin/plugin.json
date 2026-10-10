@@ -11,9 +11,7 @@
     "longDescription": "Avaliar estrutura, instruções, recursos e comportamento de skills com casos de uso. Arquivos de skills; Python/PyYAML para validação estrutural. Avaliação comportamental exige executar tarefas de exemplo.",
     "developerName": "Marlon Ferreira",
     "category": "Productivity",
-    "capabilities": [
-      "Interactive"
-    ],
+    "capabilities": ["Interactive"],
     "defaultPrompt": "Audite esta skill e corrija instruções ambíguas."
   },
   "skills": "./skills"

@@ -26,11 +26,11 @@ Ainda não há servidor MCP, captura de vídeo, voz ou extração integrada. Nã
 
 ## Skills desta ampliação
 
-| Skill | Função |
-|---|---|
-| [`criar-linha-tempo-visual`](skills/criar-linha-tempo-visual/SKILL.md) | Criar linha do tempo visual |
+| Skill                                                                        | Função                      |
+| ---------------------------------------------------------------------------- | --------------------------- |
+| [`criar-linha-tempo-visual`](skills/criar-linha-tempo-visual/SKILL.md)       | Criar linha do tempo visual |
 | [`animar-processo-explicativo`](skills/animar-processo-explicativo/SKILL.md) | Animar processo explicativo |
-| [`incluir-quiz-visual`](skills/incluir-quiz-visual/SKILL.md) | Incluir perguntas no visual |
+| [`incluir-quiz-visual`](skills/incluir-quiz-visual/SKILL.md)                 | Incluir perguntas no visual |
 
 ## Requisitos e execução
 

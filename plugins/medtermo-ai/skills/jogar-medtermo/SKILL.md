@@ -39,7 +39,6 @@ Erro: `Ainda não. [Diferencial em uma frase.] Pista: [novo achado]. Restam X te
 
 Acerto: `Acertou! [Diagnóstico].` seguido da revisão.
 
-
 ## Métodos selecionados do ECC
 
 Para planejar ou revisar esta tarefa, consultar [references/ecc-methods.md](references/ecc-methods.md). Aplicar apenas as etapas relevantes ao pedido; a referência complementa este fluxo e não ativa ferramentas adicionais.

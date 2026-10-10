@@ -11,9 +11,7 @@
     "longDescription": "Transforme temas em posts com direção de arte, imagens e legendas. Crie carrosséis com identidade consistente e refine referências visuais. A produção de imagens utiliza a ferramenta disponível no assistente; este plugin não fornece um editor gráfico ou publicação automática.",
     "developerName": "Marlon Ferreira",
     "category": "Productivity",
-    "capabilities": [
-      "Interactive"
-    ],
+    "capabilities": ["Interactive"],
     "logo": "./assets/icon.svg",
     "composerIcon": "./assets/icon.svg",
     "defaultPrompt": [

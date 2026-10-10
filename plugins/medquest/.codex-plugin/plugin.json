@@ -5,9 +5,7 @@
     "longDescription": "Tutor de aprendizagem ativa para Medicina com questões objetivas, casos clínicos, correção comentada, revisão de erros e dificuldade progressiva.",
     "developerName": "Marlon Ferreira",
     "category": "Education",
-    "capabilities": [
-      "Interactive"
-    ],
+    "capabilities": ["Interactive"],
     "defaultPrompt": [
       "Comece um treino de Medicina com questões objetivas.",
       "Crie um caso clínico e espere minha resposta antes de corrigir.",

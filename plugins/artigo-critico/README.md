@@ -4,12 +4,12 @@ Avaliar desenho, vieses, estatísticas e aplicabilidade de pesquisas.
 
 ## Skills desta ampliação
 
-| Skill | Função |
-|---|---|
-| [`identificar-desenho-estudo`](skills/identificar-desenho-estudo/SKILL.md) | Identificar desenho do estudo |
-| [`avaliar-vieses`](skills/avaliar-vieses/SKILL.md) | Avaliar vieses de artigo |
+| Skill                                                                              | Função                             |
+| ---------------------------------------------------------------------------------- | ---------------------------------- |
+| [`identificar-desenho-estudo`](skills/identificar-desenho-estudo/SKILL.md)         | Identificar desenho do estudo      |
+| [`avaliar-vieses`](skills/avaliar-vieses/SKILL.md)                                 | Avaliar vieses de artigo           |
 | [`interpretar-estatistica-artigo`](skills/interpretar-estatistica-artigo/SKILL.md) | Interpretar estatísticas de artigo |
-| [`avaliar-aplicabilidade`](skills/avaliar-aplicabilidade/SKILL.md) | Avaliar aplicabilidade de estudo |
+| [`avaliar-aplicabilidade`](skills/avaliar-aplicabilidade/SKILL.md)                 | Avaliar aplicabilidade de estudo   |
 
 ## Requisitos e execução
 

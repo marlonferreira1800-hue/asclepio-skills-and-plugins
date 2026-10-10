@@ -26,13 +26,13 @@ Transforme o edital fornecido ou localizado em uma orientação prática, manten
 
 Comece respondendo à pergunta direta. Depois, use uma tabela ou checklist:
 
-| Item | Informação do edital | Onde conferir |
-|---|---|---|
-| Cargo/requisito | ... | item/página |
-| Remuneração/jornada | ... | item/página |
-| Inscrição/isencão | ... | item/página |
-| Prova/etapas | ... | item/página |
-| Datas | ... | cronograma |
+| Item                | Informação do edital | Onde conferir |
+| ------------------- | -------------------- | ------------- |
+| Cargo/requisito     | ...                  | item/página   |
+| Remuneração/jornada | ...                  | item/página   |
+| Inscrição/isencão   | ...                  | item/página   |
+| Prova/etapas        | ...                  | item/página   |
+| Datas               | ...                  | cronograma    |
 
 Feche com as próximas datas ou ações imediatas quando existirem. Links devem apontar para o edital e para as retificações oficiais.
 

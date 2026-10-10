@@ -4,12 +4,12 @@ Ensinar, escrever, depurar e praticar SQL com exemplos controlados.
 
 ## Skills desta ampliação
 
-| Skill | Função |
-|---|---|
+| Skill                                                              | Função                 |
+| ------------------------------------------------------------------ | ---------------------- |
 | [`escrever-consultas-sql`](skills/escrever-consultas-sql/SKILL.md) | Escrever consultas SQL |
-| [`explicar-joins-sql`](skills/explicar-joins-sql/SKILL.md) | Explicar JOINs |
-| [`depurar-sql`](skills/depurar-sql/SKILL.md) | Depurar SQL |
-| [`praticar-sql`](skills/praticar-sql/SKILL.md) | Praticar SQL |
+| [`explicar-joins-sql`](skills/explicar-joins-sql/SKILL.md)         | Explicar JOINs         |
+| [`depurar-sql`](skills/depurar-sql/SKILL.md)                       | Depurar SQL            |
+| [`praticar-sql`](skills/praticar-sql/SKILL.md)                     | Praticar SQL           |
 
 ## Requisitos e execução
 

@@ -2,12 +2,12 @@
 
 ## Classes de ativos
 
-| Classe | Dados relevantes | Particularidades |
-|---|---|---|
-| Ações | demonstrações, fluxo de caixa, dívida, múltiplos, governança | bancos exigem indicadores de capital e inadimplência; comparar empresas do mesmo setor |
-| FIIs | relatórios gerenciais, vacância, contratos, concentração, dívida, distribuições | distinguir fundos de tijolo e papel; não equiparar distribuição a lucro de ação |
-| ETFs | regulamento, índice, taxa, tracking, liquidez, carteira | considerar concentração e exposição cambial |
-| Criptoativos | documentação, emissão, liquidez, custódia, concentração | evitar múltiplos contábeis inaplicáveis; verificar riscos tecnológicos |
+| Classe       | Dados relevantes                                                                | Particularidades                                                                       |
+| ------------ | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| Ações        | demonstrações, fluxo de caixa, dívida, múltiplos, governança                    | bancos exigem indicadores de capital e inadimplência; comparar empresas do mesmo setor |
+| FIIs         | relatórios gerenciais, vacância, contratos, concentração, dívida, distribuições | distinguir fundos de tijolo e papel; não equiparar distribuição a lucro de ação        |
+| ETFs         | regulamento, índice, taxa, tracking, liquidez, carteira                         | considerar concentração e exposição cambial                                            |
+| Criptoativos | documentação, emissão, liquidez, custódia, concentração                         | evitar múltiplos contábeis inaplicáveis; verificar riscos tecnológicos                 |
 
 ## Evidência
 
@@ -18,11 +18,11 @@ Estas categorias descrevem a evidência, não a chance de lucro.
 
 ## Cenários
 
-| Cenário | Premissas | Indicadores a acompanhar | O que invalida a tese |
-|---|---|---|---|
-| Otimista | explicitar | explicitar | explicitar |
-| Base | explicitar | explicitar | explicitar |
-| Adverso | explicitar | explicitar | explicitar |
+| Cenário  | Premissas  | Indicadores a acompanhar | O que invalida a tese |
+| -------- | ---------- | ------------------------ | --------------------- |
+| Otimista | explicitar | explicitar               | explicitar            |
+| Base     | explicitar | explicitar               | explicitar            |
+| Adverso  | explicitar | explicitar               | explicitar            |
 
 Não preencher cenários com números sem método. Registrar custos e tributação somente se verificados para a jurisdição/data; quando desconhecidos, declarar exclusão da simulação.
 

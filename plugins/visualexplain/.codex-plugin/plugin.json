@@ -5,9 +5,7 @@
     "longDescription": "Skill de leitura, roteiro rastreável e modelo HTML com revelação progressiva. Requer agente com ferramentas de leitura e execução. Voz e vídeo não implementados.",
     "developerName": "Marlon Ferreira",
     "category": "Education",
-    "capabilities": [
-      "Interactive"
-    ],
+    "capabilities": ["Interactive"],
     "defaultPrompt": "Transforme este material em uma aula visual animada em português."
   },
   "name": "visualexplain",

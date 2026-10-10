@@ -27,4 +27,3 @@ linkedin-post-design-kit/
 ## O que ele faz e o que precisa de integração
 
 O pacote contém uma skill de instruções. Por si só, não abre o Penpot, não busca automaticamente os repositórios e não publica no LinkedIn. Quando ferramentas de navegação ou geração visual estiverem disponíveis, a skill pode usá-las; caso contrário, deve indicar com clareza o que não conseguiu consultar ou gerar. Não invente que verificou uma fonte.
-

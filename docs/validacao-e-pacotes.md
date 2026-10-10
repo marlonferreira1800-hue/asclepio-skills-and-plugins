@@ -24,7 +24,12 @@ Criar JSON para Basic:
 
 ```json
 [
-  {"front":"O que é uma chave primária?", "back":"Um identificador único de cada registro.", "tags":["sql", "basico"], "source":"Material fornecido, seção Chaves"}
+  {
+    "front": "O que é uma chave primária?",
+    "back": "Um identificador único de cada registro.",
+    "tags": ["sql", "basico"],
+    "source": "Material fornecido, seção Chaves"
+  }
 ]
 ```
 
@@ -32,7 +37,11 @@ Para Cloze:
 
 ```json
 [
-  {"text":"Uma chave {{c1::primária}} identifica cada registro.", "extra":"Deve ser única e não nula.", "tags":["sql"]}
+  {
+    "text": "Uma chave {{c1::primária}} identifica cada registro.",
+    "extra": "Deve ser única e não nula.",
+    "tags": ["sql"]
+  }
 ]
 ```
 

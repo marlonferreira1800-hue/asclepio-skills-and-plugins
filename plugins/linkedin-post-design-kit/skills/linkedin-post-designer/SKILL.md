@@ -40,8 +40,6 @@ Se o usuário pedir a **arte pronta**, produza também um arquivo visual usando 
 
 Consulte [references/repositories.md](references/repositories.md) para o catálogo e [templates/post-brief.md](templates/post-brief.md) para briefing opcional.
 
-
 ## Métodos selecionados do ECC
 
 Para planejar ou revisar esta tarefa, consultar [references/ecc-methods.md](references/ecc-methods.md). Aplicar apenas as etapas relevantes ao pedido; a referência complementa este fluxo e não ativa ferramentas adicionais.
-

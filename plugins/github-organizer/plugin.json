@@ -14,9 +14,7 @@
         "longDescription": "Melhorar README, gerar catálogo, registrar mudanças e conferir links. Checkout autorizado; Git para salvar mudanças e acesso de leitura opcional para URLs externas.",
         "developerName": "Marlon Ferreira",
         "category": "Productivity",
-        "capabilities": [
-          "Interactive"
-        ],
+        "capabilities": ["Interactive"],
         "defaultPrompt": "Melhore o README deste repositório para quem vai instalar os plugins."
       }
     }

@@ -14,9 +14,7 @@
         "longDescription": "Treine compreensão profunda e retenção com diagnóstico de nível, perguntas socráticas, explicações pela técnica de Feynman, prática deliberada, diagramas Mermaid e flashcards no padrão Anki.",
         "developerName": "Cognitus",
         "category": "Education",
-        "capabilities": [
-          "Interactive"
-        ],
+        "capabilities": ["Interactive"],
         "defaultPrompt": [
           "Quero estudar um tema com o método socrático.",
           "Teste minha compreensão e transforme meus erros em exercícios.",

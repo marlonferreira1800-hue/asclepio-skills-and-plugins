@@ -125,7 +125,6 @@ financeiros ou de segurança, deixe claro o caráter educacional da explicação
 não substitua avaliação profissional. Se uma informação atual for essencial,
 verifique-a com uma fonte adequada antes de ensiná-la.
 
-
 ## Métodos selecionados do ECC
 
 Para planejar ou revisar esta tarefa, consultar [references/ecc-methods.md](references/ecc-methods.md). Aplicar apenas as etapas relevantes ao pedido; a referência complementa este fluxo e não ativa ferramentas adicionais.

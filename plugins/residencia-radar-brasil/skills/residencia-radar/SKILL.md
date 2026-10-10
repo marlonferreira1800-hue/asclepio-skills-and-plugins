@@ -33,7 +33,7 @@ Se faltar um dado essencial, faça uma pergunta curta. Se a pessoa pedir “mais
 Comece com uma síntese curta e apresente uma tabela, conforme o pedido:
 
 | Instituição | Estado | Vagas | Modalidade | Concorrência/nota | Edição e etapa | Fonte |
-|---|---|---:|---|---|---|---|
+| ----------- | ------ | ----: | ---------- | ----------------- | -------------- | ----- |
 
 Inclua links diretos para edital, resultado ou convocação. Explique diferenças de critério que impeçam uma comparação justa. Separe fatos publicados de cálculos feitos a partir de dados oficiais.
 

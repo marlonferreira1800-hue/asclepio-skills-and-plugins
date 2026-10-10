@@ -29,11 +29,11 @@ Este é um plugin de instruções. A geração e edição de imagens exigem uma 
 
 ## Skills desta ampliação
 
-| Skill | Função |
-|---|---|
-| [`planejar-carrossel`](skills/planejar-carrossel/SKILL.md) | Planejar carrossel |
-| [`revisar-texto-arte`](skills/revisar-texto-arte/SKILL.md) | Revisar texto de arte |
-| [`adaptar-formato-post`](skills/adaptar-formato-post/SKILL.md) | Adaptar formato de post |
+| Skill                                                                  | Função                   |
+| ---------------------------------------------------------------------- | ------------------------ |
+| [`planejar-carrossel`](skills/planejar-carrossel/SKILL.md)             | Planejar carrossel       |
+| [`revisar-texto-arte`](skills/revisar-texto-arte/SKILL.md)             | Revisar texto de arte    |
+| [`adaptar-formato-post`](skills/adaptar-formato-post/SKILL.md)         | Adaptar formato de post  |
 | [`manter-identidade-visual`](skills/manter-identidade-visual/SKILL.md) | Manter identidade visual |
 
 ## Requisitos e execução

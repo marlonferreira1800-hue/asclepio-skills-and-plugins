@@ -43,7 +43,6 @@ Quando a solicitação for para criar a folha visual final, use a capacidade de 
 
 Se o usuário pedir somente o conteúdo, roteiro ou prompt para usar em outro gerador, entregue a estrutura textual correspondente em vez de gerar a imagem.
 
-
 ## Métodos selecionados do ECC
 
 Para planejar ou revisar esta tarefa, consultar [references/ecc-methods.md](references/ecc-methods.md). Aplicar apenas as etapas relevantes ao pedido; a referência complementa este fluxo e não ativa ferramentas adicionais.

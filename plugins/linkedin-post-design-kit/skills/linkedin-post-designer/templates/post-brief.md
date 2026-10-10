@@ -10,4 +10,3 @@
 - **Chamada para ação:**
 - **Quero arquivo visual pronto?:** sim / não
 - **Restrições:**
-

@@ -34,8 +34,6 @@ Se o usuário pedir um visual específico, siga esse pedido. Se pedir somente �
 
 Não publique nem agende conteúdo. Não invente métricas, citações ou resultados; peça fonte ou identifique claramente dados ilustrativos.
 
-
 ## Métodos selecionados do ECC
 
 Para planejar ou revisar esta tarefa, consultar [references/ecc-methods.md](references/ecc-methods.md). Aplicar apenas as etapas relevantes ao pedido; a referência complementa este fluxo e não ativa ferramentas adicionais.
-

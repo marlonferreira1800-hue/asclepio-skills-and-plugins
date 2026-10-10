@@ -5,9 +5,7 @@
     "longDescription": "Treine raciocínio clínico com casos clássicos, pistas liberadas a cada palpite e revisão de alto rendimento ao final da rodada.",
     "developerName": "Marlon Ferreira",
     "category": "Education",
-    "capabilities": [
-      "Interactive"
-    ],
+    "capabilities": ["Interactive"],
     "defaultPrompt": [
       "Começar uma rodada de diagnóstico clínico.",
       "Quero um caso de Clínica Médica para residência.",

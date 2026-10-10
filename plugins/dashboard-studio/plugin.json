@@ -14,9 +14,7 @@
         "longDescription": "Definir indicadores, modelagem, layout e medidas DAX para dashboards. Esquema e regras de negócio; Power BI necessário para validar DAX e produzir PBIX. Sem Power BI, entregar especificação e código.",
         "developerName": "Marlon Ferreira",
         "category": "Productivity",
-        "capabilities": [
-          "Interactive"
-        ],
+        "capabilities": ["Interactive"],
         "defaultPrompt": "Defina indicadores para um dashboard de vendas."
       }
     }

@@ -4,11 +4,11 @@ Ler documentação, realizar consultas autorizadas, paginar resultados e documen
 
 ## Skills desta ampliação
 
-| Skill | Função |
-|---|---|
-| [`ler-documentacao-api`](skills/ler-documentacao-api/SKILL.md) | Ler documentação de API |
-| [`testar-consulta-api`](skills/testar-consulta-api/SKILL.md) | Testar consulta de API |
-| [`paginar-api`](skills/paginar-api/SKILL.md) | Paginar consulta de API |
+| Skill                                                                | Função                     |
+| -------------------------------------------------------------------- | -------------------------- |
+| [`ler-documentacao-api`](skills/ler-documentacao-api/SKILL.md)       | Ler documentação de API    |
+| [`testar-consulta-api`](skills/testar-consulta-api/SKILL.md)         | Testar consulta de API     |
+| [`paginar-api`](skills/paginar-api/SKILL.md)                         | Paginar consulta de API    |
 | [`documentar-resposta-api`](skills/documentar-resposta-api/SKILL.md) | Documentar resposta de API |
 
 ## Requisitos e execução

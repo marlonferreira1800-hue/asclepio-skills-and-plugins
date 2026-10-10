@@ -4,11 +4,11 @@ Limpar bases, explorar dados, construir gráficos e produzir relatórios reprodu
 
 ## Skills desta ampliação
 
-| Skill | Função |
-|---|---|
-| [`limpar-base-dados`](skills/limpar-base-dados/SKILL.md) | Limpar base de dados |
-| [`explorar-dados`](skills/explorar-dados/SKILL.md) | Explorar dados |
-| [`criar-graficos-dados`](skills/criar-graficos-dados/SKILL.md) | Criar gráficos de dados |
+| Skill                                                            | Função                   |
+| ---------------------------------------------------------------- | ------------------------ |
+| [`limpar-base-dados`](skills/limpar-base-dados/SKILL.md)         | Limpar base de dados     |
+| [`explorar-dados`](skills/explorar-dados/SKILL.md)               | Explorar dados           |
+| [`criar-graficos-dados`](skills/criar-graficos-dados/SKILL.md)   | Criar gráficos de dados  |
 | [`relatar-analise-dados`](skills/relatar-analise-dados/SKILL.md) | Relatar análise de dados |
 
 ## Requisitos e execução

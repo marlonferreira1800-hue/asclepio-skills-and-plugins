@@ -4,11 +4,11 @@ Criar flashcards básicos, cloze e exportação TSV com origem rastreável.
 
 ## Skills desta ampliação
 
-| Skill | Função |
-|---|---|
-| [`criar-flashcards`](skills/criar-flashcards/SKILL.md) | Criar flashcards |
-| [`criar-cloze`](skills/criar-cloze/SKILL.md) | Criar cartões cloze |
-| [`exportar-anki-tsv`](skills/exportar-anki-tsv/SKILL.md) | Exportar cartões para Anki |
+| Skill                                                      | Função                        |
+| ---------------------------------------------------------- | ----------------------------- |
+| [`criar-flashcards`](skills/criar-flashcards/SKILL.md)     | Criar flashcards              |
+| [`criar-cloze`](skills/criar-cloze/SKILL.md)               | Criar cartões cloze           |
+| [`exportar-anki-tsv`](skills/exportar-anki-tsv/SKILL.md)   | Exportar cartões para Anki    |
 | [`revisar-flashcards`](skills/revisar-flashcards/SKILL.md) | Revisar qualidade dos cartões |
 
 ## Requisitos e execução

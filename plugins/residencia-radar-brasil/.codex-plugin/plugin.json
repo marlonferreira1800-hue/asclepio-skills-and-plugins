@@ -5,9 +5,7 @@
     "longDescription": "Pesquise programas de residência por especialidade, instituição, estado e edição. Compare vagas, concorrência, notas e chamadas com links para fontes oficiais, incluindo informações PcD quando publicadas.",
     "developerName": "Marlon Ferreira",
     "category": "Education",
-    "capabilities": [
-      "Interactive"
-    ],
+    "capabilities": ["Interactive"],
     "defaultPrompt": [
       "Compare programas de Radiologia por estado e instituição, com vagas e fontes oficiais.",
       "Pesquise vagas PcD e ampla concorrência em um processo seletivo de residência.",
@@ -20,12 +18,6 @@
   "author": {
     "name": "Marlon Ferreira"
   },
-  "keywords": [
-    "residência médica",
-    "ENARE",
-    "PcD",
-    "vagas",
-    "notas"
-  ],
+  "keywords": ["residência médica", "ENARE", "PcD", "vagas", "notas"],
   "skills": "./skills"
 }

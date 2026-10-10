@@ -5,9 +5,7 @@
     "longDescription": "Transforma temas, textos e materiais fornecidos pelo usuário em resumos visuais manuscritos premium, com organização adaptada ao assunto, esquemas, fluxos, comparações, ilustrações didáticas, pontos de prova e caixas de memorização.",
     "developerName": "Marlon Ferreira",
     "category": "Education",
-    "capabilities": [
-      "Interactive"
-    ],
+    "capabilities": ["Interactive"],
     "defaultPrompt": [
       "Crie um resumo visual manuscrito sobre Infarto Agudo do Miocárdio.",
       "Transforme este material em uma folha de estudos visual para prova.",

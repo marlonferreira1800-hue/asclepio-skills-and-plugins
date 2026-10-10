@@ -4,12 +4,12 @@ Estruturar plugins de skills, preparar manifestos, documentar requisitos e empac
 
 ## Skills desta ampliação
 
-| Skill | Função |
-|---|---|
-| [`estruturar-plugin`](skills/estruturar-plugin/SKILL.md) | Estruturar plugin |
+| Skill                                                                    | Função                       |
+| ------------------------------------------------------------------------ | ---------------------------- |
+| [`estruturar-plugin`](skills/estruturar-plugin/SKILL.md)                 | Estruturar plugin            |
 | [`preparar-manifesto-plugin`](skills/preparar-manifesto-plugin/SKILL.md) | Preparar manifesto de plugin |
-| [`documentar-plugin`](skills/documentar-plugin/SKILL.md) | Documentar plugin |
-| [`empacotar-plugin`](skills/empacotar-plugin/SKILL.md) | Empacotar plugin |
+| [`documentar-plugin`](skills/documentar-plugin/SKILL.md)                 | Documentar plugin            |
+| [`empacotar-plugin`](skills/empacotar-plugin/SKILL.md)                   | Empacotar plugin             |
 
 ## Requisitos e execução
 

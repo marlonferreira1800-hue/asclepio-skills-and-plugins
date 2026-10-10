@@ -11,9 +11,7 @@
     "longDescription": "Criar relatórios, formatar documentos, preparar apresentações e revisar PDFs. Ferramentas de DOCX/PPTX/PDF e renderizador para arquivo final; sem ferramentas entregar texto/roteiro.",
     "developerName": "Marlon Ferreira",
     "category": "Productivity",
-    "capabilities": [
-      "Interactive"
-    ],
+    "capabilities": ["Interactive"],
     "defaultPrompt": "Crie um relatório executivo com estes resultados."
   },
   "skills": "./skills"

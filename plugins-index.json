@@ -79,9 +79,7 @@
       "skill": "aprendizagem-ativa",
       "description": "Mentor de aprendizagem ativa que desenvolve raciocínio, retenção e autonomia com método socrático, Feynman, prática deliberada e repetição espaçada.",
       "path": "plugins/cognitus",
-      "skills": [
-        "aprendizagem-ativa"
-      ]
+      "skills": ["aprendizagem-ativa"]
     },
     {
       "name": "comparador-precos-carros",
@@ -221,9 +219,7 @@
       "skill": "linkedin-conteudo-diario",
       "description": "Cria, valida e agenda lotes diários de posts educativos com imagens para LinkedIn.",
       "path": "plugins/linkedin-conteudo-diario",
-      "skills": [
-        "linkedin-conteudo-diario"
-      ]
+      "skills": ["linkedin-conteudo-diario"]
     },
     {
       "name": "linkedin-design-studio",
@@ -250,9 +246,7 @@
       "skill": "linkedin-post-designer",
       "description": "Cria conceitos, textos e direções visuais para posts e carrosséis profissionais no LinkedIn, usando repositórios abertos de design como referência.",
       "path": "plugins/linkedin-post-design-kit",
-      "skills": [
-        "linkedin-post-designer"
-      ]
+      "skills": ["linkedin-post-designer"]
     },
     {
       "name": "medquest",
@@ -279,9 +273,7 @@
       "skill": "jogar-medtermo",
       "description": "Jogo de adivinhação diagnóstica com cinco tentativas, pistas progressivas e revisão para provas de residência médica.",
       "path": "plugins/medtermo-ai",
-      "skills": [
-        "jogar-medtermo"
-      ]
+      "skills": ["jogar-medtermo"]
     },
     {
       "name": "mentor-de-estudos",
@@ -292,9 +284,7 @@
       "skill": "tutoria-de-estudos",
       "description": "Tutor pessoal para planejar estudos, explicar conteúdos, praticar, revisar e acompanhar o progresso do estudante.",
       "path": "plugins/mentor-de-estudos",
-      "skills": [
-        "tutoria-de-estudos"
-      ]
+      "skills": ["tutoria-de-estudos"]
     },
     {
       "name": "pesquisa-cientifica",
@@ -354,9 +344,7 @@
       "skill": "criar-avaliacoes",
       "description": "Cria avaliações e cadernos de questões a partir de apostilas, slides, guias e materiais enviados pelo usuário.",
       "path": "plugins/provalab",
-      "skills": [
-        "criar-avaliacoes"
-      ]
+      "skills": ["criar-avaliacoes"]
     },
     {
       "name": "python-lab",
@@ -400,9 +388,7 @@
       "skill": "criar-resumo-visual",
       "description": "Transforma qualquer tema ou material de estudo em um resumo visual manuscrito, didático, organizado e focado em revisão de prova.",
       "path": "plugins/resumo-visual-manuscrito",
-      "skills": [
-        "criar-resumo-visual"
-      ]
+      "skills": ["criar-resumo-visual"]
     },
     {
       "name": "skill-auditor",
@@ -445,9 +431,7 @@
       "skill": "medir-tokens",
       "description": "Registro portátil de consumo de tokens com relatórios diários, semanais, mensais, anuais e total acumulado. Importação de metadados, custos configuráveis e MCP local.",
       "path": "plugins/tokenmeter-universal",
-      "skills": [
-        "medir-tokens"
-      ]
+      "skills": ["medir-tokens"]
     },
     {
       "name": "visualexplain",

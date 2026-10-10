@@ -14,9 +14,7 @@
         "longDescription": "Ensinar, escrever, depurar e praticar SQL com exemplos controlados. Esquema e dialeto SQL; SQLite opcional para exercícios locais. Não requer acesso a produção.",
         "developerName": "Marlon Ferreira",
         "category": "Productivity",
-        "capabilities": [
-          "Interactive"
-        ],
+        "capabilities": ["Interactive"],
         "defaultPrompt": "Escreva uma consulta PostgreSQL para vendas mensais por vendedor."
       }
     }

@@ -35,10 +35,10 @@ Análises e cenários são educacionais; dividendos e retornos não são garanti
 
 ## Skills desta ampliação
 
-| Skill | Função |
-|---|---|
-| [`comparar-ativos`](skills/comparar-ativos/SKILL.md) | Comparar ativos financeiros |
-| [`ler-demonstracoes-financeiras`](skills/ler-demonstracoes-financeiras/SKILL.md) | Ler demonstrações financeiras |
+| Skill                                                                            | Função                           |
+| -------------------------------------------------------------------------------- | -------------------------------- |
+| [`comparar-ativos`](skills/comparar-ativos/SKILL.md)                             | Comparar ativos financeiros      |
+| [`ler-demonstracoes-financeiras`](skills/ler-demonstracoes-financeiras/SKILL.md) | Ler demonstrações financeiras    |
 | [`simular-cenarios-investimento`](skills/simular-cenarios-investimento/SKILL.md) | Simular cenários de investimento |
 
 ## Requisitos e execução

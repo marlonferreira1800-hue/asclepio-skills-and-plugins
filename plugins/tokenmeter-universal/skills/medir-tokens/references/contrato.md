@@ -19,6 +19,7 @@ MCP stdio: record_usage, report_usage, estimate_text. Clientes precisam suportar
 CSV exportado protege strings de fórmulas em planilhas; JSON preserva o registro para backup/reimportação fiel.
 
 Fontes oficiais consultadas em 2026-09-30:
+
 - https://developers.openai.com/api/docs/guides/token-counting
 - https://developers.openai.com/api/docs/guides/prompt-caching
 - https://platform.claude.com/docs/en/build-with-claude/prompt-caching

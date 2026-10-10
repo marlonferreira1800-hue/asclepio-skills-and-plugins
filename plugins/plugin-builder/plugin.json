@@ -14,9 +14,7 @@
         "longDescription": "Estruturar plugins de skills, preparar manifestos, documentar requisitos e empacotar versões. Sistema de arquivos e Python; validar com schema oficial ou validador do cliente quando disponível.",
         "developerName": "Marlon Ferreira",
         "category": "Productivity",
-        "capabilities": [
-          "Interactive"
-        ],
+        "capabilities": ["Interactive"],
         "defaultPrompt": "Crie um plugin com três skills para análise de dados."
       }
     }

@@ -37,4 +37,3 @@ Evite dois posts consecutivos com a mesma abertura, estrutura ou pergunta.
   jurídico.
 - Explicar limitações e necessidade de revisão humana ao falar de IA.
 - Não copiar posts de terceiros nem imitar uma pessoa específica.
-

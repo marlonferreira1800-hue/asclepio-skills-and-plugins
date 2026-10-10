@@ -18,4 +18,3 @@ Peça um post, carrossel, infográfico ou storyboard e informe o tema, público 
 - tldraw: https://github.com/tldraw/tldraw
 
 Este plugin oferece instruções de fluxo inspiradas nas ferramentas listadas; não inclui nem redistribui o código-fonte delas e não é afiliado a seus mantenedores. Confira as licenças dos projetos antes de reutilizar código. O repositório tldraw informa que uso em produção exige licença.
-

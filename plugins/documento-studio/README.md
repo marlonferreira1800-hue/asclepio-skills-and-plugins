@@ -4,12 +4,12 @@ Criar relatórios, formatar documentos, preparar apresentações e revisar PDFs.
 
 ## Skills desta ampliação
 
-| Skill | Função |
-|---|---|
+| Skill                                                                    | Função                       |
+| ------------------------------------------------------------------------ | ---------------------------- |
 | [`criar-relatorio-documento`](skills/criar-relatorio-documento/SKILL.md) | Criar relatório profissional |
-| [`formatar-documento`](skills/formatar-documento/SKILL.md) | Formatar documento |
-| [`montar-apresentacao`](skills/montar-apresentacao/SKILL.md) | Montar apresentação |
-| [`revisar-pdf`](skills/revisar-pdf/SKILL.md) | Revisar PDF |
+| [`formatar-documento`](skills/formatar-documento/SKILL.md)               | Formatar documento           |
+| [`montar-apresentacao`](skills/montar-apresentacao/SKILL.md)             | Montar apresentação          |
+| [`revisar-pdf`](skills/revisar-pdf/SKILL.md)                             | Revisar PDF                  |
 
 ## Requisitos e execução
 

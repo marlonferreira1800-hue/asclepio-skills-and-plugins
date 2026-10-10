@@ -4,12 +4,12 @@ Buscar literatura, extrair evidências, comparar estudos e organizar referência
 
 ## Skills desta ampliação
 
-| Skill | Função |
-|---|---|
-| [`buscar-literatura`](skills/buscar-literatura/SKILL.md) | Buscar literatura científica |
-| [`extrair-evidencias`](skills/extrair-evidencias/SKILL.md) | Extrair evidências de artigo |
-| [`comparar-estudos`](skills/comparar-estudos/SKILL.md) | Comparar estudos científicos |
-| [`organizar-referencias`](skills/organizar-referencias/SKILL.md) | Organizar referências |
+| Skill                                                            | Função                       |
+| ---------------------------------------------------------------- | ---------------------------- |
+| [`buscar-literatura`](skills/buscar-literatura/SKILL.md)         | Buscar literatura científica |
+| [`extrair-evidencias`](skills/extrair-evidencias/SKILL.md)       | Extrair evidências de artigo |
+| [`comparar-estudos`](skills/comparar-estudos/SKILL.md)           | Comparar estudos científicos |
+| [`organizar-referencias`](skills/organizar-referencias/SKILL.md) | Organizar referências        |
 
 ## Requisitos e execução
 

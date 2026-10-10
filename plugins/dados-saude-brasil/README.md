@@ -30,11 +30,11 @@ Este é um plugin de instruções: a consulta depende dos recursos de pesquisa e
 
 ## Skills desta ampliação
 
-| Skill | Função |
-|---|---|
-| [`comparar-municipios-saude`](skills/comparar-municipios-saude/SKILL.md) | Comparar municípios em saúde |
-| [`serie-historica-saude`](skills/serie-historica-saude/SKILL.md) | Construir série histórica de saúde |
-| [`explicar-indicadores-saude`](skills/explicar-indicadores-saude/SKILL.md) | Explicar indicadores de saúde |
+| Skill                                                                      | Função                             |
+| -------------------------------------------------------------------------- | ---------------------------------- |
+| [`comparar-municipios-saude`](skills/comparar-municipios-saude/SKILL.md)   | Comparar municípios em saúde       |
+| [`serie-historica-saude`](skills/serie-historica-saude/SKILL.md)           | Construir série histórica de saúde |
+| [`explicar-indicadores-saude`](skills/explicar-indicadores-saude/SKILL.md) | Explicar indicadores de saúde      |
 
 ## Requisitos e execução
 

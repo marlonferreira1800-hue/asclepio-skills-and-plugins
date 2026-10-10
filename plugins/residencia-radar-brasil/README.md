@@ -24,12 +24,12 @@ Este plugin fornece pesquisa educacional e organização de informações públi
 
 ## Skills desta ampliação
 
-| Skill | Função |
-|---|---|
-| [`comparar-vagas-residencia`](skills/comparar-vagas-residencia/SKILL.md) | Comparar vagas de residência |
-| [`comparar-ampla-pcd`](skills/comparar-ampla-pcd/SKILL.md) | Comparar ampla concorrência e PcD |
-| [`organizar-notas-residencia`](skills/organizar-notas-residencia/SKILL.md) | Organizar notas de residência |
-| [`acompanhar-chamadas-residencia`](skills/acompanhar-chamadas-residencia/SKILL.md) | Organizar chamadas de residência |
+| Skill                                                                              | Função                            |
+| ---------------------------------------------------------------------------------- | --------------------------------- |
+| [`comparar-vagas-residencia`](skills/comparar-vagas-residencia/SKILL.md)           | Comparar vagas de residência      |
+| [`comparar-ampla-pcd`](skills/comparar-ampla-pcd/SKILL.md)                         | Comparar ampla concorrência e PcD |
+| [`organizar-notas-residencia`](skills/organizar-notas-residencia/SKILL.md)         | Organizar notas de residência     |
+| [`acompanhar-chamadas-residencia`](skills/acompanhar-chamadas-residencia/SKILL.md) | Organizar chamadas de residência  |
 
 ## Requisitos e execução
 

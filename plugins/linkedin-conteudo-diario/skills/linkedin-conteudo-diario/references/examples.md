@@ -36,4 +36,3 @@ Use estes exemplos como padrões de estrutura, não como textos para repetição
 - Conteúdo: aprendizado supervisionado e não supervisionado.
 - Aplicação: previsão, classificação e agrupamento.
 - Pergunta: qual tipo de problema o leitor já tentou resolver?
-

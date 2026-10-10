@@ -27,4 +27,3 @@ Adaptação metodológica em PT-BR do ECC 2.2.3, arquivo fornecido pelo usuário
 - `skills/design-system/SKILL.md` — SHA-256 `1969e4cb6cd13cdafff5f84353047d6e55cebc24e1a595ec48e6e2c666f3d8b1`
 
 As fontes são registros de procedência; não representam dependências de execução. Os caminhos acima pertencem ao ECC original e não precisam existir neste plugin. Consulte `ECC-NOTICE.md` na raiz para a licença.
-

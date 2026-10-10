@@ -11,9 +11,7 @@
     "longDescription": "Explicar código, depurar erros, criar exercícios e organizar projetos Python. Interpretador Python e dependências do projeto; consultar documentação oficial para APIs atuais.",
     "developerName": "Marlon Ferreira",
     "category": "Productivity",
-    "capabilities": [
-      "Interactive"
-    ],
+    "capabilities": ["Interactive"],
     "defaultPrompt": "Explique esta função Python como se eu estivesse começando."
   },
   "skills": "./skills"

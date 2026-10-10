@@ -4,12 +4,12 @@ Avaliar estrutura, instruções, recursos e comportamento de skills com casos de
 
 ## Skills desta ampliação
 
-| Skill | Função |
-|---|---|
-| [`auditar-skill`](skills/auditar-skill/SKILL.md) | Auditar instruções de skill |
-| [`validar-estrutura-skill`](skills/validar-estrutura-skill/SKILL.md) | Validar estrutura de skill |
-| [`avaliar-exemplos-skill`](skills/avaliar-exemplos-skill/SKILL.md) | Avaliar exemplos de skill |
-| [`revisar-limites-skill`](skills/revisar-limites-skill/SKILL.md) | Revisar limites de skill |
+| Skill                                                                | Função                      |
+| -------------------------------------------------------------------- | --------------------------- |
+| [`auditar-skill`](skills/auditar-skill/SKILL.md)                     | Auditar instruções de skill |
+| [`validar-estrutura-skill`](skills/validar-estrutura-skill/SKILL.md) | Validar estrutura de skill  |
+| [`avaliar-exemplos-skill`](skills/avaliar-exemplos-skill/SKILL.md)   | Avaliar exemplos de skill   |
+| [`revisar-limites-skill`](skills/revisar-limites-skill/SKILL.md)     | Revisar limites de skill    |
 
 ## Requisitos e execução
 

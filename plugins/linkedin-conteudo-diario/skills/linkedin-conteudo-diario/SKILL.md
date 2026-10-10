@@ -175,8 +175,6 @@ Não há API nova nesta skill. Limites são operacionais:
 - Reutilizar a mesma imagem, gancho ou pergunta em posts consecutivos.
 - Criar fatos pessoais ou profissionais não fornecidos pelo usuário.
 
-
-
 ## Métodos selecionados do ECC
 
 Para planejar ou revisar esta tarefa, consultar [references/ecc-methods.md](references/ecc-methods.md). Aplicar apenas as etapas relevantes ao pedido; a referência complementa este fluxo e não ativa ferramentas adicionais.

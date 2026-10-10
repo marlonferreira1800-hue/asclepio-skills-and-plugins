@@ -5,11 +5,7 @@
     "longDescription": "Prepare cinco posts educativos com imagens originais, valide o lote, apresente tudo para uma única aprovação e distribua as publicações ao longo do dia nos horários definidos pelo usuário.",
     "developerName": "Marlon Ferreira",
     "category": "Productivity",
-    "capabilities": [
-      "Interactive",
-      "Read",
-      "Write"
-    ],
+    "capabilities": ["Interactive", "Read", "Write"],
     "logo": "./assets/icon.svg",
     "composerIcon": "./assets/icon.svg",
     "brandColor": "#0B5F75",

@@ -24,8 +24,6 @@ Entregue a planta do canvas com coordenadas relativas ou instruções de posicio
 
 Referência: https://github.com/tldraw/tldraw. O README do projeto informa que a licença do SDK exige licença para uso em produção. Ao orientar implementação ou redistribuição, mande verificar os termos atuais do repositório e da licença comercial antes de publicar.
 
-
 ## Métodos selecionados do ECC
 
 Para planejar ou revisar esta tarefa, consultar [references/ecc-methods.md](references/ecc-methods.md). Aplicar apenas as etapas relevantes ao pedido; a referência complementa este fluxo e não ativa ferramentas adicionais.
-

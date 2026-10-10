@@ -11,9 +11,7 @@
     "longDescription": "Limpar bases, explorar dados, construir gráficos e produzir relatórios reproduzíveis. Python; pandas/openpyxl para Excel; matplotlib ou equivalente para gráficos. Sem essas ferramentas, entregar plano e código sem alegar execução.",
     "developerName": "Marlon Ferreira",
     "category": "Productivity",
-    "capabilities": [
-      "Interactive"
-    ],
+    "capabilities": ["Interactive"],
     "defaultPrompt": "Limpe esta planilha de vendas e preserve os códigos de clientes."
   },
   "skills": "./skills"

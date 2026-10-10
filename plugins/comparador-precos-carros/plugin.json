@@ -14,9 +14,7 @@
         "longDescription": "Encontre e compare carros novos ou usados no Brasil. Organiza resultados por categoria, marca, modelo, versão e região, diferencia preço sugerido, anúncios e FIPE e inclui fontes, consumo e custos de uso quando os dados estão disponíveis.",
         "developerName": "Marlon Ferreira",
         "category": "Productivity",
-        "capabilities": [
-          "Interactive"
-        ],
+        "capabilities": ["Interactive"],
         "defaultPrompt": "Compare carros por categoria, marca, preço e localização no Brasil."
       }
     }

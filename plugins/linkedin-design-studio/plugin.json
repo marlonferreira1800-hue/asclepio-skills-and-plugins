@@ -14,9 +14,7 @@
         "longDescription": "Creates practical design briefs, slide plans, copy and visual specifications for LinkedIn posts. Selects a Penpot-inspired polished layout, an Excalidraw-inspired hand-drawn explainer, or a tldraw-inspired canvas workflow based on the request.",
         "developerName": "Marlon Ferreira",
         "category": "Design",
-        "capabilities": [
-          "Interactive"
-        ],
+        "capabilities": ["Interactive"],
         "defaultPrompt": [
           "Crie um post visual para LinkedIn sobre este tema.",
           "Monte um carrossel profissional para LinkedIn com este conteúdo.",
@@ -26,4 +24,3 @@
     }
   }
 }
-

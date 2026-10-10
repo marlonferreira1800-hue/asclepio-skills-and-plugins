@@ -11,9 +11,7 @@
     "longDescription": "Pesquisa notificações, internações e óbitos por doença, município e período em bases oficiais de saúde pública.",
     "developerName": "Marlon Ferreira",
     "category": "Research",
-    "capabilities": [
-      "Interactive"
-    ],
+    "capabilities": ["Interactive"],
     "defaultPrompt": "Consulte dados de uma doença por cidade e ano em fontes oficiais do SUS."
   },
   "skills": "./skills"

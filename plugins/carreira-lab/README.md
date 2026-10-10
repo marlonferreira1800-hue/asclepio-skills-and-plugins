@@ -4,11 +4,11 @@ Adaptar currículo, revisar perfil, praticar entrevista e mapear evidências de 
 
 ## Skills desta ampliação
 
-| Skill | Função |
-|---|---|
-| [`adaptar-curriculo`](skills/adaptar-curriculo/SKILL.md) | Adaptar currículo para vaga |
-| [`revisar-perfil-linkedin`](skills/revisar-perfil-linkedin/SKILL.md) | Revisar perfil LinkedIn |
-| [`simular-entrevista`](skills/simular-entrevista/SKILL.md) | Simular entrevista |
+| Skill                                                                  | Função                      |
+| ---------------------------------------------------------------------- | --------------------------- |
+| [`adaptar-curriculo`](skills/adaptar-curriculo/SKILL.md)               | Adaptar currículo para vaga |
+| [`revisar-perfil-linkedin`](skills/revisar-perfil-linkedin/SKILL.md)   | Revisar perfil LinkedIn     |
+| [`simular-entrevista`](skills/simular-entrevista/SKILL.md)             | Simular entrevista          |
 | [`mapear-competencias-vaga`](skills/mapear-competencias-vaga/SKILL.md) | Mapear competências da vaga |
 
 ## Requisitos e execução

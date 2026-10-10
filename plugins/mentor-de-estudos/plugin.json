@@ -14,9 +14,7 @@
         "longDescription": "Cria planos de estudo personalizados, ensina com explicações adaptadas, conduz prática ativa, produz exercícios e flashcards e acompanha a evolução do estudante.",
         "developerName": "Marlo",
         "category": "Education",
-        "capabilities": [
-          "Interactive"
-        ],
+        "capabilities": ["Interactive"],
         "defaultPrompt": [
           "Monte um plano de estudos personalizado para mim.",
           "Ensine um assunto usando perguntas, exemplos e exercícios.",

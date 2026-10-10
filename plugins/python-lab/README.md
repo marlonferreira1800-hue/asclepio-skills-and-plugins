@@ -4,11 +4,11 @@ Explicar código, depurar erros, criar exercícios e organizar projetos Python.
 
 ## Skills desta ampliação
 
-| Skill | Função |
-|---|---|
-| [`explicar-codigo-python`](skills/explicar-codigo-python/SKILL.md) | Explicar código Python |
-| [`depurar-python`](skills/depurar-python/SKILL.md) | Depurar Python |
-| [`praticar-python`](skills/praticar-python/SKILL.md) | Praticar Python |
+| Skill                                                                  | Função                   |
+| ---------------------------------------------------------------------- | ------------------------ |
+| [`explicar-codigo-python`](skills/explicar-codigo-python/SKILL.md)     | Explicar código Python   |
+| [`depurar-python`](skills/depurar-python/SKILL.md)                     | Depurar Python           |
+| [`praticar-python`](skills/praticar-python/SKILL.md)                   | Praticar Python          |
 | [`organizar-projeto-python`](skills/organizar-projeto-python/SKILL.md) | Organizar projeto Python |
 
 ## Requisitos e execução

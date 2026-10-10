@@ -78,7 +78,6 @@ dominado e o que ainda precisa de prática e recomende um próximo passo
 específico. Mantenha um tom paciente, encorajador e respeitoso, sem elogios
 genéricos ou infantilização.
 
-
 ## Métodos selecionados do ECC
 
 Para planejar ou revisar esta tarefa, consultar [references/ecc-methods.md](references/ecc-methods.md). Aplicar apenas as etapas relevantes ao pedido; a referência complementa este fluxo e não ativa ferramentas adicionais.

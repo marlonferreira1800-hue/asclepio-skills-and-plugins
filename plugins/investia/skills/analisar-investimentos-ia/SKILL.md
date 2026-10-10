@@ -40,7 +40,6 @@ Entregar primeiro conclusão e qualidade da evidência; depois tabela de métric
 
 Usar exemplos de `references/metodo.md` para escolher o formato. Aplicar habilidades de arquivos apenas quando houver pedido de exportação; salvar os entregáveis conforme o ambiente.
 
-
 ## Métodos selecionados do ECC
 
 Para planejar ou revisar esta tarefa, consultar [references/ecc-methods.md](references/ecc-methods.md). Aplicar apenas as etapas relevantes ao pedido; a referência complementa este fluxo e não ativa ferramentas adicionais.

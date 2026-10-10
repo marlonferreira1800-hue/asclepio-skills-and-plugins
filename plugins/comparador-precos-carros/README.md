@@ -14,10 +14,10 @@ Plugin privado com uma skill que pesquisa e compara carros no Brasil por categor
 
 ## Skills desta ampliação
 
-| Skill | Função |
-|---|---|
-| [`estimar-custo-carro`](skills/estimar-custo-carro/SKILL.md) | Estimar custo de uso de carro |
-| [`comparar-versoes-carro`](skills/comparar-versoes-carro/SKILL.md) | Comparar versões de carro |
+| Skill                                                                | Função                                   |
+| -------------------------------------------------------------------- | ---------------------------------------- |
+| [`estimar-custo-carro`](skills/estimar-custo-carro/SKILL.md)         | Estimar custo de uso de carro            |
+| [`comparar-versoes-carro`](skills/comparar-versoes-carro/SKILL.md)   | Comparar versões de carro                |
 | [`checklist-avaliar-carro`](skills/checklist-avaliar-carro/SKILL.md) | Preparar checklist de avaliação de carro |
 
 ## Requisitos e execução

@@ -8,15 +8,15 @@ Exemplo: para aprender SQL, usar SQL Mentor. Para analisar um artigo, começar p
 
 ## 2. Confira o que o ambiente precisa oferecer
 
-| Tarefa | Requisito |
-|---|---|
-| Explicar, planejar ou revisar texto fornecido | Agente que leia as instruções |
-| Consultar editais, artigos ou preços atuais | Navegação ou dados atuais fornecidos |
+| Tarefa                                            | Requisito                                 |
+| ------------------------------------------------- | ----------------------------------------- |
+| Explicar, planejar ou revisar texto fornecido     | Agente que leia as instruções             |
+| Consultar editais, artigos ou preços atuais       | Navegação ou dados atuais fornecidos      |
 | Executar Python, limpar planilhas ou exportar TSV | Runtime e bibliotecas indicados no pacote |
-| Gerar imagens e editar artes | Ferramenta de imagem ou editor disponível |
-| Criar arquivos de documentos ou apresentações | Ferramentas de geração e renderização |
-| Validar DAX ou produzir PBIX | Power BI |
-| Usar um servidor MCP incluído | Configuração e dependências do servidor |
+| Gerar imagens e editar artes                      | Ferramenta de imagem ou editor disponível |
+| Criar arquivos de documentos ou apresentações     | Ferramentas de geração e renderização     |
+| Validar DAX ou produzir PBIX                      | Power BI                                  |
+| Usar um servidor MCP incluído                     | Configuração e dependências do servidor   |
 
 O plugin não fornece automaticamente todas essas ferramentas. Se faltar uma dependência, a skill orienta a entregar uma alternativa e informar o que não foi executado.
 
@@ -30,14 +30,14 @@ Um manifesto no GitHub não ativa uma instalação na conta. Os overlays `.codex
 
 ## 4. Faça um pedido concreto
 
-| Pacote | Exemplo de pedido |
-|---|---|
-| DataLab | “Limpe esta base, preserve códigos de clientes e explique as alterações.” |
-| MedQuest | “Faça 9 objetivas e 3 discursivas, com gabarito separado.” |
-| Pesquisa Científica | “Extraia métodos e resultados destes artigos com fontes.” |
-| PostLab | “Planeje um carrossel de cinco páginas sobre Python e SQL.” |
-| Edital Fácil | “Extraia requisitos, prazos e documentos deste edital.” |
-| Anki Builder | “Crie cartões deste capítulo e exporte em TSV.” |
+| Pacote              | Exemplo de pedido                                                         |
+| ------------------- | ------------------------------------------------------------------------- |
+| DataLab             | “Limpe esta base, preserve códigos de clientes e explique as alterações.” |
+| MedQuest            | “Faça 9 objetivas e 3 discursivas, com gabarito separado.”                |
+| Pesquisa Científica | “Extraia métodos e resultados destes artigos com fontes.”                 |
+| PostLab             | “Planeje um carrossel de cinco páginas sobre Python e SQL.”               |
+| Edital Fácil        | “Extraia requisitos, prazos e documentos deste edital.”                   |
+| Anki Builder        | “Crie cartões deste capítulo e exporte em TSV.”                           |
 
 Para pesquisa, informe edição, período e local. Para análise de arquivos, forneça o material. Para banco de dados, informe dialeto e esquema.
 

@@ -2,14 +2,14 @@
 
 Selecionar uma direção compatível com o tema, sem transformar estas opções em modelos obrigatórios.
 
-| Direção | Composição | Aplicação |
-| --- | --- | --- |
-| Editorial elegante | Título expressivo, imagem focal, alinhamento e respiro | Fundo claro, texto escuro e acento vivo; educação e LinkedIn |
-| Criativo colorido | Blocos de cor, recortes e formas com função na narrativa | Dois tons vivos e um neutro; divulgação e conteúdo jovem |
-| Tecnologia contemporânea | Metáfora visual original e tipografia precisa | Azul profundo, coral ou verde-lima e branco; IA, dados e programação |
-| Fotográfico humano | Cena expressiva e área livre para texto | Cores naturais e acento de marca; pessoas e histórias |
-| Minimalista premium | Poucos elementos e proporções bem definidas | Neutros e um acento; produtos e posicionamento |
-| Didático ilustrado | Esquema simples, exemplos e rótulos legíveis | Cor por categoria com rótulos; explicações e revisões |
+| Direção                  | Composição                                               | Aplicação                                                            |
+| ------------------------ | -------------------------------------------------------- | -------------------------------------------------------------------- |
+| Editorial elegante       | Título expressivo, imagem focal, alinhamento e respiro   | Fundo claro, texto escuro e acento vivo; educação e LinkedIn         |
+| Criativo colorido        | Blocos de cor, recortes e formas com função na narrativa | Dois tons vivos e um neutro; divulgação e conteúdo jovem             |
+| Tecnologia contemporânea | Metáfora visual original e tipografia precisa            | Azul profundo, coral ou verde-lima e branco; IA, dados e programação |
+| Fotográfico humano       | Cena expressiva e área livre para texto                  | Cores naturais e acento de marca; pessoas e histórias                |
+| Minimalista premium      | Poucos elementos e proporções bem definidas              | Neutros e um acento; produtos e posicionamento                       |
+| Didático ilustrado       | Esquema simples, exemplos e rótulos legíveis             | Cor por categoria com rótulos; explicações e revisões                |
 
 ## Composição por formato
 

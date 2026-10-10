@@ -22,12 +22,12 @@ Faça a pesquisa por doença, localidade e período com o mínimo de etapas para
 
 Comece pela resposta e use uma tabela curta:
 
-| Indicador | Total |
-|---|---:|
-| Notificações | ... |
-| Casos confirmados, se disponíveis | ... |
-| Internações | ... |
-| Óbitos | ... |
+| Indicador                         | Total |
+| --------------------------------- | ----: |
+| Notificações                      |   ... |
+| Casos confirmados, se disponíveis |   ... |
+| Internações                       |   ... |
+| Óbitos                            |   ... |
 
 Depois, informe os links diretos das fontes e uma observação breve sobre atualização ou limitação. Se não encontrar um valor, escreva “não localizado na fonte consultada”; não estime.
 
@@ -39,7 +39,6 @@ Depois, informe os links diretos das fontes e uma observação breve sobre atual
 - Internações SIH/SUS: https://datasus.saude.gov.br/acesso-a-informacao/morbidade-hospitalar-do-sus-sih-sus/
 
 Use somente dados públicos agregados. Não tente identificar pacientes nem interprete estatísticas populacionais como diagnóstico individual.
-
 
 ## Métodos selecionados do ECC
 

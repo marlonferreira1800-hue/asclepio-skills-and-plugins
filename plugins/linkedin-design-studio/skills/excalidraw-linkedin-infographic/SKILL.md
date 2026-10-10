@@ -23,8 +23,6 @@ Entregue um esquema textual que possa ser reproduzido no Excalidraw, seguido de 
 Referência do projeto: https://github.com/excalidraw/excalidraw
 Licença do código do Excalidraw: MIT. Este skill não inclui o código do Excalidraw.
 
-
 ## Métodos selecionados do ECC
 
 Para planejar ou revisar esta tarefa, consultar [references/ecc-methods.md](references/ecc-methods.md). Aplicar apenas as etapas relevantes ao pedido; a referência complementa este fluxo e não ativa ferramentas adicionais.
-

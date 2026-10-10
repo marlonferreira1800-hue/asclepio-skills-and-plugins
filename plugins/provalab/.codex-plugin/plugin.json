@@ -5,9 +5,7 @@
     "longDescription": "Transforme materiais de aula em provas, simulados e estudos dirigidos com questões objetivas e discursivas, nível ajustável, gabarito separado e, quando solicitado, documento pronto para impressão.",
     "developerName": "Marlon Ferreira",
     "category": "Education",
-    "capabilities": [
-      "Interactive"
-    ],
+    "capabilities": ["Interactive"],
     "defaultPrompt": [
       "Crie uma prova de 9 questões objetivas e 3 discursivas com base neste material.",
       "Monte um estudo dirigido por temas usando apenas os arquivos que enviei.",
@@ -20,12 +18,6 @@
   "author": {
     "name": "Marlon Ferreira"
   },
-  "keywords": [
-    "prova",
-    "simulado",
-    "questões",
-    "estudo dirigido",
-    "PDF"
-  ],
+  "keywords": ["prova", "simulado", "questões", "estudo dirigido", "PDF"],
   "skills": "./skills"
 }
