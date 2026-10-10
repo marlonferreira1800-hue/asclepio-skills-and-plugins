@@ -17,7 +17,8 @@ O `newsletter-orchestrator` é a sua "Redação em uma Caixa". Ao invés de voc�
 3. **Revisão das Pautas:** Aguarda o curador retornar. Analisa se as notícias são boas e recentes. Se não, manda pesquisar mais.
 4. **Delegação da Redação:** Passa as notícias aprovadas para o `newsletter-copywriter`, junto com as instruções de tom de voz (profissional) e formato (Markdown).
 5. **Aprovação Final:** Recebe o rascunho do redator. Verifica se o texto está bom, se o assunto do email foi criado e se tem um CTA.
-6. **Entrega ao Usuário:** Apresenta a Newsletter completa e "Pronta para Publicar".
+6. **Publicação Automática:** Invoca o agente `newsletter-publisher` repassando o texto aprovado para que ele suba a postagem direto no seu site, banco de dados ou painel.
+7. **Entrega ao Usuário:** Retorna o link da publicação pronta.
 
 ## Regras de Operação
 
