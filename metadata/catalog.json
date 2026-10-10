@@ -161,6 +161,10 @@
         {
           "name": "asclepio",
           "primarySkill": "asclepio"
+        },
+        {
+          "name": "agentes-autonomos",
+          "primarySkill": "triage-maintainer"
         }
       ]
     },

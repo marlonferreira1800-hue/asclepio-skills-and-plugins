@@ -7,6 +7,23 @@
   },
   "plugins": [
     {
+      "name": "agentes-autonomos",
+      "displayName": "agentes-autonomos",
+      "version": "1.0.0",
+      "category": "Productivity",
+      "group": "desenvolvimento",
+      "skill": "triage-maintainer",
+      "description": "Uma suíte de agentes trabalhadores autônomos que orquestram tarefas complexas no terminal: Triagem, Segurança, Documentação, Dados e Migração.",
+      "path": "plugins/agentes-autonomos",
+      "skills": [
+        "data-miner",
+        "docbot-architect",
+        "legacy-modernizer",
+        "secops-auditor",
+        "triage-maintainer"
+      ]
+    },
+    {
       "name": "anki-builder",
       "displayName": "Anki Builder",
       "version": "0.1.0",
