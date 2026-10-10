@@ -1,0 +1,36 @@
+{
+  "name": "asclepio-skills-and-plugins",
+  "version": "1.0.0",
+  "description": "<!-- Gerado por scripts/generate_catalog.py. Editar manifestos, skills ou metadata/catalog.json. -->",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marlonferreira1800-hue/asclepio-skills-and-plugins.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/marlonferreira1800-hue/asclepio-skills-and-plugins/issues"
+  },
+  "homepage": "https://github.com/marlonferreira1800-hue/asclepio-skills-and-plugins#readme",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^17.6.0",
+    "prettier": "^3.9.10"
+  },
+  "lint-staged": {
+    "*": {
+      "{json,md,yml,yaml}": "prettier --write"
+    }
+  }
+}
