@@ -2,7 +2,7 @@
 
 # Catálogo de plugins e skills
 
-30 plugins e 99 skills. Os nomes abaixo são os identificadores reais dos arquivos. Para exemplos e dependências, abra o README de cada plugin.
+31 plugins e 101 skills. Os nomes abaixo são os identificadores reais dos arquivos. Para exemplos e dependências, abra o README de cada plugin.
 
 [Voltar ao início](../README.md) · [Guia rápido](guia-rapido.md)
 
@@ -321,12 +321,13 @@ Lê editais de concursos e seleções e transforma requisitos, etapas, salários
 
 Melhorar README, gerar catálogo, registrar mudanças e conferir links.
 
-| Skill                                                                                                    | Quando usar                                                                              |
-| -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| [`catalogar-plugins`](../plugins/github-organizer/skills/catalogar-plugins/SKILL.md)                     | Use para gerar índice de plugins e skills a partir dos arquivos reais de um repositório. |
-| [`escrever-changelog`](../plugins/github-organizer/skills/escrever-changelog/SKILL.md)                   | Use para documentar mudanças entre versões ou commits.                                   |
-| [`melhorar-readme`](../plugins/github-organizer/skills/melhorar-readme/SKILL.md)                         | Use para criar ou atualizar README de projeto com instruções verificáveis.               |
-| [`verificar-links-repositorio`](../plugins/github-organizer/skills/verificar-links-repositorio/SKILL.md) | Use para encontrar links quebrados ou caminhos inexistentes na documentação.             |
+| Skill                                                                                                    | Quando usar                                                                                                                                                               |
+| -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`catalogar-plugins`](../plugins/github-organizer/skills/catalogar-plugins/SKILL.md)                     | Use para gerar índice de plugins e skills a partir dos arquivos reais de um repositório.                                                                                  |
+| [`escrever-changelog`](../plugins/github-organizer/skills/escrever-changelog/SKILL.md)                   | Use para documentar mudanças entre versões ou commits.                                                                                                                    |
+| [`melhorar-readme`](../plugins/github-organizer/skills/melhorar-readme/SKILL.md)                         | Use para criar ou atualizar README de projeto com instruções verificáveis.                                                                                                |
+| [`repo-beautifier`](../plugins/github-organizer/skills/repo-beautifier/SKILL.md)                         | Organiza a estrutura de pastas do repositório, adiciona arquivos de comunidade, badges, CI/CD, e ferramentas de qualidade para deixar o projeto com padrão internacional. |
+| [`verificar-links-repositorio`](../plugins/github-organizer/skills/verificar-links-repositorio/SKILL.md) | Use para encontrar links quebrados ou caminhos inexistentes na documentação.                                                                                              |
 
 ### Skill Auditor
 
@@ -366,6 +367,16 @@ Ler documentação, realizar consultas autorizadas, paginar resultados e documen
 | [`ler-documentacao-api`](../plugins/api-explorer/skills/ler-documentacao-api/SKILL.md)       | Use para entender endpoints, autenticação, filtros e limites de uma API.                      |
 | [`paginar-api`](../plugins/api-explorer/skills/paginar-api/SKILL.md)                         | Use para coletar várias páginas de resultados de uma API com controle de limites.             |
 | [`testar-consulta-api`](../plugins/api-explorer/skills/testar-consulta-api/SKILL.md)         | Use para testar consulta HTTP de leitura a endpoint documentado.                              |
+
+### asclepio
+
+[Documentação do plugin](../plugins/asclepio/README.md) · Versão `1.0.0`
+
+Ativa o modo autônomo extremo. O agente deve assumir controle total, resolver problemas por conta própria, evitar perguntas e rodar até terminar a tarefa.
+
+| Skill                                                      | Quando usar                                                                                                                                                                              |
+| ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`asclepio`](../plugins/asclepio/skills/asclepio/SKILL.md) | Ativa o modo autônomo extremo com regras avançadas de resiliência, logging, delegação e qualidade. O agente deve assumir controle total, evitar perguntas e rodar até terminar a tarefa. |
 
 ## financas
 

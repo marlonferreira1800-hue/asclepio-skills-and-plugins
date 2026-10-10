@@ -55,6 +55,17 @@
       ]
     },
     {
+      "name": "asclepio",
+      "displayName": "asclepio",
+      "version": "1.0.0",
+      "category": "Productivity",
+      "group": "desenvolvimento",
+      "skill": "asclepio",
+      "description": "Ativa o modo autônomo extremo. O agente deve assumir controle total, resolver problemas por conta própria, evitar perguntas e rodar até terminar a tarefa.",
+      "path": "plugins/asclepio",
+      "skills": ["asclepio"]
+    },
+    {
       "name": "carreira-lab",
       "displayName": "Carreira Lab",
       "version": "0.1.0",
@@ -191,6 +202,7 @@
         "catalogar-plugins",
         "escrever-changelog",
         "melhorar-readme",
+        "repo-beautifier",
         "verificar-links-repositorio"
       ]
     },

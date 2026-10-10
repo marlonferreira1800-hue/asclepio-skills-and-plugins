@@ -153,6 +153,10 @@
         {
           "name": "api-explorer",
           "primarySkill": "documentar-resposta-api"
+        },
+        {
+          "name": "asclepio",
+          "primarySkill": "asclepio"
         }
       ]
     },

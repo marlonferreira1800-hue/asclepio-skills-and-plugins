@@ -2,12 +2,7 @@
 
 # Asclépio — Skills & Plugins para Agentes de IA
 
-![License](https://img.shields.io/github/license/marlonferreira1800-hue/asclepio-skills-and-plugins?style=flat-square)
-![Stars](https://img.shields.io/github/stars/marlonferreira1800-hue/asclepio-skills-and-plugins?style=flat-square)
-![Forks](https://img.shields.io/github/forks/marlonferreira1800-hue/asclepio-skills-and-plugins?style=flat-square)
-![CI](https://img.shields.io/github/actions/workflow/status/marlonferreira1800-hue/asclepio-skills-and-plugins/ci.yml?style=flat-square)
-
-**30 plugins · 99 skills · 8 áreas**
+**31 plugins · 101 skills · 8 áreas**
 
 Uma coleção em português para aprender, pesquisar, analisar dados e criar conteúdo com agentes de IA. Desenvolvida por Marlon Ferreira.
 
@@ -23,7 +18,7 @@ Uma coleção em português para aprender, pesquisar, analisar dados e criar con
 | [Pesquisa e saúde pública](docs/catalogo.md#pesquisa)      | [Pesquisa Científica](plugins/pesquisa-cientifica), [Artigo Crítico](plugins/artigo-critico), [Dados de Saúde Brasil](plugins/dados-saude-brasil)                                                                                                                                                                                                                                   |     12 |
 | [Design, documentos e conteúdo](docs/catalogo.md#criacao)  | [PostLab — Designer Criativo](plugins/postlab), [LinkedIn Conteúdo Diário](plugins/linkedin-conteudo-diario), [Resumo Visual Manuscrito](plugins/resumo-visual-manuscrito), [VisualExplain](plugins/visualexplain), [Documento Studio](plugins/documento-studio), [LinkedIn Design Kit](plugins/linkedin-post-design-kit), [LinkedIn Design Studio](plugins/linkedin-design-studio) |     20 |
 | [Carreira e concursos](docs/catalogo.md#carreira)          | [Carreira Lab](plugins/carreira-lab), [Edital Fácil](plugins/edital-facil)                                                                                                                                                                                                                                                                                                          |      9 |
-| [Plugins, GitHub e APIs](docs/catalogo.md#desenvolvimento) | [GitHub Organizer](plugins/github-organizer), [Skill Auditor](plugins/skill-auditor), [Plugin Builder](plugins/plugin-builder), [API Explorer](plugins/api-explorer)                                                                                                                                                                                                                |     16 |
+| [Plugins, GitHub e APIs](docs/catalogo.md#desenvolvimento) | [GitHub Organizer](plugins/github-organizer), [Skill Auditor](plugins/skill-auditor), [Plugin Builder](plugins/plugin-builder), [API Explorer](plugins/api-explorer), [asclepio](plugins/asclepio)                                                                                                                                                                                  |     18 |
 | [Finanças e comparações](docs/catalogo.md#financas)        | [InvestIA — Análise de Investimentos](plugins/investia), [Comparador de carros](plugins/comparador-precos-carros), [TokenMeter Universal](plugins/tokenmeter-universal)                                                                                                                                                                                                             |      9 |
 
 ## Escolha um ponto de partida
