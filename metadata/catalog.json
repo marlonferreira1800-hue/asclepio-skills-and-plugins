@@ -121,6 +121,10 @@
         {
           "name": "linkedin-design-studio",
           "primarySkill": "linkedin-design-router"
+        },
+        {
+          "name": "newsletter-studio",
+          "primarySkill": "newsletter-orchestrator"
         }
       ]
     },
