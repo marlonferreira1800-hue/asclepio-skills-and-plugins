@@ -2,7 +2,7 @@
 
 # Catálogo de plugins e skills
 
-31 plugins e 101 skills. Os nomes abaixo são os identificadores reais dos arquivos. Para exemplos e dependências, abra o README de cada plugin.
+32 plugins e 106 skills. Os nomes abaixo são os identificadores reais dos arquivos. Para exemplos e dependências, abra o README de cada plugin.
 
 [Voltar ao início](../README.md) · [Guia rápido](guia-rapido.md)
 
@@ -149,6 +149,20 @@ Definir indicadores, modelagem, layout e medidas DAX para dashboards.
 | [`escrever-dax`](../plugins/dashboard-studio/skills/escrever-dax/SKILL.md)                           | Use para criar ou corrigir medidas DAX no Power BI.                                     |
 | [`modelar-dashboard`](../plugins/dashboard-studio/skills/modelar-dashboard/SKILL.md)                 | Use para desenhar modelo estrela, relações, calendário e granularidade de um dashboard. |
 | [`planejar-layout-dashboard`](../plugins/dashboard-studio/skills/planejar-layout-dashboard/SKILL.md) | Use para organizar páginas, filtros, gráficos e navegação de um painel.                 |
+
+### terminal-ops
+
+[Documentação do plugin](../plugins/terminal-ops/README.md) · Versão `1.0.0`
+
+Conjunto de skills de extrema autonomia para automação de tarefas no terminal, DevOps, resolução de conflitos e manutenção contínua.
+
+| Skill                                                                                    | Quando usar                                                                                                                                               |
+| ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`auto-migrator`](../plugins/terminal-ops/skills/auto-migrator/SKILL.md)                 | Migra automaticamente bases de código legadas para novas versões de frameworks usando varredura via terminal (grep, sed, replace).                        |
+| [`auto-onboarder`](../plugins/terminal-ops/skills/auto-onboarder/SKILL.md)               | Configura automaticamente projetos recém-clonados do zero. Instala dependências, cria variáveis de ambiente e sobe bancos de dados via terminal.          |
+| [`auto-troubleshooter`](../plugins/terminal-ops/skills/auto-troubleshooter/SKILL.md)     | Agente autônomo de resolução de erros. Roda um comando que está falhando, analisa o stack trace, edita o código e repete até o terminal retornar sucesso. |
+| [`git-conflict-resolver`](../plugins/terminal-ops/skills/git-conflict-resolver/SKILL.md) | Lê arquivos em conflito no Git, compreende as intenções de ambas as branches e realiza o merge do código automaticamente pelo terminal.                   |
+| [`log-watchdog`](../plugins/terminal-ops/skills/log-watchdog/SKILL.md)                   | Agente em background que vigia logs de um servidor ativo. Quando detecta Exceptions, ele analisa, sugere ou corrige o erro em tempo real.                 |
 
 ## pesquisa
 

@@ -435,6 +435,23 @@
       ]
     },
     {
+      "name": "terminal-ops",
+      "displayName": "terminal-ops",
+      "version": "1.0.0",
+      "category": "Productivity",
+      "group": "dados",
+      "skill": "auto-troubleshooter",
+      "description": "Conjunto de skills de extrema autonomia para automação de tarefas no terminal, DevOps, resolução de conflitos e manutenção contínua.",
+      "path": "plugins/terminal-ops",
+      "skills": [
+        "auto-migrator",
+        "auto-onboarder",
+        "auto-troubleshooter",
+        "git-conflict-resolver",
+        "log-watchdog"
+      ]
+    },
+    {
       "name": "tokenmeter-universal",
       "displayName": "TokenMeter Universal",
       "version": "1.0.1",

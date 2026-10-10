@@ -65,6 +65,10 @@
         {
           "name": "dashboard-studio",
           "primarySkill": "definir-indicadores"
+        },
+        {
+          "name": "terminal-ops",
+          "primarySkill": "auto-troubleshooter"
         }
       ]
     },
