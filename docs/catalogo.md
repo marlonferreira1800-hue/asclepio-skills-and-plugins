@@ -2,7 +2,7 @@
 
 # Catálogo de plugins e skills
 
-33 plugins e 112 skills. Os nomes abaixo são os identificadores reais dos arquivos. Para exemplos e dependências, abra o README de cada plugin.
+35 plugins e 117 skills. Os nomes abaixo são os identificadores reais dos arquivos. Para exemplos e dependências, abra o README de cada plugin.
 
 [Voltar ao início](../README.md) · [Guia rápido](guia-rapido.md)
 
@@ -293,6 +293,29 @@ A design assistant for LinkedIn posts, carousels and explainers, with workflows 
 | [`linkedin-design-router`](../plugins/linkedin-design-studio/skills/linkedin-design-router/SKILL.md)                   | Escolhe um fluxo visual para criar posts, carrosséis, infográficos e explicações para LinkedIn. Use quando o pedido não indicar qual abordagem visual adotar ou quando o usuário quiser combinar estilos.        |
 | [`penpot-linkedin-design`](../plugins/linkedin-design-studio/skills/penpot-linkedin-design/SKILL.md)                   | Planeja posts estáticos e carrosséis de LinkedIn com aparência profissional, componentes reutilizáveis e identidade visual consistente. Use para peças de marca, educação, anúncios, dicas, dados ou divulgação. |
 | [`tldraw-linkedin-canvas`](../plugins/linkedin-design-studio/skills/tldraw-linkedin-canvas/SKILL.md)                   | Organiza ideias e narrativas de LinkedIn em uma tela ampla com blocos, setas, anotações e storyboard. Use para brainstorm, mapas de conteúdo, fluxos e planejamento visual antes da arte final.                  |
+
+### newsletter-studio
+
+[Documentação do plugin](../plugins/newsletter-studio/README.md) · Versão `1.0.0`
+
+Suíte multiagente para redação, curadoria, orquestração e publicação de newsletters.
+
+| Skill                                                                                             | Quando usar                                                                                                                                                                                                                                        |
+| ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`newsletter-copywriter`](../plugins/newsletter-studio/skills/newsletter-copywriter/SKILL.md)     | Agente redator especializado em Ciência de Dados, Machine Learning e IA. Produz a newsletter 'Decifrando Dados' usando uma mistura inteligente dos estilos das maiores newsletters tech do mundo (The Batch, Cassie Kozyrkov, Pragmatic Engineer). |
+| [`newsletter-curator`](../plugins/newsletter-studio/skills/newsletter-curator/SKILL.md)           | Agente responsável por curadoria de alto nível, filtrando o ruído e buscando apenas notícias de alto impacto sobre Agentes Autônomos, Governança e Negócios.                                                                                       |
+| [`newsletter-orchestrator`](../plugins/newsletter-studio/skills/newsletter-orchestrator/SKILL.md) | Agente gerente que coordena a produção ponta-a-ponta de uma newsletter, desde a pesquisa das pautas até a redação final.                                                                                                                           |
+| [`newsletter-publisher`](../plugins/newsletter-studio/skills/newsletter-publisher/SKILL.md)       | Agente encarregado de publicar ou agendar automaticamente a newsletter em plataformas externas (Lovable, Substack, LinkedIn, Webhooks) via API ou automação de navegador.                                                                          |
+
+### decifrando-dados-newsletter
+
+[Documentação do plugin](../plugins/decifrando-dados-newsletter/README.md) · Versão `1.0.0`
+
+Gerador 100% autônomo e compilador da newsletter 'Decifrando Dados' de Marlon Ferreira no formato The BRIEF.
+
+| Skill                                                                                                               | Quando usar                                                                                                                                                                                                                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`decifrando-dados-newsletter`](../plugins/decifrando-dados-newsletter/skills/decifrando-dados-newsletter/SKILL.md) | Cria e compila edições para a newsletter 'Decifrando Dados' de Marlon Ferreira sobre Ciência de Dados, Machine Learning e Inteligência Artificial. Produz PDF diagramado profissional com tipografia moderna e exporta o texto formatado pronto para copiar e colar diretamente no editor de Artigos do LinkedIn. |
 
 ## carreira
 

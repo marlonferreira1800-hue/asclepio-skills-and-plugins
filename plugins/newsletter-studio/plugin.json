@@ -1,0 +1,8 @@
+{
+  "name": "newsletter-studio",
+  "version": "1.0.0",
+  "description": "Suíte multiagente para redação, curadoria, orquestração e publicação de newsletters.",
+  "author": {
+    "name": "Marlon Ferreira"
+  }
+}

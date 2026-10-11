@@ -1,0 +1,8 @@
+{
+  "name": "decifrando-dados-newsletter",
+  "version": "1.0.0",
+  "description": "Gerador 100% autônomo e compilador da newsletter 'Decifrando Dados' de Marlon Ferreira no formato The BRIEF.",
+  "author": {
+    "name": "Marlon Ferreira"
+  }
+}

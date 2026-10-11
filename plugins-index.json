@@ -1,6 +1,6 @@
 {
   "name": "asclepio-skills-and-plugins",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Ecossistema de plugins e habilidades para aprendizagem, produtividade e pesquisa prática em diferentes áreas.",
   "author": {
     "name": "Marlon Ferreira"
@@ -175,6 +175,17 @@
       ]
     },
     {
+      "name": "decifrando-dados-newsletter",
+      "displayName": "decifrando-dados-newsletter",
+      "version": "1.0.0",
+      "category": "Productivity",
+      "group": "criacao",
+      "skill": "decifrando-dados-newsletter",
+      "description": "Gerador 100% autônomo e compilador da newsletter 'Decifrando Dados' de Marlon Ferreira no formato The BRIEF.",
+      "path": "plugins/decifrando-dados-newsletter",
+      "skills": ["decifrando-dados-newsletter"]
+    },
+    {
       "name": "documento-studio",
       "displayName": "Documento Studio",
       "version": "0.1.0",
@@ -315,6 +326,22 @@
       "description": "Tutor pessoal para planejar estudos, explicar conteúdos, praticar, revisar e acompanhar o progresso do estudante.",
       "path": "plugins/mentor-de-estudos",
       "skills": ["tutoria-de-estudos"]
+    },
+    {
+      "name": "newsletter-studio",
+      "displayName": "newsletter-studio",
+      "version": "1.0.0",
+      "category": "Productivity",
+      "group": "criacao",
+      "skill": "newsletter-orchestrator",
+      "description": "Suíte multiagente para redação, curadoria, orquestração e publicação de newsletters.",
+      "path": "plugins/newsletter-studio",
+      "skills": [
+        "newsletter-copywriter",
+        "newsletter-curator",
+        "newsletter-orchestrator",
+        "newsletter-publisher"
+      ]
     },
     {
       "name": "pesquisa-cientifica",

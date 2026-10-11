@@ -1,6 +1,6 @@
 {
   "name": "asclepio-skills-and-plugins",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Ecossistema de plugins e habilidades para aprendizagem, produtividade e pesquisa prática em diferentes áreas.",
   "author": {
     "name": "Marlon Ferreira"
@@ -125,6 +125,10 @@
         {
           "name": "newsletter-studio",
           "primarySkill": "newsletter-orchestrator"
+        },
+        {
+          "name": "decifrando-dados-newsletter",
+          "primarySkill": "decifrando-dados-newsletter"
         }
       ]
     },

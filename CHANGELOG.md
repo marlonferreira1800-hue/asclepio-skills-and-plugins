@@ -1,5 +1,11 @@
 # Histórico de mudanças
 
+## 1.4.0 — 2026-10-11
+
+- Adicionar plugin `decifrando-dados-newsletter` com o gerador 100% autônomo da newsletter Decifrando Dados de Marlon Ferreira no formato The BRIEF ("Smart people are cooler"), compilador oficial de PDF e gerador de post/artigo para LinkedIn.
+- Integrar e validar pacote `newsletter-studio` com os agentes `newsletter-orchestrator`, `newsletter-curator`, `newsletter-copywriter` e `newsletter-publisher`.
+- Sincronizar catálogo com 35 plugins e 117 skills validadas sem erros ou alertas.
+
 ## 1.3.0 — 2026-10-04
 
 - Incorporar referências metodológicas do ECC 2.2.3 a 17 skills em 14 plugins, com carregamento sob demanda e créditos MIT.
