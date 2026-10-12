@@ -102,6 +102,22 @@
       ]
     },
     {
+      "name": "claude-motion",
+      "displayName": "Claude Motion",
+      "version": "1.0.0",
+      "category": "Design",
+      "group": "criacao",
+      "skill": "motion-design",
+      "description": "Suíte Claude Motion para motion design, física de springs, áudio procedural, simulações web e loops de revisão para agentes de IA.",
+      "path": "plugins/claude-motion",
+      "skills": [
+        "motion-design",
+        "review-loop",
+        "sound-design",
+        "web-sims"
+      ]
+    },
+    {
       "name": "cognitus",
       "displayName": "Cognitus",
       "version": "0.1.2",

@@ -2,7 +2,7 @@
 
 # Catálogo de plugins e skills
 
-35 plugins e 119 skills. Os nomes abaixo são os identificadores reais dos arquivos. Para exemplos e dependências, abra o README de cada plugin.
+36 plugins e 123 skills. Os nomes abaixo são os identificadores reais dos arquivos. Para exemplos e dependências, abra o README de cada plugin.
 
 [Voltar ao início](../README.md) · [Guia rápido](guia-rapido.md)
 
@@ -318,6 +318,19 @@ Gerador 100% autônomo e compilador da newsletter 'Decifrando Dados' de Marlon F
 | Skill | Quando usar |
 |---|---|
 | [`decifrando-dados-newsletter`](../plugins/decifrando-dados-newsletter/skills/decifrando-dados-newsletter/SKILL.md) | Cria e compila edições para a newsletter 'Decifrando Dados' de Marlon Ferreira sobre Ciência de Dados, Machine Learning e Inteligência Artificial. Produz PDF diagramado profissional com tipografia moderna e exporta o texto formatado pronto para copiar e colar diretamente no editor de Artigos do LinkedIn. |
+
+### Claude Motion
+
+[Documentação do plugin](../plugins/claude-motion/README.md) · Versão `1.0.0`
+
+Suíte Claude Motion para motion design, física de springs, áudio procedural, simulações web e loops de revisão para agentes de IA.
+
+| Skill | Quando usar |
+|---|---|
+| [`motion-design`](../plugins/claude-motion/skills/motion-design/SKILL.md) | Taste rules for Remotion motion graphics — timing, easing, springs, typography, color, texture, and scene continuity, with concrete numbers. Use whenever you create, animate, retime, or polish a video, composition, scene, or transition in this repo. |
+| [`review-loop`](../plugins/claude-motion/skills/review-loop/SKILL.md) | Visual self-review loop for motion graphics — render a draft, build contact sheets at every timeline beat, look at them, critique against a checklist, fix, repeat. Use after any change to a video's visuals or timing, and before calling a video done. |
+| [`sound-design`](../plugins/claude-motion/skills/sound-design/SKILL.md) | Procedural sound design with the sfx engine — writing a cue sheet against a video's timeline, which sound goes with which visual event, gain hierarchy, panning, musical key, automatic mastering to -14 LUFS, adding new generators, and verifying sync. Use when adding, changing or checking audio, SFX, music beds or loudness for any video in this repo. |
+| [`web-sims`](../plugins/claude-motion/skills/web-sims/SKILL.md) | Build a simulation-style video (agents, particles, 3D machines, fly-throughs) as one HTML page whose render(t) is a pure function of time, then capture it frame by frame to a 60 fps mp4 with sims/capture.mjs. Use when the idea is a simulation or a 3D object rather than motion graphics with text and UI. |
 
 ## carreira
 

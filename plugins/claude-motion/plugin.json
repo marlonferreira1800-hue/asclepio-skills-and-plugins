@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "claude-motion",
+  "version": "1.0.0",
+  "description": "Suíte Claude Motion para motion design, física de springs, áudio procedural, simulações web e loops de revisão para agentes de IA.",
+  "author": {
+    "name": "Marlon Ferreira"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Claude Motion",
+        "shortDescription": "Motion Design e Animações",
+        "longDescription": "Toolkit completo de Motion Design para agentes de IA: regras de timing e curvas Bézier, física de molas (springs), motor de som procedural com sfx engine, simulações web 60fps e loops de revisão frame a frame.",
+        "developerName": "Marlon Ferreira",
+        "category": "Design",
+        "capabilities": ["Interactive"],
+        "defaultPrompt": "Aplique as regras de motion design para criar ou refinar animações."
+      }
+    }
+  }
+}

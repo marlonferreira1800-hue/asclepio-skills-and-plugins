@@ -129,6 +129,10 @@
         {
           "name": "decifrando-dados-newsletter",
           "primarySkill": "decifrando-dados-newsletter"
+        },
+        {
+          "name": "claude-motion",
+          "primarySkill": "motion-design"
         }
       ]
     },

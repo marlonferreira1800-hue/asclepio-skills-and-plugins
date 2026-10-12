@@ -2,7 +2,7 @@
 
 # Asclépio — Skills & Plugins para Agentes de IA
 
-**35 plugins · 119 skills · 8 áreas**
+**36 plugins · 123 skills · 8 áreas**
 
 Uma coleção em português para aprender, pesquisar, analisar dados e criar conteúdo com agentes de IA. Desenvolvida por Marlon Ferreira.
 
@@ -16,7 +16,7 @@ Uma coleção em português para aprender, pesquisar, analisar dados e criar con
 | [Estudos e aprendizagem](docs/catalogo.md#estudos) | [Cognitus](plugins/cognitus), [Mentor de Estudos](plugins/mentor-de-estudos), [ProvaLab](plugins/provalab), [Anki Builder](plugins/anki-builder) | 7 |
 | [Dados e programação](docs/catalogo.md#dados) | [DataLab — Análise de Dados](plugins/datalab), [SQL Mentor](plugins/sql-mentor), [Python Lab](plugins/python-lab), [Dashboard Studio](plugins/dashboard-studio), [terminal-ops](plugins/terminal-ops) | 23 |
 | [Pesquisa e saúde pública](docs/catalogo.md#pesquisa) | [Pesquisa Científica](plugins/pesquisa-cientifica), [Artigo Crítico](plugins/artigo-critico), [Dados de Saúde Brasil](plugins/dados-saude-brasil) | 12 |
-| [Design, documentos e conteúdo](docs/catalogo.md#criacao) | [PostLab — Designer Criativo](plugins/postlab), [LinkedIn Conteúdo Diário](plugins/linkedin-conteudo-diario), [Resumo Visual Manuscrito](plugins/resumo-visual-manuscrito), [VisualExplain](plugins/visualexplain), [Documento Studio](plugins/documento-studio), [LinkedIn Design Kit](plugins/linkedin-post-design-kit), [LinkedIn Design Studio](plugins/linkedin-design-studio), [newsletter-studio](plugins/newsletter-studio), [decifrando-dados-newsletter](plugins/decifrando-dados-newsletter) | 25 |
+| [Design, documentos e conteúdo](docs/catalogo.md#criacao) | [PostLab — Designer Criativo](plugins/postlab), [LinkedIn Conteúdo Diário](plugins/linkedin-conteudo-diario), [Resumo Visual Manuscrito](plugins/resumo-visual-manuscrito), [VisualExplain](plugins/visualexplain), [Documento Studio](plugins/documento-studio), [LinkedIn Design Kit](plugins/linkedin-post-design-kit), [LinkedIn Design Studio](plugins/linkedin-design-studio), [newsletter-studio](plugins/newsletter-studio), [decifrando-dados-newsletter](plugins/decifrando-dados-newsletter), [Claude Motion](plugins/claude-motion) | 29 |
 | [Carreira e concursos](docs/catalogo.md#carreira) | [Carreira Lab](plugins/carreira-lab), [Edital Fácil](plugins/edital-facil) | 9 |
 | [Plugins, GitHub e APIs](docs/catalogo.md#desenvolvimento) | [GitHub Organizer](plugins/github-organizer), [Skill Auditor](plugins/skill-auditor), [Plugin Builder](plugins/plugin-builder), [API Explorer](plugins/api-explorer), [asclepio](plugins/asclepio), [agentes-autonomos](plugins/agentes-autonomos) | 24 |
 | [Finanças e comparações](docs/catalogo.md#financas) | [InvestIA — Análise de Investimentos](plugins/investia), [Comparador de carros](plugins/comparador-precos-carros), [TokenMeter Universal](plugins/tokenmeter-universal) | 9 |
