@@ -2,7 +2,7 @@
 
 # Catálogo de plugins e skills
 
-35 plugins e 117 skills. Os nomes abaixo são os identificadores reais dos arquivos. Para exemplos e dependências, abra o README de cada plugin.
+35 plugins e 119 skills. Os nomes abaixo são os identificadores reais dos arquivos. Para exemplos e dependências, abra o README de cada plugin.
 
 [Voltar ao início](../README.md) · [Guia rápido](guia-rapido.md)
 
@@ -141,14 +141,16 @@ Explicar código, depurar erros, criar exercícios e organizar projetos Python.
 
 [Documentação do plugin](../plugins/dashboard-studio/README.md) · Versão `0.1.0`
 
-Definir indicadores, modelagem, layout e medidas DAX para dashboards.
+Indicadores, DAX, visualização de dados e dashboards HTML interativos.
 
 | Skill | Quando usar |
 |---|---|
+| [`construir-dashboard-html`](../plugins/dashboard-studio/skills/construir-dashboard-html/SKILL.md) | Construir dashboard interativo em HTML autossuficiente com gráficos (Chart.js), filtros dinâmicos, cards de KPI e tabelas ordenáveis. |
 | [`definir-indicadores`](../plugins/dashboard-studio/skills/definir-indicadores/SKILL.md) | Use para definir KPIs e contratos de métricas de um dashboard. |
 | [`escrever-dax`](../plugins/dashboard-studio/skills/escrever-dax/SKILL.md) | Use para criar ou corrigir medidas DAX no Power BI. |
 | [`modelar-dashboard`](../plugins/dashboard-studio/skills/modelar-dashboard/SKILL.md) | Use para desenhar modelo estrela, relações, calendário e granularidade de um dashboard. |
 | [`planejar-layout-dashboard`](../plugins/dashboard-studio/skills/planejar-layout-dashboard/SKILL.md) | Use para organizar páginas, filtros, gráficos e navegação de um painel. |
+| [`visualizacao-dados`](../plugins/dashboard-studio/skills/visualizacao-dados/SKILL.md) | Selecionar gráficos ideais e gerar visualizações de dados profissionais e acessíveis com Python. |
 
 ### terminal-ops
 

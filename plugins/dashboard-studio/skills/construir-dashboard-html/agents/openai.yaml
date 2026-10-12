@@ -1,0 +1,4 @@
+interface:
+  display_name: "Construir dashboard HTML"
+  short_description: "Dashboard interativo em HTML"
+  default_prompt: "Use $construir-dashboard-html para esta tarefa: Construa um dashboard interativo autossuficiente em HTML com KPIs, filtros e gráficos Chart.js."

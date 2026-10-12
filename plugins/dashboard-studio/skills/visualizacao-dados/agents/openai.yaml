@@ -1,0 +1,4 @@
+interface:
+  display_name: "Visualização de dados"
+  short_description: "Gráficos e visualizações"
+  default_prompt: "Use $visualizacao-dados para esta tarefa: Gere uma visualização de dados profissional e acessível em Python (Plotly/Seaborn/Matplotlib)."

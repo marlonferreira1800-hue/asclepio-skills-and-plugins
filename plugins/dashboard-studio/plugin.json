@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "dashboard-studio",
   "version": "0.1.0",
-  "description": "Definir indicadores, modelagem, layout e medidas DAX para dashboards.",
+  "description": "Indicadores, DAX, visualização de dados e dashboards HTML interativos.",
   "author": {
     "name": "Marlon Ferreira"
   },
@@ -10,12 +10,12 @@
     "com.openai": {
       "interface": {
         "displayName": "Dashboard Studio",
-        "shortDescription": "Planeje dashboards e DAX",
-        "longDescription": "Definir indicadores, modelagem, layout e medidas DAX para dashboards. Esquema e regras de negócio; Power BI necessário para validar DAX e produzir PBIX. Sem Power BI, entregar especificação e código.",
+        "shortDescription": "Dashboards e DAX",
+        "longDescription": "Definir indicadores, modelagem, layout, medidas DAX, visualização de dados e construir dashboards interativos autossuficientes em HTML e Python.",
         "developerName": "Marlon Ferreira",
         "category": "Productivity",
         "capabilities": ["Interactive"],
-        "defaultPrompt": "Defina indicadores para um dashboard de vendas."
+        "defaultPrompt": "Construa um dashboard interativo em HTML ou planeje métricas."
       }
     }
   }

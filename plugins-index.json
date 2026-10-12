@@ -153,13 +153,15 @@
       "category": "Productivity",
       "group": "dados",
       "skill": "definir-indicadores",
-      "description": "Definir indicadores, modelagem, layout e medidas DAX para dashboards.",
+      "description": "Indicadores, DAX, visualização de dados e dashboards HTML interativos.",
       "path": "plugins/dashboard-studio",
       "skills": [
+        "construir-dashboard-html",
         "definir-indicadores",
         "escrever-dax",
         "modelar-dashboard",
-        "planejar-layout-dashboard"
+        "planejar-layout-dashboard",
+        "visualizacao-dados"
       ]
     },
     {
